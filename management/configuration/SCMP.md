@@ -51,6 +51,14 @@ Instead of focussing on implementing our own system, we will make full use of th
 The website can be reached at `http://se1-1314.github.io/xiast`.
 This page, which is generated using GitHub Pages, contains information about the project, including download links for the source code and links to various documents.
 
+GitHub Pages is in essence a static website generator.
+This means that, given the contents of the site, it only needs to generate all the HTML and related files once.
+This not only makes it faster, but also a lot easier.
+
+The automatic page generator can be found on the settings page of the project.
+The files it generates are located in the `gh-pages` branch of the `xiast` repository.
+Commiting to this branch thus allows us to edit the page manually, although it is highly advised to keep using the automatic page generator and edit the content of the site using markdown.
+
 To keep track of the project's status however, we will use the built-in issue tracker of GitHub.
 
 ## Tracking issues
