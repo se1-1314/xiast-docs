@@ -5,3 +5,6 @@
 .Trashes
 Icon?
 Thumbs.db
+
+# VIM #
+*.swp
