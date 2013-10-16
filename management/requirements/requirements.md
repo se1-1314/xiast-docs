@@ -74,39 +74,23 @@ Enkel definitieve roosters zijn publiek (kunnen door iedereen en niet
 alleen programmamanagers en titularissen worden gezien).
 
 1.  Voorbeelden van gebruik door alle gebruikers:
-
     1.  Het persoonlijke rooster weergeven van een student of lesgever
-
     2.  Het rooster voor een bepaald vak weergeven.
-
     3.  De planning met betrekking tot een bepaald lokaal weergeven.
-
 2.  Filteren
-
     Waar van toepassing kan er steeds gefilterd worden op bepaalde
     criteria zoals tijdsperiode, programma, etc.
-
 3.  Zinvolle defaults
-
     De interface zal steeds zoveel mogelijk zinvolle defaults voorstellen
     bij invoer en visualisatie van gegevens.
-
 4.  Mobiele webinterface
-
     Aparte en doelgerichte interface (werkend op android) die rekening houdt met:
-
     -   Kleinere schermoppervlaktes
-
     -   Minder geheugen
-
     -   Minder verwerkingskracht
-
     -   Onstabiele netwerkverbinding
-
     -   Eventueel extra mogelijkheden zoals geolocatie
-
 5.  Standaardwebinterface
-
 6.  Internationalisatie
 
     Alle interfaces worden minimaal aangeboden in het Engels en het
