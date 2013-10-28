@@ -1,4 +1,98 @@
-# Functionele eisen (Wat is het?)
+# Software Requirements Specifications
+
+## Introduction
+
+### Purpose
+
+The purpose of this SRS is to provide a detailed description of all the requirements for project Xiast.
+It will include a list of constraints, features and (user)interfaces. 
+
+This document is intended for the members of the development team behind Xiast as well as Professor Ragnhild Van Der
+Straeten and assistent Jens Nicolay.
+
+Disclaimer: This document is a work in progress and is not yet complete. If you have any suggestions or
+corrections, please let me know.
+
+### Scope
+
+The application that will be discussed in this document is an online scheduling-tool for university classes, 
+named Xiast (short for Xiast is a scheduling tool). It will compute the optimal distribution of classes, 
+based on certain constraints, which are given by administrators and/or teachers. Students and theachers
+will be able to check their personal schedule online and via andriod smartphones. Teachers will also 
+be able to add certain requirements to the classes and will be able to change some of these requirements 
+or even cancel a class last-minute. The goal of this project is to make a scheduling-tool 
+that is very personnaly modifiable and user-friendly.
+
+### Definitions, acronyms and abbreviations
+
+* program administrator = person who is able to configure every detail of the scheduling constraints:
+  courses, classrooms, teacher, number of students, theory or practical classes...
+* teacher = person who defines the details of all the classes assigned to him:
+  assistents,required resources and facilities, assistents...
+* student = someone who can register for programs and courses
+* user = program administrator, teacher or student
+* program = combination of multiple courses, as provided by the university
+
+### References
+
+IEEE Std 830-1998, IEEE Recommended Practice for Software Requirements Specifications, _IEEE Computer Society_, 1998
+
+### Overview
+
+Section 2 will cover an overview of the general requirements. Using scenarios it will describe how the application 
+should work. The functions that will be implemented and the user characteristics will be portrayed there, next to
+the constraints the application is bound by. The requirements will be further analyzed and described in-depth 
+in section 3.
+
+This document largly follows the IEEE Std 830-1998.
+
+## Overall description
+
+### Product perspective
+
+Xiast is a scheduling tool intended for scheduling classes and exams in the most optimal way possible. It is 
+and independent open-source product and will be free to use by anyone. Xiast aims to provide more personally 
+modifiable rosters than other applications on the market, using a user-friendly interface.
+
+#### System interfaces
+
+#### User interfaces
+
+#### Hardware interfaces
+
+#### Software interfaces
+
+#### Communication interfaces
+
+#### Memory constraints
+
+#### Operations
+
+#### Site adaptation requirements
+
+### Product functions
+
+### User Characteristics
+
+### Constraints
+
+### Assumptions and dependencies
+
+## Specific Requirements
+
+### External interfaces
+
+### Functions
+
+### Performance requirements
+
+### Logical database requirements
+
+### Design constraints
+
+### Software system attributes
+
+### Other requirements
 
 ## Gebruikers
 
