@@ -34,7 +34,10 @@ We moeten voor de SPMP voor elke activiteit schatten hoelang deze zal duren, wel
 ###2.5 Test Manager
 Wie laten we de tests uitvoeren, is die persoon hierop voorbereid? (weet hij bvb. wat JUnit tests zijn?). Momenteel staat in de SPMP dat de Quality Assurance Leader de tests doet (Youssef).
 
-###2.5 Andere SPMP zaken
+###2.6 Process Model
+Het huidige process model is gebaseerd op de spiral methodology met 'vleugjes' agile development. Houden we dit zo of veranderen we alsnog?
+
+###2.7 Andere SPMP zaken
 Deze zijn aangeduid in de comments van de SPMP.
 
 3. Bespreking manier van testen (10 min) (Lars)
