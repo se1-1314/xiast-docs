@@ -15,7 +15,7 @@ Variabele		|Inhoud
   * **Youssef:** legt vast hoe we de code gaan testen.
   * **Iedereen:** Stuurt suggesties op voor requirments en dergelijke via mailinglijst.
 
-2. Bespreking SPMP (40 min) (Lars)
+2. Bespreking SPMP (60 min) (Lars)
 ---------------------------
 
 ###2.1 Externe communicatie
@@ -37,8 +37,11 @@ Wie laten we de tests uitvoeren, is die persoon hierop voorbereid? (weet hij bvb
 ###2.6 Process Model
 Het huidige process model is gebaseerd op de spiral methodology met 'vleugjes' agile development. Houden we dit zo of veranderen we alsnog?
 
-###2.7 Andere SPMP zaken
-Deze zijn aangeduid in de comments van de SPMP.
+###2.7 Programmeertaal
+Voor het inleveren van documenten dient de programmeertaal gekozen te worden. Dit is behoorlijk dringend omdat een aantal zaken hiervan afhangen (vb. JUnit, Javadoc,...)
+
+###2.8 Andere SPMP zaken
+Deze zijn aangeduid in de comments van de SPMP. (zie Github)
 
 3. Bespreking manier van testen (10 min) (Lars)
 ----------------------------------------
