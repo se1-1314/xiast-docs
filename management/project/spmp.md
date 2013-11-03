@@ -3,7 +3,7 @@ Software Project Management Plan
 Software Engineering 2013-2014, group 1
 ----------------------------------------
 ###Version 0.2
-#### October 29th, 2013
+#### November 3th, 2013
 ##### Lars Van Holsbeeke
 ##### *Project Manager*
 ##### <mailto:lavholsb@vub.ac.be>
