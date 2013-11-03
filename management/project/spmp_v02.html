@@ -1,0 +1,717 @@
+<h1 id="software-project-management-plan">Software Project Management Plan</h1>
+<h2 id="software-engineering-2013-2014-group-1">Software Engineering 2013-2014, group 1</h2>
+<h3 id="version-02">Version 0.2</h3>
+<h4 id="november-3th-2013">November 3th, 2013</h4>
+<h5 id="lars-van-holsbeeke">Lars Van Holsbeeke</h5>
+<h5 id="project-manager"><em>Project Manager</em></h5>
+<h5 id="amp108amp97amp118amp104amp111amp108amp115amp98amp64amp118amp117amp98amp46amp97amp99amp46amp98amp101"><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#108;&#97;&#118;&#104;&#111;&#108;&#115;&#98;&#64;&#118;&#117;&#98;&#46;&#97;&#99;&#46;&#98;&#101;">&#108;&#97;&#118;&#104;&#111;&#108;&#115;&#98;&#64;&#118;&#117;&#98;&#46;&#97;&#99;&#46;&#98;&#101;</a></h5>
+<p><br/><br/></p>
+<h6 id="disclaimer-this-document-is-in-beta-phase-and-is-therefore-subject-to-possible-changes">Disclaimer: This document is in beta phase and is therefore subject to possible changes.</h6>
+<hr />
+<!--BREAK-->
+
+<h1 id=RevisionHistory>Revision History</h1>
+
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Date</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>0.1</strong></td>
+<td>29/10/2013</td>
+<td>Creation of document structure</td>
+</tr>
+<tr>
+<td><strong>0.2</strong></td>
+<td>03/10/2013</td>
+<td>Completion of initial version</td>
+</tr>
+</tbody>
+</table>
+<!---
+Contents
+========
+-->
+
+<hr />
+<h1 id="1-overview">1 Overview</h1>
+<h2 id="11-project-summary">1.1 Project Summary</h2>
+<h3 id="111-purpose-scope-and-objectives">1.1.1 Purpose, scope, and objectives</h3>
+<p>The main purpose of this project is to create a working scheduling webapplication with specific support for mobile devices like smartphones and tablets that enables (authorized) users to query their personal course/final schedule and notifies them about last-minute changes. We will call this application:  <code>Xiast</code><em>(<strong>X</strong>iast <strong>i</strong>s <strong>a</strong> <strong>s</strong>cheduling <strong>t</strong>ool)</em> More specific requirements can be found in the <a href="#SRS">SRS</a> (Software Requirements Specification) document.</p>
+<p>The main system itself uses the <code>Wilma</code> server of the university as back-end and a normal or mobile browser as front-end.</p>
+<p>All documents, source code and other artifacts are publicly available on Github. Documents can be found under <a href="https://github.com/se1-1314/xiast-docs">xiast-docs</a>, source code can be found under <a href="https://github.com/se1-1314/xiast">xiast</a>.</p>
+<p>This academic 3rth bachelor project is part of the course "<a href="#SoftEng">Software Engineering</a>", taught by dr. R. Van Der Straeten taking place at the "Vrije Universiteit Brussel"</p>
+<!---
+The scheduling application itself must be usable in an academical context to schedule courses and finals fully automatical while violating as least constraints as possible. All this must take place in the most optimal way. When a schedule has been generated automatically it must be possible to manually change it afterwards by an authorized user. Every (authorized) user must be able to view his or her personal timetable */
+-->
+
+<h3 id="112-assumptions-and-constraints">1.1.2 Assumptions and constraints</h3>
+<p>Some constraints involving documentation standards, infrastructure and use of certain technologies have been defined by the client:</p>
+<h4 id="1121-documentation">1.1.2.1 Documentation</h4>
+<ul>
+<li>This document (SPMP) must conform the IEEE 1058-1998 standard</li>
+<li>The SRD, SDD, STD, SQAP and SCMP must also conform their IEEE xxx-1998 standard or a more recent revision of that standard.</li>
+<li>All documents must be written or in Dutch or in English, but not a combination of the two.</li>
+<li>All documents must be available in the PDF format</li>
+<li>At least following documents must be maintained:<ul>
+<li>Software Project Management Plan (SPMP)</li>
+<li>Software Test Plan (STD)</li>
+<li>Software Requirements Specification (SRS)</li>
+<li>Software Design Document (SDD)</li>
+</ul>
+</li>
+<li>Meeting minutes must be made for all meetings</li>
+<li>An SCMP and an SQMP are not necessary, but all relevant information concerning them must be found in the SPMP.</li>
+</ul>
+<h4 id="1122-language">1.1.2.2 Language</h4>
+<ul>
+<li>Only Java, JavaScript, HTML, CSS, SQL and corresponding libraries and open-source frameworks </li>
+<li>Only open-source software may be used for both the endproduct and tools</li>
+<li>A particular choice of library, tool, etc. must be motivated by means of reliabilityn, openness and simplicity.</li>
+<li>A library can only be used after agreement with the client and a comparative study of other possible libraries.</li>
+</ul>
+<h4 id="1123-infrastucture">1.1.2.3 Infrastucture</h4>
+<ul>
+<li>The VUB "<a href="#Wilma">Wilma</a>" server must be used as backend for the system.</li>
+<li>The system must work on a browser as frontend.</li>
+<li>The system must work on a mobile browser.</li>
+</ul>
+<h4 id="1124-other-constraints">1.1.2.4 Other Constraints</h4>
+<ul>
+<li>"<a href="#Github">Github</a>" must be used as public repository for the code.</li>
+<li>All documents, source code and other artefacts must be publicly available in a structured way.</li>
+<li>The system must have a standard, easy installation procedure.</li>
+<li>The UI must be simple and attractive to use.</li>
+<li>Requirements IDs may never be renumbered.</li>
+<li>All of the code needs to be documentated.</li>
+<li>Test must be written using the "<a href="#JUnit">JUnit</a>" framework.</li>
+<li>The system must be modular in design to accomodate extension and replacement of the containing modules.</li>
+<li>The development proces must be iterative with incremental delivery.</li>
+</ul>
+<h3 id="113-project-deliverables">1.1.3 Project deliverables</h3>
+<p>The table table below shows code, document and other deliverables with their corresponding deadline: 9 o'clock in the morning on the date shown.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Deliverable</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>04/11/2013</td>
+<td>First version of the SPMP</td>
+</tr>
+<tr>
+<td>15/11/2013</td>
+<td>First version of documents</td>
+</tr>
+<tr>
+<td>18/11/2013</td>
+<td>Data dump: data available for use</td>
+</tr>
+<tr>
+<td>13/12/2013</td>
+<td>End of first iteration: delivery of code and documents</td>
+</tr>
+<tr>
+<td>18/12/2013</td>
+<td>First presentation</td>
+</tr>
+<tr>
+<td>04/03/2014</td>
+<td>End of second iteration: delivery of code and documents</td>
+</tr>
+<tr>
+<td>12/03/2014</td>
+<td>Second presentation</td>
+</tr>
+<tr>
+<td>15/04/2014</td>
+<td>End of thirth iteration: delivery of code and documents</td>
+</tr>
+<tr>
+<td>16/05/2014</td>
+<td>End of fourth iteration: final delivery of code and documents</td>
+</tr>
+<tr>
+<td>21/05/2014</td>
+<td>Final presentation</td>
+</tr>
+</tbody>
+</table>
+<h3 id="114-schedule">1.1.4 Schedule</h3>
+<p>Section 5.2 describes the work plan of the project, which contains a detailed description of the work activities with the corresponding teammembers that work on it along with an estimation of time they will need to complete it.</p>
+<h2 id="12-evolution-of-the-spmp">1.2 Evolution of the SPMP</h2>
+<p>This SPMP will be reviewed at least one time a week by the projectmanager. If needed, this document will be updated by the same person. Each (major) update will be logged in the <a href="#RevisionHistory">Revision History</a>, to be found at the beginning of this document.</p>
+<h1 id="2-references">2 References</h1>
+<ol>
+<li>
+<p><h4 id=SRS>SRS: Software Requirements Specifiaction</h4>
+Anders Deliens <br/>
+https://github.com/se1-1314/xiast-docs/blob/master/management/requirements/requirements.md</p>
+</li>
+<li>
+<p><h4 id=SoftEng>Software Engineering course, VUB</h4>
+Catalog number: 1004483BNR <br/>
+https://caliweb.cumulus.vub.ac.be/caliweb/?page=course-offer&amp;id=001462&amp;anchor=2&amp;target=pr&amp;year=1314&amp;language=en&amp;output=html</p>
+</li>
+<li>
+<p><h4 id=#Wilma>Wilma backend server</h4>
+http://wilma.vub.ac.be</p>
+</li>
+<li>
+<p><h4 id=#Github>Github</h4>
+https://github.com</p>
+</li>
+<li>
+<p><h4 id=JUnit>JUnit framework</h4>
+http://junit.org/</p>
+</li>
+<li>
+<p><h4 id=Ragnhild>Ragnhild Van Der Straeten</h4>
+Professor of the Software Engineering course. <br/>
+rvdstrae@vub.ac.be</p>
+</li>
+<li>
+<p><h4 id=Jens>Jens Nicolay</h4>
+Assistant of the Software Engineering course. <br/>
+jens.nicolay@vub.ac.be</p>
+</li>
+<li>
+<p><h4 id=Dirk>Dirk Van Deun</h4>
+System administrator of the <a href="#Wilma">Wilma</a> backend server. <br/>
+dirk@dinf.vub.ac.be</p>
+</li>
+<li>
+<p><h4 id=Markable>Markable.in</h4>
+Online document writing tool for the Markdown language. <br/>
+<a href="markable.in">markable.in</a></p>
+</li>
+<li>
+<p><h4 id=IterativeIncremental>Iterative and Incremental development model</h4>
+Is any combination of both iterative design or iterative method and incremental build model for development. <br/>
+For more information: http://en.wikipedia.org/wiki/Iterative_and_incremental_development</p>
+</li>
+<li>
+<p><h4 id=AgileDev>Agile Software Development</h4>
+Topic in the Software Engineering course. Is a group of software development methods based on <a href="#IterativeIncremental">iterative and incremental development</a>, where requirements and solutions evolve through collaboration between self-organizing, cross-functional teams. <br/>
+More information on the course slides or http://en.wikipedia.org/wiki/Agile_software_development</p>
+</li>
+<li>
+<p><h4 id=SpiralModel>Boehm's spiral model </h4>
+Is a risk-driven process model generator for software projects. <br/>
+Further information: http://en.wikipedia.org/wiki/Spiral_model</p>
+</li>
+</ol>
+<!---
+12. <h4 id=#>__</h4>
+-->
+
+<h1 id="3-definitions">3 Definitions</h1>
+<table>
+<thead>
+<tr>
+<th>Acronym</th>
+<th>Declaration</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>DaM</strong></td>
+<td>Database Manager</td>
+</tr>
+<tr>
+<td><strong>DeM</strong></td>
+<td>Design Manager</td>
+</tr>
+<tr>
+<td><strong>CM</strong></td>
+<td>Configuration Manager</td>
+</tr>
+<tr>
+<td><strong>IEEE</strong></td>
+<td>Institute of Electrical and Electronics Engineers</td>
+</tr>
+<tr>
+<td><strong>PM</strong></td>
+<td>Project Manager</td>
+</tr>
+<tr>
+<td><strong>RM</strong></td>
+<td>Requirements Manager</td>
+</tr>
+<tr>
+<td><strong>QAM</strong></td>
+<td>Quality Assurance Manager</td>
+</tr>
+<tr>
+<td><strong>SDD</strong></td>
+<td>Software Design Document</td>
+</tr>
+<tr>
+<td><strong>SPMP</strong></td>
+<td>Software Project Magement Plan</td>
+</tr>
+<tr>
+<td><strong>SRS</strong></td>
+<td>Software Requirements Specification</td>
+</tr>
+<tr>
+<td><strong>STD/STP</strong></td>
+<td>Software Test Plan</td>
+</tr>
+<tr>
+<td><strong>SQAP</strong></td>
+<td>Software Quality Assurance Plan</td>
+</tr>
+<tr>
+<td><strong>SDP</strong></td>
+<td>Software Documentation Plan</td>
+</tr>
+<tr>
+<td><strong>VUB</strong></td>
+<td>Vrije Universiteit Brussel</td>
+</tr>
+<tr>
+<td><strong>PDF</strong></td>
+<td>Portable Document Format</td>
+</tr>
+<tr>
+<td><strong>UI</strong></td>
+<td>User Interface</td>
+</tr>
+<tr>
+<td><b id= #IDE>IDE</b></td>
+<td>Integrated Development Environment</td>
+</tr>
+</tbody>
+</table>
+<p>Other definitions can be found on page 2-3 of the IEEE 1058-1998 standard for Software Project Management Plans</p>
+<h1 id="4-project-organisation">4 Project Organisation</h1>
+<h2 id="41-external-interfaces">4.1 External interfaces</h2>
+<h3 id=4.1.1> 4.1.1 Client </h3>
+
+<p>In this project the titular of this course, <a href="#SoftEng">Software Engineering</a>, mrs. R. Van Der Straeten, will together with her assistant, mr. J Nicolay, act as client for the project. This means that all communication involving requirements and design will pass by at least one of them and respectively the <a href="#RequirementsManager">Requirements Manager</a> and the <a href="#Designleader">Design Leader</a>. All other communication with the client will be handled by the <a href="#Projectmanager">Projectmanager</a>, this includes submitting deliverables: source-code and documents, communication involving presentations, etc.</p>
+<h3 id="412-infrastructure">4.1.2 Infrastructure</h3>
+<p>All communication concerning the available infrastructure: the <a href="#Wilma">Wilma</a> backend server will be handled with the head of infrastructure, mr. D. Van Deun by the web- and databasemanager.</p>
+<h3 id="412-external-scheduling-data">4.1.2 External Scheduling Data</h3>
+<p>Any problems, remarks,... involving the dump of scheduling data on November 18th, 2013 will be communicated to the infrastructure manager, mr. D. Van Deun.</p>
+<h2 id="42-internal-structure">4.2 Internal Structure</h2>
+<h3 id="421-internal-communication">4.2.1 Internal Communication</h3>
+<p>All communication between the teammembers outside meetings must be logged by or the issue tracker on <a href="#Github">Github</a> or using the internal mailinglist: se1_1314@wilma.vub.ac.be. This is a rule of thum that must be followed by the teammembers. Only if the information to communicate is such unimportant, irrelevant to the other teammembers, does not involve agreements, deadlines, etc. and the urgency of the concerning activities is very low, teammembers can use private mail. In case of urgent problems, problems with another teammember, important matters that need immediate attention, etc. teammembers may use the private mobile phone number of the <a href="#Projectmanager">Projectmanager</a> that has been given to them in the second meeting.</p>
+<h3 id="422-internal-organisation">4.2.2 Internal Organisation</h3>
+<p>The chart below shows the internal organisation and flows of information between the actors of the team:</p>
+<!---
+<img src="https://docs.google.com/drawings/d/1Lr1H6Qc6iEJITFeQEQt6LUKlboLE6e78SmbZ2jCZRGw/pub?w=1563&amp;h=861">
+-->
+
+<p>The <a href="#Projectmanager">Projectmanager</a> acts as a central coördination point for the whole team, he also communicates with the client (see <a href="#4.1.1">4.1.1</a>). Communicationflows with the client are colored red.</p>
+<h2 id="43-roles-and-responsibilities">4.3 Roles and responsibilities</h2>
+<p><!--- eventueel (zoals in de standaard beschreven) een matrix maken van personen X work activities (= hun verantwoordelijkheden) voor een beter overzicht -->
+<!-- VERGADERING: alle verantwoordelijkheden nog eens goed bespreken --></p>
+<ul>
+<li>Project Manager<ul>
+<li>Creating &amp; providing the SPMP with updates</li>
+<li>Coördination of the team</li>
+<li>Contact person for all teammembers</li>
+<li>Chairman during meetings</li>
+<li>Creating a weekly meeting agenda on Github</li>
+<li>Approving decisions taken during meetings</li>
+<li>Detecting team related problems and solving them</li>
+<li>Ensuring deadlines are met by all teammembers</li>
+<li>Ensuring quality of non-code artefacts, created by the teammembers</li>
+<li>Verifying (together with the secretary) meeting minutes and correcting them if needed</li>
+<li>Creation of a time-scheme, together with the other teammembers</li>
+<li>Creation of annotated tags on the Github repository: one for each iteration</li>
+</ul>
+</li>
+<li>Configuration Manager<ul>
+<li>Creating &amp; providing the SCMP with updates</li>
+<li>Managing the <a href="#Github">Github</a> repository for code and documents</li>
+<li>Managing tools used within the team</li>
+<li>Providing some documentation concerning the used tools and Git.</li>
+<li>Ensuring safety and restorability of documents</li>
+</ul>
+</li>
+<li>Quality Assurance Leader<ul>
+<li>Creation of &amp; providing the STP with updates</li>
+<li>Optionally creating (and maintaining) an SQAP</li>
+<li>Quality-based Monitoring of the Software</li>
+<li>Reviewing source-code: are all required features implemented?</li>
+<li>Setting up <a href="#JUnit">JUnit</a> tests</li>
+</ul>
+</li>
+<li>Requirements Management Leader<ul>
+<li>Creation of &amp; providing the SRS with updates</li>
+<li>Communicating with client about requirements: p.e. in case of ambiguity, special requests, etc.</li>
+<li>Determines the priority for each working activity</li>
+<li>Takes care that activities with higher priority are done first</li>
+<li>Reporting possible changes to the requirements, made by the client</li>
+</ul>
+</li>
+<li>Design Leader<ul>
+<li>Creation of &amp; providing the SDD with updates</li>
+<li>Determining (and managing) the architecture of the system and Database</li>
+<li>Communicating with the client about the design</li>
+</ul>
+</li>
+<li>Implementation Leader<ul>
+<li>Managing of the source code</li>
+<li>Reporting issues concerning the source code on meetings</li>
+<li>Distributing programming workload to all teammembers</li>
+<li>Monitoring developers</li>
+</ul>
+</li>
+</ul>
+<!--- TODO: Secretary, Database Manager, Webmaster) -->
+
+<!-- TODO: maak een aparte tabel: wie verantwoordelijk voor welk document: headers: "Responsible teammember, Document") -->
+
+<h1 id="5-managerial-process-plans">5 Managerial Process Plans</h1>
+<h2 id="51-start-up-plan">5.1 Start-up Plan</h2>
+<h3 id="512-staffing-plan">5.1.2 Staffing Plan</h3>
+<table>
+<thead>
+<tr>
+<th>Function/Teammember</th>
+<th align="center">Youssef Boudiba</th>
+<th align="center">Anders Deliens</th>
+<th align="center">Adriaan Leijnse</th>
+<th align="center">Kwinten Pardon</th>
+<th align="center">Nils Van Geele</th>
+<th align="center">Lars Van Holsbeeke</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Project Manager</td>
+<td align="center"></td>
+<td align="center">B</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">H</td>
+</tr>
+<tr>
+<td>Configuration Manager</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">H</td>
+<td align="center">B</td>
+</tr>
+<tr>
+<td>Quality Assurance Leader</td>
+<td align="center">H</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">B</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td>Requirements Manager</td>
+<td align="center"></td>
+<td align="center">H</td>
+<td align="center">B</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td>Design Leader</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">H</td>
+<td align="center"></td>
+<td align="center">B</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td>Implementation Leader</td>
+<td align="center">B</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">H</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td>Secretary</td>
+<td align="center">H</td>
+<td align="center">B</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td>Database Manager</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">H</td>
+<td align="center">B</td>
+</tr>
+<tr>
+<td>Webmaster</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">B</td>
+<td align="center"></td>
+<td align="center">H</td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<!---VERGADERING
+Test Manager    |       |       |       |       |       |
+
+<font size="1" color="grey"> Please note that no teammembers holds the function of testmanager in this version of the SPMP. This function will be assigned on the next meeting.</font> -->
+
+<!--- ###5.1.3 Rescource Acquisition Plan -->
+
+<!--- ###5.1.4 Project Staff Training Plan -->
+
+<h2 id="52-work-plan">5.2 Work Plan</h2>
+<h3 id="521-work-activities">5.2.1 Work activities</h3>
+<p>The table below shows an overview of the different activities in the development process together with the responsible teammember and an estimation of time needed to complete the activity. The estimated time may differ from the actual performed time </p>
+<table>
+<thead>
+<tr>
+<th>Activity</th>
+<th>Responsible</th>
+<th align="right">Estimated Time</th>
+<th>Documents</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Team management</td>
+<td>PM</td>
+<td align="right"></td>
+<td>SPMP</td>
+</tr>
+<tr>
+<td>Configuration management</td>
+<td>CM</td>
+<td align="right"></td>
+<td>SCMP</td>
+</tr>
+<tr>
+<td>Quality Checks</td>
+<td>QAM</td>
+<td align="right"></td>
+<td>n.a.</td>
+</tr>
+<tr>
+<td>Requirements management</td>
+<td>RM</td>
+<td align="right"></td>
+<td>SRS</td>
+</tr>
+<tr>
+<td>Design</td>
+<td>DeM</td>
+<td align="right"></td>
+<td>SDD</td>
+</tr>
+<tr>
+<td>Tests</td>
+<td>QAM</td>
+<td align="right"></td>
+<td>STP</td>
+</tr>
+<tr>
+<td>Implementation</td>
+<td>IL, programmers</td>
+<td align="right"></td>
+<td>source code</td>
+</tr>
+</tbody>
+</table>
+<!--- VERGADERING: Tijdschatting maken!! -->
+
+<p><font size = "1" color = "grey">Please note that an estimation of time is not yet made in this version of the SPMP. One reason for this is lack of experience. Nevertheless will this estimation be made at the next teammeeting. </font><br/></p>
+<!--- TODO: WORKPACKAGES maken -> zie IEEE standaard -->
+
+<p>During the development proces, each teammember will log how much time he spends on an activity of the project. This includes time spend on programming, documentation, testing, versioning control, etc. but also time spend on meetings. At every (weekly) meeting, each team member should tell how much time he has spent on which activity, with a clear separation between managing and coding.</p>
+<!---VERGADERING TODO: Tijdschatting per iteratie maken -->
+
+<!--- TODO: (Roadrunner) tabel maken met hoeveel uren elk teamlid aan management <-> coding heeft gespendeerd  => uit roadrunner: we staan serieus achter!!! -->
+
+<h3 id="522-schedule-allocation">5.2.2 Schedule allocation</h3>
+<p>A GANTT chart will be used for this. It will be made at the next teammeeting when a License for Microsoft Project 2013 has been obtained.</p>
+<h3 id="525-resource-allocation">5.2.5 Resource allocation</h3>
+<p>An overview of rescources that will be used can be found in the table below</p>
+<table>
+<thead>
+<tr>
+<th>Rescource</th>
+<th>Activities</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#Wilma">Wilma</a> backend server</td>
+<td>Application backend; Hosting of the static website</td>
+</tr>
+<tr>
+<td>Microsoft Project</td>
+<td>Project Management (tool)</td>
+</tr>
+<tr>
+<td>Microsoft PowerPoint</td>
+<td>Presentations</td>
+</tr>
+<tr>
+<td><a href="#markable">Markable</a></td>
+<td>Writing documents in the Markdown language</td>
+</tr>
+<tr>
+<td>Github</td>
+<td>Versioning Control System</td>
+</tr>
+<tr>
+<td>Smartphone (Android)</td>
+<td>Testing mobile version of the tool</td>
+</tr>
+</tbody>
+</table>
+<h2 id="53-control-plan">5.3 Control Plan</h2>
+<h3 id="531-requirements-control-plan">5.3.1 Requirements control plan</h3>
+<p>Possible changes of requirements will always be communicated between the requirements manager and the client. When a change occurs, the requirements manager puts an new topic on the agenda of the next teammeeting and updates the SRS.</p>
+<h3 id="532-schedule-control-plan">5.3.2 Schedule control plan</h3>
+<p>Problems involving scheduling, deadlines, etc. will be discussed during the weekly meeting. Each teammember is responsible to keep track of his deadlines, and will report (at the weekly meeting) what he has done on which activity during the last week. The projectmanager himself will keep track of the global planning by using these reports and make adjustments to the planning and/or activity if needed. If it seems that one of the teammembers won't make the deadline, one or more other teammembers can jump in on the activity concerned. This is highly appreciated.</p>
+<!--- ###5.3.3 Budget control plan  TODO: budget = tijd -->
+
+<h3 id="534-quality-control-plan">5.3.4 Quality control plan</h3>
+<!--- TODO nog wat uit te breiden -->
+
+<p>All code and documentation will be periodically checked by the Quality Assurance Manager and before the end of each iteration. First he reports (if needed) to the concerning person. If any severe (quality based) problems are detected, he will report also them at the weekly meeting.</p>
+<h3 id="535-reporting-plan">5.3.5 Reporting plan</h3>
+<!--- eventueel nog wat extra ivm externe communicatie -->
+
+<p>Using the SPMP, SCMP, STD and SDD, the status of the project will be reported to external entities (p.e. the client). All this documents are free to be read by anybody on our <a href="#Github">Github</a> repository. It can be reached and downloaded by using our <a href="http://wilma.vub.ac.be/~se1_1314">static website</a> on http://wilma.vub.ac.be/~se1_1314 </p>
+<!--- ###5.3.6 Metrics plan (low priority: eventueel)-->
+
+<h2 id="54-risk-management-plan">5.4 Risk management plan</h2>
+<p><!---TODO: lijst nog uit te breiden + check voorbeeld SPMPs :) -->
+<font size='1' color="grey">This list will be extended in future versions of this document</font> <br/>
+All estimations are on a scale from 0 to 10.</p>
+<ol>
+<li>One of the teammembers is sick or leaves<ul>
+<li>Probability: 3</li>
+<li>Impact: 6</li>
+<li>Priority: 9</li>
+<li>Cost of solution: 8</li>
+<li>Solution: Teammember with corresponding back-up function takes over.</li>
+<li>Target completion date: n.a.</li>
+<li>Responsible: Project Manager</li>
+</ul>
+</li>
+<li>Bad communication between teammembers<ul>
+<li>Probability: 5</li>
+<li>Impact: 6</li>
+<li>Priority: 8</li>
+<li>Cost of solution: 4</li>
+<li>Solution: Don't use too much private communication, use the mailinglist. The issue tracker on <a href="#Github">Github</a> must be up-to-date at all times.</li>
+<li>Target completion date: n.a.</li>
+<li>Responsible: Project Manager</li>
+</ul>
+</li>
+<li>Not meeting deadlines<ul>
+<li>Probability: 5</li>
+<li>Impact: 10</li>
+<li>Priority 6</li>
+<li>Cost of solution: 5</li>
+<li>Solution: Keeping track of progress made using <a href="#Github">Github</a> functionality, weekly progress reports of teammembers.</li>
+<li>Target completion date: n.a.</li>
+<li>Responsible: Project Manager</li>
+</ul>
+</li>
+<li>Lack of quality<ul>
+<li>Probability: 3</li>
+<li>Impact: 3</li>
+<li>Priority: 2</li>
+<li>Cost of solution: 5</li>
+<li>Solution: Periodically quality checks, tests,... Reporting them to the weekly meeting. QAM gives recommendations to the teammembers on the weekly meeting and by using the mailing list. Making and resolving issues on the <a href="#Github">Github</a> issue tracker. </li>
+<li>Target completion date: n.a.</li>
+<li>Responsible: Quality Assurance Manager</li>
+</ul>
+</li>
+</ol>
+<h2 id="55-closeout-plan">5.5 Closeout plan</h2>
+<p>Not of any importance for this project.</p>
+<h1 id="6-technical-process-plan">6 Technical Process Plan</h1>
+<h2 id="61-process-model">6.1 Process model</h2>
+<!--- Nog uit te breiden (check de oldies) -->
+
+<p>We will be using the <a href="#IterativeIncremental">Iterative and Incremental development model</a> with some ideas of <a href="#AgileDev">Agile Software Development</a>, which is based on this model. This method has, first, been chosen because of the agenda of the project which consists of an incremental delivery based on 4 iterations. Secondly, it has been chosen for its simplicity and added value: we focus on a working application per iteration which can than be discussed with the client. In this way we open ourselves to requirements changes which will be given us by the client at the end of each iteration. This results in a continuous delivery of valuable software, one of the key principles of agile development. <br/>
+The figure below shows <a href="#SpiralModel">(Boehm's) spiral model</a>, which will be used as development process model.</p>
+<!---
+<img src="https://docs.google.com/drawings/d/1jUP8rTmI1hCRaV1-pIj3LXXbRKng7yIC03fFzLpbeJo/pub?w=956&amp;h=962">
+-->
+
+<h2 id="62-methods-tools-and-techniques">6.2 Methods, tools and techniques</h2>
+<p><!---VERGADERING: Programmeertaal nog te beslissen -->
+<font size="1" color="grey">At the moment of writing, the programming language has not been chosen yet and will therefore not be mentioned in this version of the SPMP. Therefore, some items will be added to the list below in future versions of the SPMP.  </font></p>
+<ul>
+<li>Github will be used as<ul>
+<li>communication tool for documents</li>
+<li>versioning control system for source code</li>
+</ul>
+</li>
+<li>Eclipse will be used as <a href="#IDE">IDE</a> during the implementation process.</li>
+<li>An MySQL database will be used as backend database on Wilma. It will be populated with course schedule data.</li>
+</ul>
+<!--- niet nodig
+6.3 Infrastructure plan
+------------------------
+-->
+
+<!--- niet nodig
+6.4 Product acceptance plan
+---------------------------
+-->
+
+<h1 id="7-supporting-process-plans">7 Supporting Process Plans</h1>
+<h2 id="71-software-configuration-management-plan-scmp">7.1 Software Configuration Management Plan (SCMP)</h2>
+<p>This plan can be found on the <a href="#Github">Github</a> repository <a href="https://github.com/se1-1314/xiast-docs/blob/3dac595846bc1cd8c5a34aaa308c7acf3939200a/management/configuration/SCMP.md">Xiast-docs/management/configuration/SCMP.md</a> or by this link: https://github.com/se1-1314/xiast-docs/blob/3dac595846bc1cd8c5a34aaa308c7acf3939200a/management/configuration/SCMP.md</p>
+<h2 id="72-verification-and-validation-plan-std">7.2 Verification and Validation Plan (STD)</h2>
+<p>This plan will be delivered Friday 15th, 2013: deadline for the other documents.</p>
+<h2 id="73-softwaredocumentation-plan-sdp">7.3 SoftwareDocumentation Plan (SDP)</h2>
+<p><!--- VERGADERING: wie maakt dit plan!!!??? -->
+This plan will be delivered Friday 15th, 2013: deadline for the other documents.</p>
+<h2 id="74-software-quality-assurance-plan-sqap">7.4 Software Quality Assurance Plan (SQAP)</h2>
+<p><!--- VERGADERING: dit plan moet nog gemaakt worden) -->
+No seperate plan required for this project. All relevant information concerning this plan can be found in this document, the SPMP. The QAM is responsible for this.</p>
+<!---
+7.5 Reviews and Audits
+----------------------
+-->
+
+<h2 id="76-problem-resolution-plan">7.6 Problem Resolution Plan</h2>
+<p><!--- VERGADERING: wie maakt dit plan!!!??? -->
+This plan will be delivered Friday 15th, 2013: deadline for the other documents.</p>
+<!---
+7.7 Subcontracter Management Plan
+---------------------------------
+-->
+
+<!---
+7.8 Process Improvement Plan
+----------------------------
+-->
+
+<h1 id="8-additional-plans">8 Additional Plans</h1>
+<p>Following documents play also a role of importance in this project: SRS, SDD <br/>
+They will be delivered Friday 15th, 2013: deadline for the other documents.</p>
