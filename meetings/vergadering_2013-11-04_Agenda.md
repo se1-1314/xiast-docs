@@ -12,7 +12,6 @@ Variabele		|Inhoud
 
 1. TODO-list vorige vergadering (5 min)
 ---------------------------------------
-
   * **Youssef:** legt vast hoe we de code gaan testen.
   * **Iedereen:** Stuurt suggesties op voor requirments en dergelijke via mailinglijst.
 
@@ -20,11 +19,9 @@ Variabele		|Inhoud
 ----------------------------------
 
 ###2.1 Externe communicatie
-
 	* Communicatieprotocol met de klant vastleggen:	volgens huidige SPMP spreken enkel PM(Lars), DM(Adriaan) en RM(Anders) met de klant. Houden we dit zo of doen we het op een ander manier? Alle suggesties zijn welkom.
 	
 ###2.2 Interne communicatie
-
 	* Intern communicatieprotocol herzien: wat doen we met kleine onderlinge communicatie: ze moet ergens gelogged worden. Issue tracker op Github gebruiken of bestaan hier andere (betere) tooltjes voor?
 	* Bespreken en waar nodig aanpassen van de "interne structuur graf". Zie SPMP
 	
