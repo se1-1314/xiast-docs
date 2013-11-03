@@ -16,7 +16,7 @@ Variabele		|Inhoud
   * **Iedereen:** Stuurt suggesties op voor requirments en dergelijke via mailinglijst.
 
 2. Bespreking SPMP (40 min) (Lars)
-----------------------------------
+---------------------------
 
 ###2.1 Externe communicatie
 * Communicatieprotocol met de klant vastleggen:	volgens huidige SPMP spreken enkel PM(Lars), DM(Adriaan) en RM(Anders) met de klant. Houden we dit zo of doen we het op een ander manier? Alle suggesties zijn welkom.
@@ -37,8 +37,8 @@ Wie laten we de tests uitvoeren, is die persoon hierop voorbereid? (weet hij bvb
 ###2.5 Andere SPMP zaken
 Deze zijn aangeduid in de comments van de SPMP.
 
-3. Bespreking manier van testen (Lars)
---------------------------------------
+3. Bespreking manier van testen (10 min) (Lars)
+----------------------------------------
 Youssef is hier reeds mee bezig. In het belang van de SPMP: gebruiken we JUnit testen en zo ja, heeft iemand hier ervaring mee?
 	
 
