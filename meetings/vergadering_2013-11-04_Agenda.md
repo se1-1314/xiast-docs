@@ -1,6 +1,6 @@
 <h1 align="center"> Vergadering 4 </h1>
 <h2 align="center"> Agenda </h2>
-
+---|---
 **Datum:**              |Maandag 4 november 2013
 **Locatie:**            |
 **Begin:**              |18u
