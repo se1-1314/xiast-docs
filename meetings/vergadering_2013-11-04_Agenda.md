@@ -37,4 +37,6 @@ Wie laten we de tests uitvoeren, is die persoon hierop voorbereid? (weet hij bvb
 ###2.5 Andere SPMP zaken
 Deze zijn aangeduid in de comments van de SPMP.
 	
-	
+
+TODO-list volgende vergadering
+-------------------------------
