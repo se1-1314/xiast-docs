@@ -8,7 +8,7 @@ Variabele		|Inhoud
 **Begin:**              |18u
 **Einde:**              |
 **Aanwezigen:**         |
-**Secretaris:***        |Youssef Boudiba
+**Secretaris:**        |Youssef Boudiba
 
 1. TODO-list vorige vergadering (5 min)
 ---------------------------------------
