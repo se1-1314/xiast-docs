@@ -19,11 +19,11 @@ Variabele		|Inhoud
 ----------------------------------
 
 ###2.1 Externe communicatie
-	* Communicatieprotocol met de klant vastleggen:	volgens huidige SPMP spreken enkel PM(Lars), DM(Adriaan) en RM(Anders) met de klant. Houden we dit zo of doen we het op een ander manier? Alle suggesties zijn welkom.
+* Communicatieprotocol met de klant vastleggen:	volgens huidige SPMP spreken enkel PM(Lars), DM(Adriaan) en RM(Anders) met de klant. Houden we dit zo of doen we het op een ander manier? Alle suggesties zijn welkom.
 	
 ###2.2 Interne communicatie
-	* Intern communicatieprotocol herzien: wat doen we met kleine onderlinge communicatie: ze moet ergens gelogged worden. Issue tracker op Github gebruiken of bestaan hier andere (betere) tooltjes voor?
-	* Bespreken en waar nodig aanpassen van de "interne structuur graf". Zie SPMP
+* Intern communicatieprotocol herzien: wat doen we met kleine onderlinge communicatie: ze moet ergens gelogged worden. Issue tracker op Github gebruiken of bestaan hier andere (betere) tooltjes voor?
+* Bespreken en waar nodig aanpassen van de "interne structuur graf". Zie SPMP
 	
 ###2.3 Statische site
 We maken geen site met overzicht van activiteiten en bijbehorende prioriteit, maar gebruiken hiervoor de issue tracker van Github. Bestaat er een mogelijkheid om een overzicht te krijgen uit die tracker van alle activiteiten met hun bijbehorende prioriteit, zodat we een soort van dynamische site hebben die die (volgens de niet-functionele eisen noodzakelijke) statische website kan vervangen?
