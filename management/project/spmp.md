@@ -126,22 +126,22 @@ http://wilma.vub.ac.be
 4. <h4 id=#Github>Github</h4>
 https://github.com
 
-5. <h4 id=#JUnit>JUnit framework</h4>
+5. <h4 id=JUnit>JUnit framework</h4>
 http://junit.org/
 
-6. <h4 id=#Ragnhild>Ragnhild Van Der Straeten</h4>
+6. <h4 id=Ragnhild>Ragnhild Van Der Straeten</h4>
 Professor of the Software Engineering course. <br/>
 rvdstrae@vub.ac.be
 
-7. <h4 id=#Jens>Jens Nicolay</h4>
+7. <h4 id=Jens>Jens Nicolay</h4>
 Assistant of the Software Engineering course. <br/>
 jens.nicolay@vub.ac.be
 
-8. <h4 id=#Dirk>Dirk Van Deun</h4>
+8. <h4 id=Dirk>Dirk Van Deun</h4>
 System administrator of the [Wilma](#Wilma) backend server. <br/>
 dirk@dinf.vub.ac.be
 
-9. <h4 id=#Markable>Markable.in</h4>
+9. <h4 id=Markable>Markable.in</h4>
 Online document writing tool for the Markdown language. <br/>
 [markable.in](markable.in)
 
@@ -153,7 +153,7 @@ For more information: http://en.wikipedia.org/wiki/Iterative_and_incremental_dev
 Topic in the Software Engineering course. Is a group of software development methods based on [iterative and incremental development](#IterativeIncremental), where requirements and solutions evolve through collaboration between self-organizing, cross-functional teams. <br/>
 More information on the course slides or http://en.wikipedia.org/wiki/Agile_software_development
 
-12. <h4 id=#SpiralModel>Boehm's spiral model </h4>
+12. <h4 id=SpiralModel>Boehm's spiral model </h4>
 Is a risk-driven process model generator for software projects. <br/>
 Further information: http://en.wikipedia.org/wiki/Spiral_model
 
