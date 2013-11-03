@@ -17,7 +17,7 @@ Software Engineering 2013-2014, group 1
 Version | Date      | Description
 ---     | ---       | ---
 **0.1** |29/10/2013 | Creation of document structure
-**0.2**	|03/10/2013 | Completion of initial version
+**0.2**    |03/10/2013 | Completion of initial version
 
 
 <!---
@@ -211,7 +211,7 @@ All communication between the teammembers outside meetings must be logged by or 
 The chart below shows the internal organisation and flows of information between the actors of the team:
 
 
-<img src="https://docs.google.com/drawings/d/1Lr1H6Qc6iEJITFeQEQt6LUKlboLE6e78SmbZ2jCZRGw/pub?w=1563&amp;h=861">
+<img src="https://docs.google.com/drawings/d/1Lr1H6Qc6iEJITFeQEQt6LUKlboLE6e78SmbZ2jCZRGw/pub?w=781&amp;h=430">
 
 The [Projectmanager](#Projectmanager) acts as a central coördination point for the whole team, he also communicates with the client (see [4.1.1](#4.1.1)). Communicationflows with the client are colored red.
 
@@ -407,7 +407,7 @@ We will be using the [Iterative and Incremental development model](#IterativeInc
 The figure below shows [(Boehm's) spiral model](#SpiralModel), which will be used as development process model.
 
 
-<img src="https://docs.google.com/drawings/d/1jUP8rTmI1hCRaV1-pIj3LXXbRKng7yIC03fFzLpbeJo/pub?w=956&amp;h=962">
+<img src="https://docs.google.com/drawings/d/1jUP8rTmI1hCRaV1-pIj3LXXbRKng7yIC03fFzLpbeJo/pub?w=478&amp;h=481">
 
 
 6.2 Methods, tools and techniques
@@ -472,3 +472,4 @@ This plan will be delivered Friday 15th, 2013: deadline for the other documents.
 ===================
 Following documents play also a role of importance in this project: SRS, SDD <br/>
 They will be delivered Friday 15th, 2013: deadline for the other documents.
+
