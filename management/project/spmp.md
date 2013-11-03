@@ -145,11 +145,11 @@ dirk@dinf.vub.ac.be
 Online document writing tool for the Markdown language. <br/>
 [markable.in](markable.in)
 
-10. <h4 id=#IterativeIncremental>Iterative and Incremental development model</h4>
+10. <h4 id=IterativeIncremental>Iterative and Incremental development model</h4>
 Is any combination of both iterative design or iterative method and incremental build model for development. <br/>
 For more information: http://en.wikipedia.org/wiki/Iterative_and_incremental_development
 
-11. <h4 id=#AgileDev>Agile Software Development</h4>
+11. <h4 id=AgileDev>Agile Software Development</h4>
 Topic in the Software Engineering course. Is a group of software development methods based on [iterative and incremental development](#IterativeIncremental), where requirements and solutions evolve through collaboration between self-organizing, cross-functional teams. <br/>
 More information on the course slides or http://en.wikipedia.org/wiki/Agile_software_development
 
