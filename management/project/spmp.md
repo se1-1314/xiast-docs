@@ -210,9 +210,9 @@ All communication between the teammembers outside meetings must be logged by or 
 ###4.2.2 Internal Organisation
 The chart below shows the internal organisation and flows of information between the actors of the team:
 
-<!---
+
 <img src="https://docs.google.com/drawings/d/1Lr1H6Qc6iEJITFeQEQt6LUKlboLE6e78SmbZ2jCZRGw/pub?w=1563&amp;h=861">
--->
+
 The [Projectmanager](#Projectmanager) acts as a central coördination point for the whole team, he also communicates with the client (see [4.1.1](#4.1.1)). Communicationflows with the client are colored red.
 
 4.3 Roles and responsibilities
@@ -406,9 +406,9 @@ Not of any importance for this project.
 We will be using the [Iterative and Incremental development model](#IterativeIncremental) with some ideas of [Agile Software Development](#AgileDev), which is based on this model. This method has, first, been chosen because of the agenda of the project which consists of an incremental delivery based on 4 iterations. Secondly, it has been chosen for its simplicity and added value: we focus on a working application per iteration which can than be discussed with the client. In this way we open ourselves to requirements changes which will be given us by the client at the end of each iteration. This results in a continuous delivery of valuable software, one of the key principles of agile development. <br/>
 The figure below shows [(Boehm's) spiral model](#SpiralModel), which will be used as development process model.
 
-<!---
+
 <img src="https://docs.google.com/drawings/d/1jUP8rTmI1hCRaV1-pIj3LXXbRKng7yIC03fFzLpbeJo/pub?w=956&amp;h=962">
--->
+
 
 6.2 Methods, tools and techniques
 ---------------------------------
