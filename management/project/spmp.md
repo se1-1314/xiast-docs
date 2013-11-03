@@ -2,7 +2,7 @@ Software Project Management Plan
 ================================
 Software Engineering 2013-2014, group 1
 ----------------------------------------
-###Version 0.1
+###Version 0.2
 #### October 29th, 2013
 ##### Lars Van Holsbeeke
 ##### *Project Manager*
