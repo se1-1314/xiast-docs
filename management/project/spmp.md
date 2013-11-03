@@ -19,10 +19,10 @@ Version | Date      | Description
 **0.1** |29/10/2013 | Creation of document structure
 
 
-
+<!---
 Contents
 ========
-
+-->
 
 * * *
 
