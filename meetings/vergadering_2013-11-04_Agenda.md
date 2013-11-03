@@ -36,6 +36,10 @@ Wie laten we de tests uitvoeren, is die persoon hierop voorbereid? (weet hij bvb
 
 ###2.5 Andere SPMP zaken
 Deze zijn aangeduid in de comments van de SPMP.
+
+3. Bespreking manier van testen (Lars)
+--------------------------------------
+Youssef is hier reeds mee bezig. In het belang van de SPMP: gebruiken we JUnit testen en zo ja, heeft iemand hier ervaring mee?
 	
 
 TODO-list volgende vergadering
