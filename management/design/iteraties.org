@@ -1,0 +1,52 @@
+* Iteratie 1
+13 december 2013
+** Interfaces
+Er wordt een mobiele en een desktop-interface gemaakt voor alle
+functionaliteit.
+*** Internationalisatie (!)
+De interfaces moeten in het Nederlands en het Engels, afhangende van
+browsertaal en de keuze van gebruiker.
+**** Implentatienoot
+Dit moet via taalbestanden om makkelijk talen te kunnen toevoegen.
+** Login
+Via VUB-netId als mogelijk, anders via fake-netIds enzo.
+** Schedule
+Bij het opvragen van een specifieke schedule moet altijd de periode
+gespecifiëerd worden. Bijvoorbeeld: van week 3 dag 1 tot week 4 dag
+6, van 13:00 tot 16:00.
+*** Lijst van vakken opvragen
+Aan de hand van zoekterm in naam vak.
+*** Schedule voor een vak opvragen
+*** Persoonlijke schedule voor een student en prof
+*** Schedule voor een heel programma+jaar+groepletter (Compsci Jaar 1 groep A)
+*** Rooster voor een lokaal
+
+* Iteratie 2
+4 maart 2014
+** Rechtensysteem
+Bijvoorbeeld, programmabeheerders kunnen alleen aan hun eigen vakken
+zitten etc.
+** Schedulingalgoritme aangedreven door configuratiebestand
+Programmabeheerder heeft hier toegang toe.
+** Programmabeheerders kunnen een programma opstellen via webinterface
+- Vakken toevoegen met info:
+  - Verplicht- of keuzevak
+  - Aantal inschrijvingen voor een vak
+** Programmabeheerders kunnen lokalen toevoegen via webinterface
+- Misschien lokalen gelinkt aan een faculteit?
+** Lesgevers kunnen reeds aangemaakte vakken invullen via webinterface
+Nog niet goed gedefiniëerd wat dit betekent, maar een prof zou zeker
+al moeten kunnen aangeven dat het lokaal een beamer, overhead
+projector nodig heeft e.d. Misschien ook lestijd etc.
+
+- Voorkeurstijd, lesduur,...
+
+* Iteratie 3
+15 april 2014
+** Webinterface voor programmamanagerdingen
+** Suggesties doorsturen
+Er moet een berichtensysteem zijn zodat lesgevers voorstellen
+kunnen communiceren met programmeheerders, en zodat de
+programmabeheerders makkelijk suggesties kunnen invoegen.
+* Iteratie 4 "Coole features"
+16 mei 2014
