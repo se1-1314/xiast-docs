@@ -1,6 +1,6 @@
 **Verslag vergadering 2 **
 
-**Datum:		**Dinsdag** **22 oktober 2013
+**Datum:**		Dinsdag 22 oktober 2013
 
 **Locatie:** 		F4, Campus VUB Etterbeek
 
