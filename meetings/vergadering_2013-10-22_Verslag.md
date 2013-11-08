@@ -4,13 +4,13 @@
 
 **Locatie:** 		F4, Campus VUB Etterbeek
 
-**Begin:			**15u
+**Begin:**			15u
 
-**Einde: 		**16u40
+**Einde:** 		16u40
 
-**Aanwezigen:        		**Adriaan Leijnse, Nils Van Geele, Lars Van Holsbeke, Anders Deliens, Kwinten Pardon, Youssef Boudiba
+**Aanwezigen:**        		Adriaan Leijnse, Nils Van Geele, Lars Van Holsbeke, Anders Deliens, Kwinten Pardon, Youssef Boudiba
 
-**Secretaris:		**Youssef Boudiba, Lars Van Holsbeke
+**Secretaris:**		Youssef Boudiba, Lars Van Holsbeke
 
 1. TODO-List vorige vergadering (10 min)
 
