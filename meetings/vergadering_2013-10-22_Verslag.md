@@ -1,18 +1,15 @@
-**Verslag vergadering 2 **
+# Verslag vergadering 2 
 
-**Datum:**		Dinsdag 22 oktober 2013
+Variabele	|Inhoud
+---		|---
+**Datum:**	|Dinsdag 22 oktober 2013
+**Locatie:**	|F4, Campus VUB Etterbeek
+**Begin:**	|15u
+**Einde:** 	|16u40
+**Aanwezigen:**	|Adriaan Leijnse, Nils Van Geele, Lars Van Holsbeke, Anders Deliens, Kwinten Pardon, Youssef Boudiba
+**Secretaris:**	|Youssef Boudiba, Lars Van Holsbeke
 
-**Locatie:** 		F4, Campus VUB Etterbeek
-
-**Begin:**			15u
-
-**Einde:** 		16u40
-
-**Aanwezigen:**        		Adriaan Leijnse, Nils Van Geele, Lars Van Holsbeke, Anders Deliens, Kwinten Pardon, Youssef Boudiba
-
-**Secretaris:**		Youssef Boudiba, Lars Van Holsbeke
-
-1. TODO-List vorige vergadering (10 min)
+#TODO-List vorige vergadering (10 min)
 
 Er wordt voortaan, bij het begin van elke vergadering, nagegaan of de TODO-list van de vorige vergadering in orde is.
 
