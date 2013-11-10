@@ -2,10 +2,10 @@
 Variabele		|Inhoud
 ---			|---
 **Datum:**              |Donderdag 14 november 2013
-**Locatie:**            |
+**Locatie:**            |IG lokaal
 **Begin:**              |18u
-**Einde:**              |
-**Aanwezigen:**         |
+**Einde:**              |19u15
+**Aanwezigen:**         |Youssef Boudiba, Kwinten Pardon, Nils Van Geele, Adriaan Leijnse, Lars Van Holsbeeke, Anders Deliens
 **Secretaris:**         |Youssef Boudiba
 
 
