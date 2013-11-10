@@ -1,7 +1,7 @@
 # Software Documentation Plan
 
 **Author: **Kwinten Pardon
-**Version: ** 0.0.3
+**Version: ** 0.1.0
 
 
 ## Introduction
@@ -30,9 +30,24 @@ As classes and objects are different from functions, an other set of information
 
 #### Classes / Objects
 
+Above each class or object the following information should be written
 
++ Authors(s)
++ Date of creation
++ Summary of the functionalities it contains
++ Explanation of fields
 
 #### Functions
+
+Above each function the following information should be written
+
++ Author(s)
++ Date of creation
++ Explanation of the paramaters
+  + Type
++ Explanation of the return value
+  + Type
++ Exceptions
 
 ## Method of documenting
 
@@ -40,3 +55,6 @@ As stated above, the to be documented information must be written in the source 
 
 ### Syntax
 
+We will be using an XML syntax to write the necessary information in the source code. The XML lines will be parsed from the source code to create the documentation.
+
+The XML tags that will be used has yet to be determined.
