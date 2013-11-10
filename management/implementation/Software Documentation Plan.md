@@ -1,5 +1,9 @@
 # Software Documentation Plan
 
+**Author: **Kwinten Pardon
+**Version: ** 0.0.1
+
+
 ## Introduction
 
 This document describes the information that our documentation must contain. It will also describe the methods that will be used to generate documentation for the source code. Software documentation comes in two different forms. Documentation for the end user and documentation for developers. This Software documentation plan only handles the creation of developers documentation
