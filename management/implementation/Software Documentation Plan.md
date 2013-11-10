@@ -1,7 +1,7 @@
 # Software Documentation Plan
 
 **Author: **Kwinten Pardon
-**Version: ** 0.0.2
+**Version: ** 0.0.3
 
 
 ## Introduction
@@ -26,6 +26,17 @@ The required information is listed underneath
 
 ### Source Code
 
+As classes and objects are different from functions, an other set of information is required to be documented. Which information is to be documented can be found underneath in corresponding sections.
+
 #### Classes / Objects
 
+
+
 #### Functions
+
+## Method of documenting
+
+As stated above, the to be documented information must be written in the source code. The documentation will be created by parsing this information from the source file. To be able to this, this information must be written in a certain syntax.
+
+### Syntax
+
