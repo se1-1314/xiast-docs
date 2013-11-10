@@ -1,7 +1,7 @@
 # Software Documentation Plan
 
 **Author: **Kwinten Pardon
-**Version: ** 0.0.1
+**Version: ** 0.0.2
 
 
 ## Introduction
@@ -16,7 +16,16 @@ The purpose of the created documentation is for the reader to understand the cod
 
 ### Source File
 
+Source file must contain certain information before any functionalities or code has been written. This information may be written after or before the required imports.
+
+The required information is listed underneath
+
++ Author(s)
++ Date of creation
++ Summary of the functionalities it contains
+
 ### Source Code
 
 #### Classes / Objects
+
 #### Functions
