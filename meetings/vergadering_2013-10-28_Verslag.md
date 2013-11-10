@@ -1,18 +1,15 @@
-**Verslag vergadering 3 **
+# Verslag vergadering 3
 
-**Datum:		**Maandag** **28 oktober 2013
+variabele	|Inhoud
+---		|---
+**Datum:	|Maandag 28 oktober 2013
+**Locatie:** 	|F4, Campus VUB Etterbeek
+**Begin:	|13u30
+**Einde: 	|14u30
+**Aanwezigen:	|Adriaan Leijnse, Nils Van Geele, Lars Van Holsbeke, Anders Deliens, Kwinten Pardon, Youssef Boudiba
+**Secretaris:	|Youssef Boudiba
 
-**Locatie:** 		F4, Campus VUB Etterbeek
-
-**Begin:			**13u30
-
-**Einde: 		**14u30
-
-**Aanwezigen:        		**Adriaan Leijnse, Nils Van Geele, Lars Van Holsbeke, Anders Deliens, Kwinten Pardon, Youssef Boudiba
-
-**Secretaris:		**Youssef Boudiba
-
-1. TODO-List vorige vergadering (10 min)
+## TODO-List vorige vergadering (10 min)
 
 1. **Anders: ** werkt requirements verder uit.
 
