@@ -9,7 +9,7 @@ Variabele	|Inhoud
 **Aanwezigen:**	|Adriaan Leijnse, Nils Van Geele, Lars Van Holsbeke, Anders Deliens, Kwinten Pardon, Youssef Boudiba
 **Secretaris:**	|Youssef Boudiba, Lars Van Holsbeke
 
-#TODO-List vorige vergadering (10 min)
+## TODO-List vorige vergadering (10 min)
 
 Er wordt voortaan, bij het begin van elke vergadering, nagegaan of de TODO-list van de vorige vergadering in orde is.
 
