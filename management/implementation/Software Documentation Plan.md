@@ -1,7 +1,8 @@
 # Software Documentation Plan
 
-**Author: **Kwinten Pardon
-**Version: ** 0.1.0
+**Author:**Kwinten Pardon
+
+**Version:** 0.1.1
 
 
 ## Introduction
@@ -57,4 +58,4 @@ As stated above, the to be documented information must be written in the source 
 
 We will be using an XML syntax to write the necessary information in the source code. The XML lines will be parsed from the source code to create the documentation.
 
-The XML tags that will be used has yet to be determined.
+The XML tags that will be used have yet to be determined.
