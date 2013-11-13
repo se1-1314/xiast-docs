@@ -213,7 +213,7 @@ The chart below shows the internal organisation and flows of information between
 
 <img src="https://docs.google.com/drawings/d/1Lr1H6Qc6iEJITFeQEQt6LUKlboLE6e78SmbZ2jCZRGw/pub?w=781&amp;h=430">
 
-The [Projectmanager](#Projectmanager) acts as a central coördination point for the whole team, he also communicates with the client (see [4.1.1](#4.1.1)). Communicationflows with the client are colored red.
+The [Projectmanager](#Projectmanager) acts as a central coordination point for the whole team, he also communicates with the client (see [4.1.1](#4.1.1)). Communicationflows with the client are colored red.
 
 4.3 Roles and responsibilities
 -------------------------------
@@ -222,7 +222,7 @@ The [Projectmanager](#Projectmanager) acts as a central coördination point for 
 
 * Project Manager
     * Creating & providing the SPMP with updates
-    * Coördination of the team
+    * Coordination of the team
     * Contact person for all teammembers
     * Chairman during meetings
     * Creating a weekly meeting agenda on Github
