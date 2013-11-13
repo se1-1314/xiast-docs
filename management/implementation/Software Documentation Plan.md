@@ -1,9 +1,6 @@
-# Software Documentation Plan
-
 **Author:**Kwinten Pardon
 
 **Version:** 0.1.1
-
 
 ## Introduction
 
@@ -21,34 +18,45 @@ Source file must contain certain information before any functionalities or code 
 
 The required information is listed underneath
 
-+ Author(s)
-+ Date of creation
-+ Summary of the functionalities it contains
+-   Author(s)
+
+-   Date of creation
+
+-   Summary of the functionalities it contains
 
 ### Source Code
 
 As classes and objects are different from functions, an other set of information is required to be documented. Which information is to be documented can be found underneath in corresponding sections.
 
-#### Classes / Objects
+### Classes / Objects
 
 Above each class or object the following information should be written
 
-+ Authors(s)
-+ Date of creation
-+ Summary of the functionalities it contains
-+ Explanation of fields
+-   Authors(s)
 
-#### Functions
+-   Date of creation
+
+-   Summary of the functionalities it contains
+
+-   Explanation of fields
+
+### Functions
 
 Above each function the following information should be written
 
-+ Author(s)
-+ Date of creation
-+ Explanation of the paramaters
-  + Type
-+ Explanation of the return value
-  + Type
-+ Exceptions
+-   Author(s)
+
+-   Date of creation
+
+-   Explanation of the paramaters
+
+-   Type
+
+-   Explanation of the return value
+
+-   Type
+
+-   Exceptions
 
 ## Method of documenting
 
