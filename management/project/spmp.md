@@ -27,12 +27,12 @@ Contents
 
 * * *
 
-1 Overview
+Overview
 ===========
 
-1.1 Project Summary
+Project Summary
 --------------------
-###1.1.1 Purpose, scope, and objectives
+###Purpose, scope, and objectives
 
 The main purpose of this project is to create a working scheduling webapplication with specific support for mobile devices like smartphones and tablets that enables (authorized) users to query their personal course/final schedule and notifies them about last-minute changes. We will call this application:  `Xiast`*(**X**iast **i**s **a** **s**cheduling **t**ool)* More specific requirements can be found in the [SRS](#SRS) (Software Requirements Specification) document.
 
@@ -48,11 +48,11 @@ This academic 3rth bachelor project is part of the course "[Software Engineering
 The scheduling application itself must be usable in an academical context to schedule courses and finals fully automatical while violating as least constraints as possible. All this must take place in the most optimal way. When a schedule has been generated automatically it must be possible to manually change it afterwards by an authorized user. Every (authorized) user must be able to view his or her personal timetable */
 -->
 
-###1.1.2 Assumptions and constraints
+###Assumptions and constraints
 
 Some constraints involving documentation standards, infrastructure and use of certain technologies have been defined by the client:
 
-####1.1.2.1 Documentation
+####Documentation
 
 * This document (SPMP) must conform the IEEE 1058-1998 standard
 * The SRD, SDD, STD, SQAP and SCMP must also conform their IEEE xxx-1998 standard or a more recent revision of that standard.
@@ -66,18 +66,18 @@ Some constraints involving documentation standards, infrastructure and use of ce
 * Meeting minutes must be made for all meetings
 * An SCMP and an SQMP are not necessary, but all relevant information concerning them must be found in the SPMP.
 
-####1.1.2.2 Language
+####Language
 * Only Java, JavaScript, HTML, CSS, SQL and corresponding libraries and open-source frameworks 
 * Only open-source software may be used for both the endproduct and tools
 * A particular choice of library, tool, etc. must be motivated by means of reliabilityn, openness and simplicity.
 * A library can only be used after agreement with the client and a comparative study of other possible libraries.
 
-####1.1.2.3 Infrastucture
+####Infrastucture
 * The VUB "[Wilma](#Wilma)" server must be used as backend for the system.
 * The system must work on a browser as frontend.
 * The system must work on a mobile browser.
 
-####1.1.2.4 Other Constraints
+####Other Constraints
 * "[Github](#Github)" must be used as public repository for the code.
 * All documents, source code and other artefacts must be publicly available in a structured way.
 * The system must have a standard, easy installation procedure.
@@ -88,7 +88,7 @@ Some constraints involving documentation standards, infrastructure and use of ce
 * The system must be modular in design to accomodate extension and replacement of the containing modules.
 * The development proces must be iterative with incremental delivery.
 
-###1.1.3 Project deliverables
+###Project deliverables
 The table table below shows code, document and other deliverables with their corresponding deadline: 9 o'clock in the morning on the date shown.
 
 Date | Deliverable
@@ -104,14 +104,14 @@ Date | Deliverable
 16/05/2014 |End of fourth iteration: final delivery of code and documents
 21/05/2014 |Final presentation
 
-###1.1.4 Schedule
+###Schedule
 Section 5.2 describes the work plan of the project, which contains a detailed description of the work activities with the corresponding teammembers that work on it along with an estimation of time they will need to complete it.
 
-1.2 Evolution of the SPMP
+Evolution of the SPMP
 -------------------------
 This SPMP will be reviewed at least one time a week by the projectmanager. If needed, this document will be updated by the same person. Each (major) update will be logged in the [Revision History](#RevisionHistory), to be found at the beginning of this document.
 
-2 References
+References
 =============
 1. <h4 id=SRS>SRS: Software Requirements Specifiaction</h4>
 Anders Deliens <br/>
@@ -163,7 +163,7 @@ Further information: http://en.wikipedia.org/wiki/Spiral_model
 12. <h4 id=#>__</h4>
 -->
 
-3 Definitions
+Definitions
 ==============
 
 Acronym | Declaration
@@ -189,26 +189,26 @@ Acronym | Declaration
 Other definitions can be found on page 2-3 of the IEEE 1058-1998 standard for Software Project Management Plans
 
 
-4 Project Organisation
+Project Organisation
 ========================
-4.1 External interfaces
+External interfaces
 -----------------------
 
 <h3 id=4.1.1> 4.1.1 Client </h3>
 In this project the titular of this course, [Software Engineering](#SoftEng), mrs. R. Van Der Straeten, will together with her assistant, mr. J Nicolay, act as client for the project. This means that all communication involving requirements and design will pass by at least one of them and respectively the [Requirements Manager](#RequirementsManager) and the [Design Leader](#Designleader). All other communication with the client will be handled by the [Projectmanager](#Projectmanager), this includes submitting deliverables: source-code and documents, communication involving presentations, etc.
 
-###4.1.2 Infrastructure
+###Infrastructure
 All communication concerning the available infrastructure: the [Wilma](#Wilma) backend server will be handled with the head of infrastructure, mr. D. Van Deun by the web- and databasemanager.
 
-###4.1.2 External Scheduling Data
+###External Scheduling Data
 Any problems, remarks,... involving the dump of scheduling data on November 18th, 2013 will be communicated to the infrastructure manager, mr. D. Van Deun.
 
-4.2 Internal Structure
+Internal Structure
 ----------------------
-###4.2.1 Internal Communication
+###Internal Communication
 All communication between the teammembers outside meetings must be logged by or the issue tracker on [Github](#Github) or using the internal mailinglist: se1_1314@wilma.vub.ac.be. This is a rule of thum that must be followed by the teammembers. Only if the information to communicate is such unimportant, irrelevant to the other teammembers, does not involve agreements, deadlines, etc. and the urgency of the concerning activities is very low, teammembers can use private mail. In case of urgent problems, problems with another teammember, important matters that need immediate attention, etc. teammembers may use the private mobile phone number of the [Projectmanager](#Projectmanager) that has been given to them in the second meeting.
 
-###4.2.2 Internal Organisation
+###Internal Organisation
 The chart below shows the internal organisation and flows of information between the actors of the team:
 
 
@@ -216,7 +216,7 @@ The chart below shows the internal organisation and flows of information between
 
 The [Projectmanager](#Projectmanager) acts as a central coordination point for the whole team, he also communicates with the client (see [4.1.1](#4.1.1)). Communicationflows with the client are colored red.
 
-4.3 Roles and responsibilities
+Roles and responsibilities
 -------------------------------
 <!--- eventueel (zoals in de standaard beschreven) een matrix maken van personen X work activities (= hun verantwoordelijkheden) voor een beter overzicht -->
 <!--- VERGADERING: alle verantwoordelijkheden nog eens goed bespreken -->
@@ -270,9 +270,9 @@ The [Projectmanager](#Projectmanager) acts as a central coordination point for t
 <!--- TODO: Secretary, Database Manager, Webmaster) -->
 <!-- TODO: maak een aparte tabel: wie verantwoordelijk voor welk document: headers: "Responsible teammember, Document") -->
 
-5 Managerial Process Plans
+Managerial Process Plans
 ===========================
-5.1 Start-up Plan
+Start-up Plan
 ------------------
 ###5.1.2 Staffing Plan
 <br />
@@ -300,9 +300,9 @@ Test Manager    |       |       |       |       |       |
 
 <!--- ###5.1.4 Project Staff Training Plan -->
 
-5.2 Work Plan
+Work Plan
 -------------
-###5.2.1 Work activities
+###Work activities
 The table below shows an overview of the different activities in the development process together with the responsible teammember and an estimation of time needed to complete the activity. The estimated time may differ from the actual performed time 
 
 Activity                |Responsible	|Estimated Time	|Documents
@@ -327,10 +327,10 @@ During the development proces, each teammember will log how much time he spends 
 <!--- TODO: (Roadrunner) tabel maken met hoeveel uren elk teamlid aan management <-> coding heeft gespendeerd  => uit roadrunner: we staan serieus achter!!! -->
 
 
-###5.2.2 Schedule allocation
+###Schedule allocation
 A GANTT chart will be used for this. It will be made at the next teammeeting when a License for Microsoft Project 2013 has been obtained.
 
-###5.2.5 Resource allocation
+###Resource allocation
 An overview of rescources that will be used can be found in the table below
 
 Rescource                       |Activities
@@ -342,29 +342,29 @@ Microsoft PowerPoint            |Presentations
 Github                          |Versioning Control System
 Smartphone (Android)            |Testing mobile version of the tool
 
-5.3 Control Plan
+Control Plan
 ----------------
-###5.3.1 Requirements control plan
+###Requirements control plan
 Possible changes of requirements will always be communicated between the requirements manager and the client. When a change occurs, the requirements manager puts an new topic on the agenda of the next teammeeting and updates the SRS.
 
-###5.3.2 Schedule control plan
+###Schedule control plan
 Problems involving scheduling, deadlines, etc. will be discussed during the weekly meeting. Each teammember is responsible to keep track of his deadlines, and will report (at the weekly meeting) what he has done on which activity during the last week. The projectmanager himself will keep track of the global planning by using these reports and make adjustments to the planning and/or activity if needed. If it seems that one of the teammembers won't make the deadline, one or more other teammembers can jump in on the activity concerned. This is highly appreciated.
 
 <!--- ###5.3.3 Budget control plan  TODO: budget = tijd -->
 
-###5.3.4 Quality control plan
+###Quality control plan
 
 <!--- TODO nog wat uit te breiden -->
 All code and documentation will be periodically checked by the Quality Assurance Manager and before the end of each iteration. First he reports (if needed) to the concerning person. If any severe (quality based) problems are detected, he will report also them at the weekly meeting.
 
-###5.3.5 Reporting plan
+###Reporting plan
 
 <!--- eventueel nog wat extra ivm externe communicatie -->
 Using the SPMP, SCMP, STD and SDD, the status of the project will be reported to external entities (p.e. the client). All this documents are free to be read by anybody on our [Github](#Github) repository. It can be reached and downloaded by using our [static website](http://wilma.vub.ac.be/~se1_1314) on http://wilma.vub.ac.be/~se1_1314 
 
 <!--- ###5.3.6 Metrics plan (low priority: eventueel)-->
 
-5.4 Risk management plan
+Risk management plan
 ------------------------
 <!---TODO: lijst nog uit te breiden + check voorbeeld SPMPs :) -->
 <font size='1' color="grey">This list will be extended in future versions of this document</font> <br/>
@@ -470,13 +470,13 @@ All estimations are on a scale from 0 to 10.
 
 
 
-5.5 Closeout plan
+Closeout plan
 -----------------
 Not of any importance for this project.
 
-6 Technical Process Plan
+Technical Process Plan
 =========================
-6.1 Process model
+Process model
 -----------------
 
 <!--- Nog uit te breiden (check de oldies) -->
@@ -501,7 +501,7 @@ We try to follow the agile development principles as much as possible:
 
 -->
 
-6.2 Methods, tools and techniques
+Methods, tools and techniques
 ---------------------------------
 <!---VERGADERING: Programmeertaal nog te beslissen -->
 <font size="1" color="grey">At the moment of writing, the programming language has not been chosen yet and will therefore not be mentioned in this version of the SPMP. Therefore, some items will be added to the list below in future versions of the SPMP.  </font>
@@ -521,9 +521,9 @@ We try to follow the agile development principles as much as possible:
 ---------------------------
 -->
 
-7 Supporting Process Plans
+Supporting Process Plans
 ===========================
-7.1 Software Configuration Management Plan (SCMP)
+Software Configuration Management Plan (SCMP)
 -------------------------------------------------
 ### Software Configuration Management Plan
 
@@ -670,16 +670,16 @@ Commiting to this branch thus allows us to edit the page manually, although it i
 
 To keep track of the project's status however, we will use the built-in issue tracker of GitHub.
 
-7.2 Verification and Validation Plan (STD)
+Verification and Validation Plan (STD)
 ------------------------------------------
 This plan will be delivered Friday 15th 2013, 2013: deadline for the other documents.
 
-7.3 SoftwareDocumentation Plan (SDP)
+SoftwareDocumentation Plan (SDP)
 -----------------------------
 <!--- VERGADERING: wie maakt dit plan!!!??? -->
 This plan will be delivered Friday 15th, 2013: deadline for the other documents.
 
-7.4 Software Quality Assurance Plan (SQAP)
+Software Quality Assurance Plan (SQAP)
 ------------------------------------------
 <!--- VERGADERING: dit plan moet nog gemaakt worden) -->
 No seperate plan required for this project. All relevant information concerning this plan can be found in this document, the SPMP. The QAM is responsible for this.
@@ -688,7 +688,7 @@ No seperate plan required for this project. All relevant information concerning 
 7.5 Reviews and Audits
 ----------------------
 -->
-7.6 Problem Resolution Plan
+Problem Resolution Plan
 --------------------------
 <!--- VERGADERING: wie maakt dit plan!!!??? -->
 This plan will be delivered Friday 15th, 2013: deadline for the other documents.
@@ -702,7 +702,7 @@ This plan will be delivered Friday 15th, 2013: deadline for the other documents.
 ----------------------------
 -->
 
-8 Additional Plans
+Additional Plans
 ===================
 Following documents play also a role of importance in this project: SRS, SDD <br/>
 They will be delivered Friday 15th, 2013: deadline for the other documents.
