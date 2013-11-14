@@ -2,8 +2,8 @@ Software Project Management Plan
 ================================
 Software Engineering 2013-2014, group 1
 ----------------------------------------
-###Version 0.2
-#### November 3th, 2013
+###Version 0.3
+#### November 14th, 2013
 ##### Lars Van Holsbeeke
 ##### *Project Manager*
 ##### <mailto:lavholsb@vub.ac.be>
@@ -194,7 +194,7 @@ Project Organisation
 External interfaces
 -----------------------
 
-<h3 id=4.1.1> 4.1.1 Client </h3>
+<h3 id=4.1.1>Client </h3>
 In this project the titular of this course, [Software Engineering](#SoftEng), mrs. R. Van Der Straeten, will together with her assistant, mr. J Nicolay, act as client for the project. This means that all communication involving requirements and design will pass by at least one of them and respectively the [Requirements Manager](#RequirementsManager) and the [Design Leader](#Designleader). All other communication with the client will be handled by the [Projectmanager](#Projectmanager), this includes submitting deliverables: source-code and documents, communication involving presentations, etc.
 
 ###Infrastructure
@@ -214,7 +214,7 @@ The chart below shows the internal organisation and flows of information between
 
 <img src="https://docs.google.com/drawings/d/1Lr1H6Qc6iEJITFeQEQt6LUKlboLE6e78SmbZ2jCZRGw/pub?w=781&amp;h=430">
 
-The [Projectmanager](#Projectmanager) acts as a central coordination point for the whole team, he also communicates with the client (see [4.1.1](#4.1.1)). Communicationflows with the client are colored red.
+The [Projectmanager](#Projectmanager) acts as a central coordination point for the whole team, he also communicates with the client (see [Client](#4.1.1)). Communicationflows with the client are colored red.
 
 Roles and responsibilities
 -------------------------------
