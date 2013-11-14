@@ -282,7 +282,6 @@ Requirements Manager	|		|H		|B		|		|		|
 Design Leader		|		|		|H		|		|B		|
 Implementation Leader	|B		|		|		|H		|		|
 Secretary		|H		|B		|		|		|		|
-Database Manager	|		|		|		|		|H		|B
 Server Manager		|		|		|B		|		|H		|
 
 <!---VERGADERING
