@@ -260,6 +260,10 @@ The [Projectmanager](#Projectmanager) acts as a central coordination point for t
     *  Reporting issues concerning the source code on meetings
     *  Distributing programming workload to all teammembers
     *  Monitoring developers
+* Server Manager
+    *  Regularly updates the website with new information
+    *  Takes care of communication with the infrastructure manager
+    *  Manages database, server applications and related services
 
 <!--- TODO: Secretary, Database Manager, Webmaster) -->
 <!-- TODO: maak een aparte tabel: wie verantwoordelijk voor welk document: headers: "Responsible teammember, Document") -->
@@ -279,7 +283,7 @@ Design Leader		|		|		|H		|		|B		|
 Implementation Leader	|B		|		|		|H		|		|
 Secretary		|H		|B		|		|		|		|
 Database Manager	|		|		|		|		|H		|B
-Webmaster		|		|		|B		|		|H		|
+Server Manager		|		|		|B		|		|H		|
 
 <!---VERGADERING
 Test Manager    |       |       |       |       |       |
