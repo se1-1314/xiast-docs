@@ -20,8 +20,18 @@ Variabele		|Inhoud
 * Lars & Adriaan: definieren eerste iteratie.
 
 
-## 1. ...
+## 1. Bespreking feedback SPMP (30 min)
+### 1.1. Bepaling Risico's
+* Externe risico's
+* Technische risico's
+* 'echte' risico's
 
+### 1.2. Meer uitleg genereren betreffende spiraalmodel
+* best een betere afbeelding zoeken
+
+## 2. PDF generatie uit markdown
+
+## 3. Conflict STD
 
 
 
