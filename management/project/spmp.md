@@ -130,6 +130,7 @@ https://github.com
 5. <h4 id=JUnit>JUnit framework</h4>
 http://junit.org/
 
+<!--- TODO: steek deze in een aparte personenlijst: STAKEHOLDERS
 6. <h4 id=Ragnhild>Ragnhild Van Der Straeten</h4>
 Professor of the Software Engineering course. <br/>
 rvdstrae@vub.ac.be
@@ -141,7 +142,7 @@ jens.nicolay@vub.ac.be
 8. <h4 id=Dirk>Dirk Van Deun</h4>
 System administrator of the [Wilma](#Wilma) backend server. <br/>
 dirk@dinf.vub.ac.be
-
+-->
 9. <h4 id=Markable>Markable.in</h4>
 Online document writing tool for the Markdown language. <br/>
 [markable.in](markable.in)
@@ -218,7 +219,8 @@ The [Projectmanager](#Projectmanager) acts as a central coordination point for t
 4.3 Roles and responsibilities
 -------------------------------
 <!--- eventueel (zoals in de standaard beschreven) een matrix maken van personen X work activities (= hun verantwoordelijkheden) voor een beter overzicht -->
-<!-- VERGADERING: alle verantwoordelijkheden nog eens goed bespreken -->
+<!--- VERGADERING: alle verantwoordelijkheden nog eens goed bespreken -->
+<!--- voeg een server manager toe -->
 
 * Project Manager
     * Creating & providing the SPMP with updates
@@ -273,7 +275,10 @@ The [Projectmanager](#Projectmanager) acts as a central coordination point for t
 5.1 Start-up Plan
 ------------------
 ###5.1.2 Staffing Plan
-Function/Teammember    |Youssef Boudiba|Anders Deliens	|Adriaan Leijnse| Kwinten Pardon|Nils Van Geele	|Lars Van Holsbeeke
+<br />
+H = Function Holder, B = Back-up
+
+Function/Teammember    |Youssef Boudiba|Anders Deliens    |Adriaan Leijnse| Kwinten Pardon|Nils Van Geele	|Lars Van Holsbeeke
 ---			|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:
 Project Manager		|		|B		|		|		|		|H
 Configuration Manager	|		|		|		|		|H		|B
@@ -283,6 +288,8 @@ Design Leader		|		|		|H		|		|B		|
 Implementation Leader	|B		|		|		|H		|		|
 Secretary		|H		|B		|		|		|		|
 Server Manager		|		|		|B		|		|H		|
+
+
 
 <!---VERGADERING
 Test Manager    |       |       |       |       |       |
@@ -362,6 +369,7 @@ Using the SPMP, SCMP, STD and SDD, the status of the project will be reported to
 <!---TODO: lijst nog uit te breiden + check voorbeeld SPMPs :) -->
 <font size='1' color="grey">This list will be extended in future versions of this document</font> <br/>
 All estimations are on a scale from 0 to 10.
+<!---TODO: uitleg i.v.m. de schaal van 0 tot 10 -->
 
 1. One of the teammembers is sick or leaves
     * Probability: 3
@@ -382,12 +390,12 @@ All estimations are on a scale from 0 to 10.
 3. Not meeting deadlines
     * Probability: 5
     * Impact: 10
-    * Priority 6
+    * Priority: 6
     * Cost of solution: 5
     * Solution: Keeping track of progress made using [Github](#Github) functionality, weekly progress reports of teammembers.
     * Target completion date: n.a.
     * Responsible: Project Manager
-4. Lack of quality
+4. Lack of software quality
     * Probability: 3
     * Impact: 3
     * Priority: 2
@@ -395,6 +403,72 @@ All estimations are on a scale from 0 to 10.
     * Solution: Periodically quality checks, tests,... Reporting them to the weekly meeting. QAM gives recommendations to the teammembers on the weekly meeting and by using the mailing list. Making and resolving issues on the [Github](#Github) issue tracker. 
     * Target completion date: n.a.
     * Responsible: Quality Assurance Manager
+5. Misunderstandings between client and team
+    * Probability: 3
+    * Impact: 8
+    * Priority: 8
+    * Cost of solution: 5
+    * Solution: Regular meetings with the client to check if product meets expectations
+    * Target completion date: n.a.
+    * Responsible: Requirements Manager
+6. Not enough knowledge concerning the used programming language (p.e. Clojure, JavaScript, HTML5,...)
+    * Probability: 10
+    * Impact: 8
+    * Priority: 7
+    * Cost of solution: 7
+    * Solution: Watching tutorials, asking teammembers that know the language for help
+    * Target completion date: end of 1st iteration (Clojure basics), end of 2nd iteration (JavaScript, HTML5) 
+    * Responsible: Design Manager, Implementation Leader
+7. Back-end server goes (temporarly) down
+    * Probability: 2
+    * Impact: 6
+    * Priority: 7
+    * Cost of solution: 2
+    * Solution: Using a mirror server: Aphrodite
+    * Target completion date: n.a.
+    * Responsible: Infrastructure Manager, Configuration Manager
+8. Github Versioning Control System goes down
+    * Probability: 1
+    * Impact: 6
+    * Priority: 7
+    * Cost of solution: 2
+    * Solution: Using the backup server (Aphrodite) running Gitlab
+    * Target completion date: n.a.
+    * Responsible: Configuration Manager
+9. Conflicts between teammembers
+    * Probability: 3
+    * Impact: 8
+    * Priority: 8
+    * Cost of solution: 7
+    * Solution: Negotiation between the teammembers involved together with the projectmanager.
+    * Target completion date: n.a.
+    * Responsible: Project Manager
+10. Abrupt changes in requirements
+    * Probability: 2
+    * Impact: 7
+    * Priority: 8
+    * Cost of solution: 6
+    * Solution: Using the modularity of the software product to implement as easily and efficiently as possible the changes. Prevention by involving the client in the development process.
+    * Target completion date: n.a.
+    * Responsible: Requirements manager, Implementation Leader
+11. Client cancels the project
+    * Probability: 1
+    * Impact: 10
+    * Priority: 10
+    * Cost of Solution: 10
+    * Solution: Closing down the project after double checking/negotiating with the client
+    * Target completion date: n.a.
+    * Responsible: Project Manager
+12. Wrong interpretation of requirements by the team
+    * Probability: 5
+    * Impact: 7
+    * Priority: 8
+    * Cost of Solution: 6
+    * Solution: Using the modularity of the software product to correct as easily and efficiently as possible the requirements that were misunderstood
+    * Target completion date: n.a.
+    * Responsible: Requirements Manager, Implementation Leader
+
+
 
 5.5 Closeout plan
 -----------------
@@ -406,12 +480,26 @@ Not of any importance for this project.
 -----------------
 
 <!--- Nog uit te breiden (check de oldies) -->
-We will be using the [Iterative and Incremental development model](#IterativeIncremental) with some ideas of [Agile Software Development](#AgileDev), which is based on this model. This method has, first, been chosen because of the agenda of the project which consists of an incremental delivery based on 4 iterations. Secondly, it has been chosen for its simplicity and added value: we focus on a working application per iteration which can than be discussed with the client. In this way we open ourselves to requirements changes which will be given us by the client at the end of each iteration. This results in a continuous delivery of valuable software, one of the key principles of agile development. <br/>
+We will be using the [Iterative and Incremental development model](#IterativeIncremental) with some ideas of [Agile Software Development](#AgileDev), which is based on this model. This method has been chosen firstly because of the agenda of the project which consists of an incremental delivery based on four iterations. Secondly, it has been chosen for its simplicity and added value: we focus on a working application per iteration which can than be discussed with the client. In this way we open ourselves up to requirements changes which will be given to us by the client at the end of each iteration. This results in a continuous delivery of valuable software, one of the key principles of agile development. <br/>
 The figure below shows [(Boehm's) spiral model](#SpiralModel), which will be used as development process model.
 
+* One iteration consists of four phases:
+    * Determination of objectives: In this phase changes in requirements will be determined and introduced in the SRS  
+    * Identification (and resolving) risks: This phase involves the identification of possible risks caused by changed requirements: these will be discussed in the weekly meetings
+    * Developing and testing: Using the changed/extended design of the previous iteration, new and changed functionality will be implemented by the developers. The coordination of this phase is being done by the implementation leader, software quality assurance manager, design manager and test manager
+    * Planning of the next iteration: Releasing the new version of the product is the first thing to be done in this iteration. After this, the next iteration will be planned by the project manager.
 
-<img src="https://docs.google.com/drawings/d/1jUP8rTmI1hCRaV1-pIj3LXXbRKng7yIC03fFzLpbeJo/pub?w=478&amp;h=481">
+<img src="https://docs.google.com/drawings/d/10ha9GMsSzd3rF_hmI06Q8-odGFQzbw2yCeeR3UyBBx4/pub?w=365&amp;h=297">
 
+<!--- TODO: verder uit te werken 
+
+We try to follow the agile development principles as much as possible:
+
+* Satifying the customer as fast as possible with usable (prototype) software of which the functionality increases iteration after iteration
+* Keeping track and adapting to changing requirements
+* Continuously learning about new (programming) languages, technologies that enter the market
+
+-->
 
 6.2 Methods, tools and techniques
 ---------------------------------
@@ -422,7 +510,7 @@ The figure below shows [(Boehm's) spiral model](#SpiralModel), which will be use
     * communication tool for documents
     * versioning control system for source code
 * Eclipse will be used as [IDE](#IDE) during the implementation process.
-* An MySQL database will be used as backend database on Wilma. It will be populated with course schedule data.
+* A MySQL database will be used as backend database on Wilma. It will be populated with course schedule data.
 
 <!--- niet nodig
 6.3 Infrastructure plan
@@ -584,7 +672,7 @@ To keep track of the project's status however, we will use the built-in issue tr
 
 7.2 Verification and Validation Plan (STD)
 ------------------------------------------
-This plan will be delivered Friday 15th, 2013: deadline for the other documents.
+This plan will be delivered Friday 15th 2013, 2013: deadline for the other documents.
 
 7.3 SoftwareDocumentation Plan (SDP)
 -----------------------------
