@@ -8,3 +8,9 @@ Thumbs.db
 
 # VIM #
 *.swp
+.aux
+.out
+.tex
+.tex.bak
+.toc
+.log
