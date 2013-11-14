@@ -18,6 +18,7 @@ Version | Date      | Description
 ---     | ---       | ---
 **0.1** |29/10/2013 | Creation of document structure
 **0.2**    |03/10/2013 | Completion of initial version
+**0.3** |14/11/2013 | Adapted to feedback of initial version
 
 
 <!---
