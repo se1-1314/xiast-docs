@@ -275,7 +275,7 @@ Managerial Process Plans
 ===========================
 Start-up Plan
 ------------------
-###5.1.2 Staffing Plan
+###Staffing Plan
 <br />
 H = Function Holder, B = Back-up
 
