@@ -18,3 +18,10 @@ Variabele		|Inhoud
 * Iedereen: Clojure leren (vanuit java) 
 * Back-end: analyseren datadump zodra ze beschikbaar is.
 * Front-end: mock-up aanpassen in functie van iteratie 1.
+
+
+## 1. Bespreking en analyze datadump (Lars)
+
+Bespreken en al dan niet grafisch analyseren van de datadump, gekregen op 18/11/2013. Verbanden leggen tussen de verschillende spreadsheets. Nadenken over een mogelijk implementatiemodel.
+
+##2. 
