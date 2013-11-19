@@ -2,11 +2,11 @@
 
 Variabele		|Inhoud
 ---			|---
-**Datum:**              |Maandag 4 november 2013
+**Datum:**              |Donderdag 21 november 2013
 **Locatie:**            |ig lokaal
-**Begin:**              |18u
-**Einde:**              |19u15
-**Aanwezigen:**         |Lars Van Holsbeeke, Kwinten Pardon, Adriaan Leijnse, Youssef Boudiba, Nils Van Geele, Anders Deliens
+**Begin:**              |16u30
+**Einde:**              |
+**Aanwezigen:**         |
 **Secretaris:**         |Youssef Boudiba
 
 ## TODO-list vorige vergadering (? min)
