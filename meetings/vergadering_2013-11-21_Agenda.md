@@ -55,6 +55,14 @@ Zonder al te veel druk, maar hoever staat het met het ontwerp van ons logo door 
 ##7. Requirements op GitHub (Nils) (5,234 min)
 De requirements zouden moeten omgezet worden naar milestones en issues. Even bespreken.
 
+
+##8. Implementatie: startschot (Lars) (10 min)
+Vanaf volgende week hebben we nog exact 2 weken tot onze eerste milestone. In hoeverre zijn beide teams klaar om te beginnen coderen? Wat hebben ze nog nodig van informatie, documentatie, plannen, designs, modellen, etc. opdat het implementeren zou kunnen aanvangen?
+
+
+## Mededelingen
+* Er is een milestone gemaakt voor het einde van de eerste iteratie. Deze werd geplaatst op zondag 8/12/2013. Lees de beschrijving.
+
 ## TODO-list
 
 
