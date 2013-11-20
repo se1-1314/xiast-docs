@@ -33,9 +33,20 @@ Evalueren of de voorgestelde planning realistisch is voor iedereen, waar nodig o
 ##4. Informatie uit de theorielessen (Lars) (5 min)
 Ik zou graag hebben dat iedereen (voor wie dit reeds mogelijk is) nog eens aandachtig de slides uit de theorielessen, betreffende zijn verantwoordelijkheden, doorneemt. Hier zit behoorlijk wat informatie in over wat men precies verwacht van onder andere je documentatie. vb. voor de SPMP: hoe doe ik een kostenschatting -> gebruik het COCOMO-model. Voor ons persoonlijk is dat waarschijnlijk niet echt realistisch, aangezien wij 'oneindig' budget hebben (met uitzondering van tijd); maar weet dat het hier nog steeds een soort simulatie van de (zo goed als) echte wereld betreft en onze klant dit soort zaken zeker zal kunnen appreciëren.
 
+###4.1 SPMP
+* aanmaken van een kostenraming
+* aanmaken van een network-activity diagram => kritisch pad weergeven
+* aanmaken van een software product breakdown chart
+
+
 ##5. Bespreking feedback betreffende de ingeleverde documenten (Lars) (20 min)
 Analyse feedback <-> ingeleverde documenten. Bespreken: wat kan beter, wat moet nog toegevoegd/verwijderd worden, lay-out, etc.
 
+###5.1 SPMP
+
+###5.2 SRS
+
+###5.3 STD
 
 ## TODO-list
 
