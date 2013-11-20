@@ -52,6 +52,9 @@ Analyse feedback <-> ingeleverde documenten. Bespreken: wat kan beter, wat moet 
 ##6. Logo (Lars) (5 min)
 Zonder al te veel druk, maar hoever staat het met het ontwerp van ons logo door externen? In geval dat het nogal moeilijk zou liggen, zouden we zelf geen simpel maar smaakvol logo kunnen ontwerpen?
 
+##7. Requirements op GitHub (Nils) (5,234 min)
+De requirements zouden moeten omgezet worden naar milestones en issues. Even bespreken.
+
 ## TODO-list
 
 
