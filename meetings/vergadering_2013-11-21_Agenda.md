@@ -48,6 +48,10 @@ Analyse feedback <-> ingeleverde documenten. Bespreken: wat kan beter, wat moet 
 
 ###5.3 STD
 
+
+##6. Logo (Lars) (5 min)
+Zonder al te veel druk, maar hoever staat het met het ontwerp van ons logo door externen? In geval dat het nogal moeilijk zou liggen, zouden we zelf geen simpel maar smaakvol logo kunnen ontwerpen?
+
 ## TODO-list
 
 
