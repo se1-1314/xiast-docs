@@ -4,7 +4,7 @@ Variabele		|Inhoud
 ---			|---
 **Datum:**              |Donderdag 21 november 2013
 **Locatie:**            |ig lokaal
-**Begin:**              |16u30
+**Begin:**              |18u30
 **Einde:**              |
 **Aanwezigen:**         |
 **Secretaris:**         |Youssef Boudiba
@@ -12,10 +12,13 @@ Variabele		|Inhoud
 ## TODO-list vorige vergadering (? min)
 
 * Lars: Meer uitleg bij model
-* Youssef, Kwinten en Anders: HTML5 en javascript (voor de 2de iteratie, kan nog veranderen: coffeescript) 
+  In orde
 * Front-end + Adriaan: vergadering voor clojure.
+  In orde
 * Adriaan: verzamelt clojure tutorials.
+  Ok
 * Iedereen: Clojure leren (vanuit java) 
+  Bijna iedereen.
 * Back-end: analyseren datadump zodra ze beschikbaar is.
 * Front-end: mock-up aanpassen in functie van iteratie 1.
 
@@ -23,6 +26,7 @@ Variabele		|Inhoud
 ## 1. Bespreking en analyze datadump (Lars) (10 min)
 
 Bespreken en al dan niet grafisch analyseren van de datadump, gekregen op 18/11/2013. Verbanden leggen tussen de verschillende spreadsheets. Nadenken over een mogelijk implementatiemodel.
+
 
 ##2. Front-end: Clojure Training: Korte bespreking (Lars) (10 min)
 Nabespreking Clojure training video's met team "front-end": checken of dat alles duidelijk was en dat iedereen alles begrepen heeft.
@@ -44,6 +48,8 @@ Analyse feedback <-> ingeleverde documenten. Bespreken: wat kan beter, wat moet 
 
 ###5.1 SPMP
 
+Risc: metriek duidelijk uitleggen (hoe leg je dat allemaal vast).
+
 ###5.2 SRS
 
 ###5.3 STD
@@ -55,14 +61,15 @@ Zonder al te veel druk, maar hoever staat het met het ontwerp van ons logo door 
 ##7. Requirements op GitHub (Nils) (5,234 min)
 De requirements zouden moeten omgezet worden naar milestones en issues. Even bespreken.
 
+opm: Nils (bak-end) en Anders (front-end) kunnen samen de requirments bespreken om een realistisch beeld te krijgen over de huidige situatie.
 
 ##8. Implementatie: startschot (Lars) (10 min)
 Vanaf volgende week hebben we nog exact 2 weken tot onze eerste milestone. In hoeverre zijn beide teams klaar om te beginnen coderen? Wat hebben ze nog nodig van informatie, documentatie, plannen, designs, modellen, etc. opdat het implementeren zou kunnen aanvangen?
-
 
 ## Mededelingen
 * Er is een milestone gemaakt voor het einde van de eerste iteratie. Deze werd geplaatst op zondag 8/12/2013. Lees de beschrijving.
 
 ## TODO-list
-
-
+* front-end: mock-up aanpassen in functie van iteratie 1 via bv. lucid-chart (dinsdag 26 november 8u).
+* front-end: ui-implementatie.
+* 
