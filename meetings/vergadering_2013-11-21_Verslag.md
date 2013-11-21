@@ -31,7 +31,7 @@ Bespreken en al dan niet grafisch analyseren van de datadump, gekregen op 18/11/
 ##2. Front-end: Clojure Training: Korte bespreking (Lars) (10 min)
 Nabespreking Clojure training video's met team "front-end": checken of dat alles duidelijk was en dat iedereen alles begrepen heeft.
 
-##3. Bespreking GANTT-Chart (Lars) (15 min)
+##3. Bespreking GANTT-Chart (Lars) (60 min)
 Evalueren of de voorgestelde planning realistisch is voor iedereen, waar nodig ook aanvullen. Een deel van de planning zal spijtig genoeg achterhaald zijn als gevolg van het laat beschikbaar zijn van deze chart.
 
 ##4. Informatie uit de theorielessen (Lars) (5 min)
@@ -48,7 +48,7 @@ Analyse feedback <-> ingeleverde documenten. Bespreken: wat kan beter, wat moet 
 
 ###5.1 SPMP
 
-Risc: metriek duidelijk uitleggen (hoe leg je dat allemaal vast).
+Riscs: metriek duidelijk uitleggen (hoe leg je dat allemaal vast).
 
 ###5.2 SRS
 
@@ -58,18 +58,26 @@ Risc: metriek duidelijk uitleggen (hoe leg je dat allemaal vast).
 ##6. Logo (Lars) (5 min)
 Zonder al te veel druk, maar hoever staat het met het ontwerp van ons logo door externen? In geval dat het nogal moeilijk zou liggen, zouden we zelf geen simpel maar smaakvol logo kunnen ontwerpen?
 
-##7. Requirements op GitHub (Nils) (5,234 min)
-De requirements zouden moeten omgezet worden naar milestones en issues. Even bespreken.
-
-opm: Nils (bak-end) en Anders (front-end) kunnen samen de requirments bespreken om een realistisch beeld te krijgen over de huidige situatie.
+##7. Requirements op GitHub (Nils) (5 min)
+De requirements zouden moeten omgezet worden naar milestones en issues.
+Een deadline wordt niet als een milestone beschouwd.
 
 ##8. Implementatie: startschot (Lars) (10 min)
 Vanaf volgende week hebben we nog exact 2 weken tot onze eerste milestone. In hoeverre zijn beide teams klaar om te beginnen coderen? Wat hebben ze nog nodig van informatie, documentatie, plannen, designs, modellen, etc. opdat het implementeren zou kunnen aanvangen?
+
 
 ## Mededelingen
 * Er is een milestone gemaakt voor het einde van de eerste iteratie. Deze werd geplaatst op zondag 8/12/2013. Lees de beschrijving.
 
 ## TODO-list
 * front-end: mock-up aanpassen in functie van iteratie 1 via bv. lucid-chart (dinsdag 26 november 8u).
-* front-end: ui-implementatie.
-* 
+* front-end: ui-implementatie bespreken.
+* Nils, Anders (en Lars): requirments omzetten in milestones (beperken tot eerste iteratie, dinsdag 26 november 10u).
+* Nils en Adriaan: databasedesign aanpassen.
+
+## Volgende vergadering
+
+* Datum: 28 november 2013
+* Locatie: IG
+* Tijd: 16u
+
