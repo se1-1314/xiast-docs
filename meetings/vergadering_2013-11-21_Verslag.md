@@ -48,7 +48,7 @@ Analyse feedback <-> ingeleverde documenten. Bespreken: wat kan beter, wat moet 
 
 ###5.1 SPMP
 
-Riscs: metriek duidelijk uitleggen (hoe leg je dat allemaal vast).
+Risks: metriek duidelijk uitleggen (hoe leg je dat allemaal vast).
 
 ###5.2 SRS
 
