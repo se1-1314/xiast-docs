@@ -2,14 +2,19 @@
 
 Variabele		|Inhoud
 ---			|---
-**Datum:**              |Donderdag 21 november 2013
+**Datum:**              |Donderdag 28 november 2013
 **Locatie:**            |ig lokaal
-**Begin:**              |16u30
+**Begin:**              |16u00
 **Einde:**              |
 **Aanwezigen:**         |
 **Secretaris:**         |Youssef Boudiba
 
 ## TODO-list vorige vergadering (? min)
+
+
+## 1. Aanstelling nieuwe secretaris (Lars & Youssef) (10 min)
+De functie van secretaris is terug vacant. Youssef geeft meer uitleg hieromtrent.
+
 
 ## Mededelingen
 
