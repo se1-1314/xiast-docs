@@ -19,6 +19,13 @@ Variabele		|Inhoud
 ## 1. Aanstelling nieuwe secretaris (Lars & Youssef) (10 min)
 De functie van secretaris is terug vacant. Youssef geeft meer uitleg hieromtrent.
 
+## 2. Bespreking aangemaakte issues Github (Lars) (15 min.)
+Bespreking en concreter schetsen van de (door Nils) aangemaakte issues.
+
+
+## 3. Bespreking algemene voortgang (Lars) (25 min.)
+- Clojure voortgang
+- Welke IDE
 
 ## Mededelingen
 
