@@ -19,5 +19,9 @@ De functie van secretaris is terug vacant. Youssef geeft meer uitleg hieromtrent
 ## Mededelingen
 
 ## TODO-list
+* front-end: mock-up aanpassen in functie van iteratie 1 via bv. lucid-chart (dinsdag 26 november 8u).
+* front-end: ui-implementatie bespreken.
+* Nils, Anders (en Lars): requirments omzetten in milestones (beperken tot eerste iteratie, dinsdag 26 november 10u).
+* Nils en Adriaan: databasedesign aanpassen.
 
 
