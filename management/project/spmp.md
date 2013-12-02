@@ -17,9 +17,9 @@ Software Engineering 2013-2014, group 1
 Version | Date      | Description
 ---     | ---       | ---
 **0.1** |29/10/2013 | Creation of document structure
-**0.2**    |03/10/2013 | Completion of initial version
+**0.2** |03/10/2013 | Completion of initial version
 **0.3** |14/11/2013 | Adapted to feedback of initial version
-
+**0.4**	|02/12/2013	| Adapted to feedback of version 0.3
 
 <!---
 Contents
@@ -207,7 +207,7 @@ Any problems, remarks,... involving the dump of scheduling data on November 18th
 Internal Structure
 ----------------------
 ###Internal Communication
-All communication between the teammembers outside meetings must be logged by or the issue tracker on [Github](#Github) or using the internal mailinglist: se1_1314@wilma.vub.ac.be. This is a rule of thum that must be followed by the teammembers. Only if the information to communicate is such unimportant, irrelevant to the other teammembers, does not involve agreements, deadlines, etc. and the urgency of the concerning activities is very low, teammembers can use private mail. In case of urgent problems, problems with another teammember, important matters that need immediate attention, etc. teammembers may use the private mobile phone number of the [Projectmanager](#Projectmanager) that has been given to them in the second meeting.
+All communication between the teammembers outside meetings must be logged by or the issue tracker on [Github](#Github) or using the internal mailinglist: se1_1314@wilma.vub.ac.be. This is a rule of thumb that must be followed by every teammember. Only if the information to communicate is not important, irrelevant to the other teammembers, does not involve agreements, deadlines, etc. and the urgency of the concerning activities is very low, teammembers can use private mail. In case of urgent problems, problems with another teammember, important matters that need immediate attention, etc. teammembers may use the private mobile phone number of the [Projectmanager](#Projectmanager) that has been given to them in the second meeting.
 
 ###Internal Organisation
 The chart below shows the internal organisation and flows of information between the actors of the team:
