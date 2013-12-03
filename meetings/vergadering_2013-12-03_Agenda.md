@@ -41,6 +41,22 @@ We overlopen a.d.h.v. de gemaakte issues het opgeleverde werk. Waar is nog event
 	* Back end: Save language selection + session support
 
 
+## 3. Individuele feedback - einde iteratie 1 (Lars) (30 min)
+Aan het eind van elke iteratie wordt er een persoonlijke feedbacksessie gehouden waarbij ieder teammember op persoonlijke wijze zijn inbreng kan in hebben. Misschien lijkt dit voor een aantal mensen serieus overdreven, maar het zou mij waardevolle kunnen geven over hoe de groep het project ervaart: wat zijn mogelijke opportunities, threats,...? Op deze manier kan ik waar nodig bijsturen en specifieke beslissingen nemen aangaande de gemelde problemen. Dit kan op langere termijn mogelijke disputen, miscommunicatie, spanningen en andere anomalieën voorkomen.
+
+Dergelijke sessie gaat zal dan voornamelijk over het volgende gaan:
+Wat vond je tot nu toe van het project?
+
+*	Is er iets dat je tegenzat?
+*	Zijn er dingen die je liever anders zou zien?
+*	Heb je eventuele problemen met andere teamleden?
+*	Voel je je goed in deze groep?
+*	Zijn er specifieke, eerder praktische problemen
+	*	Bij het schrijven van documenten, code,... ?
+	*	Werken met Git?
+	*	Omgaan met de architectuur van het project?
+*	Andere zaken.
+
 
 ## Mededelingen
 - Reminder: vergeet jullie documenten niet volledig af te werken (bij voorkeur al tegen 8/12/2013)
