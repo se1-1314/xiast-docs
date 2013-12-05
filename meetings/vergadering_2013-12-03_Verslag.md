@@ -1,4 +1,4 @@
-# Agenda vergadering 7
+# Verslag vergadering 7
 
 Variabele				|Inhoud
 ---			    		|---
