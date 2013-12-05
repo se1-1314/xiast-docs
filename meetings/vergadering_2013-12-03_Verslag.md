@@ -6,7 +6,7 @@ Variabele				|Inhoud
 **Locatie:**            |E.0.02
 **Begin:**              |16u30
 **Einde:**              |
-**Aanwezigen:**         |Iedereen\{Anders}
+**Aanwezigen:**         |Iedereen \\ {Anders}
 **Secretaris:**         |Nils Van Geele
 
 ## TODO-list vorige vergadering (? min)
