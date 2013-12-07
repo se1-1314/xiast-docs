@@ -11,7 +11,7 @@ variabele	|Inhoud
 
 ## TODO-List vorige vergadering (10 min)
 
-1. **Anders: ** werkt requirements verder uit.
+1. **Anders:** werkt requirements verder uit.
 
     1. SRS voorbeelden opgezocht.
 
