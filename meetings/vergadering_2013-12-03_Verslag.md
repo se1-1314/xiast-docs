@@ -12,7 +12,7 @@ Variabele				|Inhoud
 ## TODO-list vorige vergadering (? min)
 * Iedereen: iedereen leest elkaars document na!
 ** Ja, de noodzakelijke
-* Iedereen: Clojure Style Guie lezen en toepasen.
+* Iedereen: Clojure Style Guide lezen en toepasen.
 ** Niet echt; tegen volgende week: doen!
 * Front-end: Werken samen aan ui-implementatie.
 ** Gebeurd
