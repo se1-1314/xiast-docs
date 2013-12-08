@@ -62,9 +62,9 @@ Milestones feature progress trackers which again makes it really easy for people
 
 For example: "Functioning user system" can be a milestone, with issues such as "User registration" and "User login", or "Access control" with "Assigning user rights" and "Rights checking" as some of the issues.
 
-Requests for implementation and suggestions can also be made through the creation of issues.
-If a request or suggestion gets denied, we can just simply close the issue (issues can always be re-opened).
-Issues also feature a comment section which makes it easy for team members to discuss these requests and suggestions.
+As mentioned earlier, the issue tracker can and must be used for more than just tracking progress of the requirements.
+Issues will be made to report bugs and propose fixes, to propose enhancements or request extra functionality, to report on critical errors and so on.
+Every issue features a comment section which makes it easy for team members to discuss requests, bugs, and so on.
 
 It is important that the issue tracker is kept clean at all times.
 What this means is that all issues and milestones have proper descriptions and descriptive titles, issues that are finished must be closed (see workflow), when one team member takes over an issue from another team member this must be updated on the tracker, ... and so on.
