@@ -49,7 +49,7 @@ Last but not least is the test report. This will be an overview (summary) of som
   <tr>
     <td>V0.3</td>
     <td>8/12/2013</td>
-    <td>removing unecessary content and updating topics</td>
+    <td>removing unnecessary content and updating topics</td>
   </tr>
 </table>
 
