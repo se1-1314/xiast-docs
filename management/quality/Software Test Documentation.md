@@ -12,7 +12,7 @@
 
 The software test documentation is based on the IEEE standard for software test documentation (829-1998). Since we are working on a small project, we will not cover every topics proposed by the standard, but will instead focus on those who are more relevant to our project. 
 
-This documentation consists of 4 parts:
+This documentation consists of 3 parts:
 
 
 **_1. Test specification:_**
