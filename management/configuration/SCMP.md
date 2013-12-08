@@ -17,9 +17,8 @@ This includes reports made during meetings and all plans made by the different l
 
 Every manager has his own directory inside the `management` directory.
 In this directory, the manager can put all files related to his work and reports.
-If a manager wants to make a change to the directory structure, for instance a new folder inside the management directory, an issue (see below) should be created and closed by the software configuration manager.
+If a manager wants to make a change to the main directory structure, he is free to do so but must contact the configuration manager about it.
 By doing this the software configuration manager can keep the directory structure in the SCMP up-to-date.
-Issues should not be created for structural changes inside one's own directory.
 
 The current directory structure, which may be subject to change, is:
 
@@ -33,14 +32,21 @@ The current directory structure, which may be subject to change, is:
 		* **requirements** concerning all software requirements
 	* **meetings** contains all agendas and reports of meetings
 	* **manuals** contains all files related to the Xiast manuals
+	* **templates** contains templates for deliverables
 
 
 ### xiast
 
-The `xiast` repository is the main repository that will contain all the code for both the server and the Xiast website.
-The current directory structure, which again may be subject to change, is:
+The `xiast` repository is the main repository that contains all the code for both the server and the Xiast website.
+The directory structure is that of a basic Leiningen project:
 
 * **/**
+	* **resources**
+		* **dictionaries** directory containing translates strings for internationalisation
+		* **public** directory containing public files such as images, CSS stylesheets, ...
+		* **templates** directory containing all website templates
+	* **src** directory containing the source files
+	* **test** directory containing all tests
 
 The `xiast` repository is for code and related resources (graphics, sound, SQL, ...) only.
 
@@ -50,15 +56,15 @@ With GitHub's issue tracker, which can be found at `https://github.com/se1-1314/
 An issue can be anything from a bug, request for implementation or suggestion, goal, ...
 By using this tool we can achieve a workflow that will make it easier for both us and others to track the progress of the project.
 
-First of all, when all requirements of the project are known and we know more about the design of the software, we will split up every requirement in one or more smaller "tasks" that need to be finished in order to implement the requirement.
-These issues can then be bundled into a *milestone* which denotes the requirement that needs to be implemented.
+When all requirements of the project are known, we will start splitting up the requirements in one or more smaller "tasks" that need to be finished in order to implement the requirement.
+These issues can then be bundled into a *milestone* which denotes the requirement or part of the requirement that needs to be implemented.
 Milestones feature progress trackers which again makes it really easy for people to see how much still needs to be done for a requirement.
 
 For example: "Functioning user system" can be a milestone, with issues such as "User registration" and "User login", or "Access control" with "Assigning user rights" and "Rights checking" as some of the issues.
 
-Furthermore, if bugs are found during testing or actual use of the application, issues can be made for these bugs which will be assigned to a special milestone exclusively for bug fixing.
-
-Requests for implementation and suggestions can also be made through the creation of issues. If a request or suggestion gets denied, we can just simply close the issue (issues can always be re-opened). If the request or suggestion gets accepted, the issue needs to be assigned to a milestone specific for this issue.
+As mentioned earlier, the issue tracker can and must be used for more than just tracking progress of the requirements.
+Issues will be made to report bugs and propose fixes, to propose enhancements or request extra functionality, to report on critical errors and so on.
+Every issue features a comment section which makes it easy for team members to discuss requests, bugs, and so on.
 
 It is important that the issue tracker is kept clean at all times.
 What this means is that all issues and milestones have proper descriptions and descriptive titles, issues that are finished must be closed (see workflow), when one team member takes over an issue from another team member this must be updated on the tracker, ... and so on.
@@ -75,12 +81,11 @@ This workflow allows us to tightly integrate the issue tracker into our project.
 There will always be one central branch: the **master** branch.
 This branch is the actual "master copy" of our project and should contain preferably only working code.
 
-Whenever an issue needs to be implemented, it first needs to be assigned to a team member who will then be responsible for the implementation of said issue.
-The member will then locally, after pulling the repository first, create a new branch from the `master` branch and name it after the issue.
-He will then checkout the newly made branch, from now on the working branch, and publish it to GitHub.
+Whenever a team member wants to implement changes, he must first branch the master branch into a new one and commit all his changes to the newly created branch.
+This branch, which is created locally, needs to be published to GitHub.
+This doesn't only make it easier to track changes on the branch, but also makes it easier to transfer the work to someone else.
 
-All work related to implementing the feature will then be done on the working branch and that branch only.
-Regulary pushing commits made in the working branch is a must.
+Because some issues have a really small workload and can be solved in a single commit, it's possible to solve multiple issues on one single branch instead of creating a branch for every issue.
 
 ### Merging
 After the work has been done and the issue is implemented, the working branch needs to be merged into the `master` branch.
@@ -93,10 +98,11 @@ If and only if all work is done and the working branch is conflict free and the 
 This is done by making a **pull request**.
 
 ### Pull request
-When making a pull request, select the `master` branch as the base branch and the working branch as the copmare branch.
-In the description of a pull request a link to the appropriate issue of the working branch should be included.
+When making a pull request, select the `master` branch as the base branch and the working branch as the compare branch.
+If the branch that is being merged closes one or more issues, they should be referenced in the description.
+If done correctly, like described in [this guide](https://help.github.com/articles/closing-issues-via-commit-messages), the issues can be automatically closed when the pull request gets accepted.
 
-After making the pull request, it is the implementation manager's responsibility to accept or deny the request.
+After making the pull request, it is the (backup) implementation manager's responsibility to accept or deny the request.
 The first step is to review the code by testing it locally to see if it actually works.
 If he so chooses, he can also simulate the merging locally to see if it works with previous accepted pull requests.
 
@@ -109,21 +115,16 @@ The second option is advised.
 In this case, the team member must fix his code and make a new pull request.
 The same is valid for when there are problems with the code itself.
 
-### Reassigning issues
-When a member is assigned to an issue and can't implement or solve it because of reasons, the issue can be reassigned to another team member.
-In this case, the previous member should make sure the latest commits on the working branch are pushed to GitHub.
-The new member can then easily pick up the previous member's work.
+### Assigning and reassigning issues
+To keep track of who is working on what and to avoid double work, members should assign themselves or others to issues.
+This can be done on the issue tracker itself.
 
-Updating the issue on the tracker must not be forgotten either!
+If a team member is stuck, the member is free to transfer the work to someone else.
+But he must not forget to reassign the issue to the other person
 
 ### docs
 For the `xiast-docs` repository, we don't need to use the feature branch workflow, we can just use a **centralized workflow**.
 This means we won't use branching and we will just commit to the master branch.
-
-### Tagging
-At the end of every iteration of the project, the project manager is responsible to make an *annotated tag* for both repositories.
-The names of the tag should follow the following naming convention: `iteration-{i}.{e}` where `{i}` is the current iteration and `{e}` stand for last minute edits after making the tag starting with 0.
-This leaves room for a small amount of error.
 
 ## Project website
 
