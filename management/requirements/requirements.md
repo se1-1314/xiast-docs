@@ -2,7 +2,7 @@
 
 ## Software Engineering 2013-2014, group 1
 
-### Version 1.0
+### Version 2.0
 ##### by Anders Deliens
 #####    Requirements Management Leader
 
@@ -56,6 +56,14 @@ in section 3.
 
 This document largely follows the IEEE Std 830-1998.
 
+### 1.6 Revision history
+
+Version | Date      | Description
+---     | ---       | ---
+**0** |28/10/2013 | First draft of SRS
+**1** |13/11/2013 | Completion of initial version
+**2** |08/12/2013 | Adapted to feedback of initial version
+
 ## 2 Overall description
 
 ### 2.1 Product perspective
@@ -81,10 +89,12 @@ smartphone. They will be notified of any last-minute changes made to their sched
 Teachers get certain courses assigned by program-administrators. They will be able to check their roster online and 
 on their smartphone. They will be able to send their specifications regarding their courses 
 (like maximum number of students, or the need of a overhead-projector, days they won't be able to teach...) to 
-the program-administrator, who will try to implement these request in the scheduling, if possible. A teacher can do a scheduling for his own courses, and can mark this as 
-a good roster for him, send it to a program-administrator, who will try to incorporate this roster in the final roster. If a teacher, for 
+the program-administrator, who will try to implement these request in the scheduling, if possible. 
+Teachers can perform scheduling for their own courses and can mark these
+with a flag, so the program-administrator can see that they approve of this roster. If a teacher, for 
 some reason, cannot make it to his scheduled class, he can notify the application, which will update the rosters 
-for all students attending said class. Teachers can request certain changes to their personal roster, but only a 
+for all students attending said class. 
+Teachers can request certain changes to their personal roster, but only a 
 program administrator is able to actually change the roster and the details of it.
 
 Program administrators are in charge of a bundle of courses, which combined together form a standard program. They 
@@ -142,9 +152,8 @@ the first letter of the user class (G=Guest;U=User;S=Student;T=Teacher and P=Pro
 
 #### 3.2.1 User Class 1: Guest
 
-##### 3.2.1.1 Functional Requirement 1.1
+##### 3.2.1.1 Functional Requirement **ID**: FRG1 
 
-**ID**: FRG1  
 **TITLE**: Log in  
 **DESCRIPTION**: When a guest correctly enters the username and password of an existing account, he will be logged in,
 giving him the appropriate rights.  
@@ -157,9 +166,8 @@ If a guest enters the wrong password or username, the system will display an err
 The guest will be than be redirected to the log in screen, where he can try to log in again.  
 **POSTCONDITION**: The guest is now logged in as a user and the system is showing his/her "Account" screen.
 
-##### 3.2.1.2 Functional Requirement 1.2
+##### 3.2.1.2 Functional Requirement **ID**: FRG2 (see also FRU2) 
 
-**ID**: FRG2 (see also FRU2)  
 **TITLE**: Cycling tabs  
 **DESCRIPTION**: Guests can cycle through the tabs on the home screen.  
 **PRECONDITION**: "Home" screen is showing    
@@ -167,9 +175,8 @@ The guest will be than be redirected to the log in screen, where he can try to l
 **EXCEPTIONS**: None  
 **POSTCONDITION**: The appropriate screen is showing.
 
-##### 3.2.1.3 Functional Requirement 1.3
+##### 3.2.1.3 Functional Requirement **ID**: FRG3  
 
-**ID**: FRG3  
 **TITLE**: Choosing language  
 **DESCRIPTION**: Guests can choose their language by clicking on the language tab.  
 **PRECONDITION**: Home screen is showing  
@@ -182,9 +189,8 @@ other pages of the application will also be translated to the preferred language
 
 All the functional requirements that follow, will apply to all three types of users: students, teachers and program-administrators.
 
-##### 3.2.2.1 Functional Requirement 2.1
+##### 3.2.2.1 Functional Requirement **ID**: FRU1  
 
-**ID**: FRU1   
 **TITLE**: Log out  
 **DESCRIPTION**: Users can log out, becoming a guest.  
 **PRECONDITION**: User is logged in.  
@@ -194,9 +200,8 @@ screen as a guest.
 If the user clicks another tab after clicking the log out button, the system will interpret this as a cancel log out command.  
 **POSTCONDITION**: The user is logged out and is now a guest.
 
-##### 3.2.2.2 Functional Requirement 2.2
+##### 3.2.2.2 Functional Requirement **ID**: FRU2 (see also FRG2) 
 
-**ID**: FRU2 (see also FRG2)  
 **TITLE**: Cycling tabs  
 **DESCRIPTION**: Users can cycle through the tabs on the home screen.  
 **PRECONDITION**: "Home" screen is showing  
@@ -204,9 +209,8 @@ If the user clicks another tab after clicking the log out button, the system wil
 **EXCEPTIONS**: None  
 **POSTCONDITION**: The appropriate screen is showing.
 
-##### 3.2.2.3 Functional Requirement 2.3
+##### 3.2.2.3 Functional Requirement **ID**: FRU3  
 
-**ID**: FRU3  
 **TITLE**: Viewing schedule.  
 **DESCRIPTION**: Users can view their personal schedule and filter the display of the schedule with different modifiers.  
 **PRECONDITION**: None   
@@ -217,9 +221,8 @@ to see as well as which program or course they want to view. They can also choos
 
 #### 3.2.3 User Class 3: Student
 
-##### 3.2.3.1 Functional Requirement 3.1
+##### 3.2.3.1 Functional Requirement **ID**: FRS1 
 
-**ID**: FRS1  
 **TITLE**: View courses  
 **DESCRIPTION**: Students can take a look at all the courses they follow.  
 **PRECONDITION**: None    
@@ -228,9 +231,8 @@ displayed.
 **EXCEPTIONS**: If the student should not have any registered courses, a message will notify the student.  
 **POSTCONDITION**: The correct list of registered courses of the student is displayed.
 
-##### 3.2.3.2 Functional Requirement 3.2
+##### 3.2.3.2 Functional Requirement **ID**: FRS2  
 
-**ID**: FRS2  
 **TITLE**: Search for course or program  
 **DESCRIPTION**: Students can search a course or program   
 **PRECONDITION**: Students must be on the "Courses" page in order to perform a search.     
@@ -239,9 +241,8 @@ will be displayed. There will be an option for the student to limit his search t
 **EXCEPTIONS**: When there are no courses/programs that match the search criteria, a notification will alert the student.  
 **POSTCONDITION**: A list matching the search criteria will be displayed.
 
-##### 3.2.3.3 Functional Requirement 3.3
+##### 3.2.3.3 Functional Requirement **ID**: FRS3  
 
-**ID**: FRS3  
 **TITLE**: Registering for a course or program  
 **DESCRIPTION**: Students can register for courses and programs   
 **PRECONDITION**: Students must be on the "Courses" page in order to register for courses or programs.     
@@ -251,9 +252,8 @@ student can click a "plus"-symbol next to the course. A pop-up will ask for conf
 he will not be registered for the course.  
 **POSTCONDITION**: The student is now registered for the course/program.
 
-##### 3.2.3.4 Functional Requirement 3.4
+##### 3.2.3.4 Functional Requirement **ID**: FRS4
 
-**ID**: FRS4  
 **TITLE**: Unregister for a course or program  
 **DESCRIPTION**: Students can unregister for courses and programs.   
 **PRECONDITION**: Students must be on the "Courses" page in order to register for courses or programs and must be registered to at least one course.     
@@ -263,9 +263,8 @@ the student will be unregistered.
 **EXCEPTIONS**: When a student presses cancel he will not be unregistered.  
 **POSTCONDITION**: The student is no longer registered for the course/program.
 
-##### 3.2.3.5 Functional Requirement 3.5
+##### 3.2.3.5 Functional Requirement **ID**: FRS5  
 
-**ID**: FRS5  
 **TITLE**: Viewing course details  
 **DESCRIPTION**: Students can view the details of courses.   
 **PRECONDITION**: Students must be on the "Courses" page in order to view the details of a course.     
@@ -277,9 +276,8 @@ screen.
 
 #### 3.2.4 User Class 4: Teacher
 
-##### 3.2.4.1 Functional Requirement 4.1
+##### 3.2.4.1 Functional Requirement **ID**: FRT1  
 
-**ID**: FRT1  
 **TITLE**: View courses  
 **DESCRIPTION**: Teachers can take a look at all the courses that are assigned to them.  
 **PRECONDITION**: None    
@@ -287,9 +285,8 @@ screen.
 **EXCEPTIONS**: If the are no courses assigned to the teacher, a message will notify him of that.  
 **POSTCONDITION**: The correct list of all assigned courses will be displayed.
 
-##### 3.2.4.2 Functional Requirement 4.2
+##### 3.2.4.2 Functional Requirement **ID**: FRT2  
 
-**ID**: FRT2  
 **TITLE**: Last-minute cancelling  
 **DESCRIPTION**: Teachers can cancel a scheduled course last-minute.   
 **PRECONDITION**: A course must be scheduled and the teacher must go to his "view" screen.     
@@ -299,9 +296,8 @@ This cancellation is immediately visible for all the students attending this cou
 **EXCEPTIONS**: When the teacher aborts the cancellation, nothing happens and he is returned to the "view" screen.  
 **POSTCONDITION**: The course is no longer scheduled and this change is visible in all schedules containing this course.
 
-##### 3.2.4.3 Functional Requirement 4.3
+##### 3.2.4.3 Functional Requirement **ID**: FRT3
 
-**ID**: FRT3  
 **TITLE**: Edit details of course.  
 **DESCRIPTION**: Teachers can change the details of a course.   
 **PRECONDITION**: A course must be assigned to the teacher.     
@@ -313,9 +309,8 @@ a save button.
 **EXCEPTIONS**: The teacher can hit the cancel adjustments button, so no changes will occur.  
 **POSTCONDITION**: The course description, facilities and preferences are changed and updated correctly.
 
-##### 3.2.4.4 Functional Requirement 4.4
+##### 3.2.4.4 Functional Requirement **ID**: FRT4  
 
-**ID**: FRT4  
 **TITLE**: Teacher auto-scheduling  
 **DESCRIPTION**: Teachers can order a scheduling of their own courses and mark one as a "proposal".   
 **PRECONDITION**: Courses must be assigned to the teacher.     
@@ -328,9 +323,8 @@ proposal" so that it remains clearly visible that there are still conflicts in t
 The conflicts will be highlighted in order to make them more visible.  
 **POSTCONDITION**: A newly scheduled roster is marked as "(non-)conflicting proposal" and this proposal is visible for the program-administrator.
 
-##### 3.2.4.5 Functional Requirement 4.5
+##### 3.2.4.5 Functional Requirement **ID**: FRT5  
 
-**ID**: FRT5  
 **TITLE**: Teacher manual adjustments   
 **DESCRIPTION**: Teachers can manually adjust their schedule.   
 **PRECONDITION**: Courses must be assigned to the teacher. The teacher has done a scheduling.  
@@ -341,9 +335,8 @@ the courses lose their highlighted state. The teacher can mark the schedule as "
 
 #### 3.2.5 User Class 5: Program-administrator
 
-##### 3.2.5.1 Functional Requirement 5.1
+##### 3.2.5.1 Functional Requirement **ID**: FRP1  
 
-**ID**: FRP1  
 **TITLE**: View programs and courses  
 **DESCRIPTION**: Program-administrators can look at all the programs that they have to control.  
 **PRECONDITION**: None    
@@ -352,9 +345,8 @@ If he presses on one of the programs, a list containing all the courses of that 
 **EXCEPTIONS**: If the are no programs or if there are no courses in a program, a message will notify the program-administrator.  
 **POSTCONDITION**: The correct list of all the programs under control of the program-administrator will be displayed.
 
-##### 3.2.5.2 Functional Requirement 5.2
+##### 3.2.5.2 Functional Requirement **ID**: FRP2  
 
-**ID**: FRP2  
 **TITLE**: Add Program  
 **DESCRIPTION**: Program-administrators can add a program to their repertoire.  
 **PRECONDITION**: None    
@@ -363,9 +355,8 @@ in a name for the program. After hitting the save button, the program is created
 **EXCEPTIONS**: When the program-administrator presses cancel, no program is created and he is redirected to the "Programs" view.  
 **POSTCONDITION**: A new program is created.
 
-##### 3.2.5.3 Functional Requirement 5.3
+##### 3.2.5.3 Functional Requirement **ID**: FRP3  
 
-**ID**: FRP3  
 **TITLE**: Add Course  
 **DESCRIPTION**: Program-administrators can add a course to one of their programs.  
 **PRECONDITION**: The program-administrator should have at least one program under his control.    
@@ -375,9 +366,8 @@ an optional one, define how many hours are WPO and how many are HOC. After hitti
 **EXCEPTIONS**: When the program-administrator presses cancel, the course isn't added and he returns to the "program" screen.  
 **POSTCONDITION**: The new course is added to a program.
 
-##### 3.2.5.4 Functional Requirement 5.4
+##### 3.2.5.4 Functional Requirement **ID**: FRP4  
 
-**ID**: FRP4  
 **TITLE**: Edit program/course  
 **DESCRIPTION**: Program-administrators can edit the courses inside their programs.  
 **PRECONDITION**: The program-administrator should have at least one program under his control, containing a minimum of one course.    
@@ -387,9 +377,8 @@ After hitting save, the form is updated.
 **EXCEPTIONS**: When the program-administrator presses cancel, the course isn't changed and he returns to the "program" screen.
 **POSTCONDITION**: Course details are changed and/or courses are removed from a program.
 
-##### 3.2.5.5 Functional Requirement 5.5
+##### 3.2.5.5 Functional Requirement **ID**: FRP5 
 
-**ID**: FRP5  
 **TITLE**: View preferences/facilities courses  
 **DESCRIPTION**: Program-administrators can see the preferences and facilities required for each course in their program.  
 **PRECONDITION**: The program-administrator should have at least one program under his control, containing a minimum of one course.    
@@ -399,9 +388,8 @@ program-administrator can return to his "Programs" view.
 **EXCEPTIONS**: When the teacher of the course hasn't filled in the preferences and facilities of the course, the program-administrator will be alerted with a notification.  
 **POSTCONDITION**: Course preferences and facilities are shown on the screen.
 
-##### 3.2.5.6 Functional Requirement 5.6
+##### 3.2.5.6 Functional Requirement **ID**: FRP6 
 
-**ID**: FRP6  
 **TITLE**: Auto-scheduling  
 **DESCRIPTION**: Program-administrators can command Xiast to perform a scheduling on the courses of their programs and mark it as "final".  
 **PRECONDITION**: The program-administrator should have at least one program under his control, containing a minimum of one course.    
@@ -412,9 +400,8 @@ Now this schedule will become visible for every user.
 proposal" so that it remains clearly visible that there are still conflicts in this schedule. The conflicts will be highlighted in order to make them more visible.   
 **POSTCONDITION**: The new "final" schedule is available for everyone or the newly scheduled roster is marked as "non-conflicting proposal".
 
-##### 3.2.5.7 Functional Requirement 5.7
+##### 3.2.5.7 Functional Requirement **ID**: FRP7 
 
-**ID**: FRP7  
 **TITLE**: Manual scheduling  
 **DESCRIPTION**: Program-administrators can manually perform changes to a schedule.  
 **PRECONDITION**: The program-administrator should have at least one program under his control, containing a minimum of one course.    
@@ -431,17 +418,17 @@ user.
 No particular performance related objectives were put forward for this project, however the aim of this project is to make Xiast as performant as possible. The number of students should 
 not be of any concern, since students don't communicate with each other. The number of teachers or program-administrator also doesn't influence the performance of the application, however 
 time to negotiate between different teachers and program-administrators to come up with a solution for overlaps will increase, since they have to reach a consensus about the subject.
+The biggest performance issue will probably be the automatic schudeling. This scheduling should take no longer than a couple of seconds, after which the roster should be displayed immediatly. 
 
 ### 3.4 Design constraints
 
-There are no design constraints except that the application must be able to run on android devices and only free, open-source software/programming languages may be used.
+The application must be able to run on android devices and only free, open-source software/programming languages may be used.
 
 ### 3.5 Software system attributes
 
 #### 3.5.1 Reliability
 
-The application should work the way it is intended to work at all time. We aim not to have more than 50 errors the first year after launch and the number of errors should decrease over 
-the years.
+The application should work the way it is intended to work at all time. We will provide support for this project at least until May 21st of the year 2014.
 
 #### 3.5.2 Availability
 
