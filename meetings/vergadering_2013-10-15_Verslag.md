@@ -125,25 +125,25 @@ Uit de mogelijke namen die we hebben bedacht voor het project kwam onze uiteinde
 
 Lijst van namen:
 
-    7. casy (creating a schedule for you)
+    1. casy (creating a schedule for you)
 
-    8. xiast (xiast is a scheduling tool) 
+    2. xiast (xiast is a scheduling tool) 
 
-    9. stom (scheduling tool op maat)
+    3. stom (scheduling tool op maat)
 
-    10. sandy (scheduling and displaying yours)
+    4. sandy (scheduling and displaying yours)
 
-    11. cinar (cali isn’t a rival)
+    5. cinar (cali isn’t a rival)
 
-    12. right on time
+    6. right on time
 
-    13. gregor...
+    7. gregor...
 
-    14. Cali-mero 
+    8. Cali-mero 
 
-    15. Skedu.lr
+    9. Skedu.lr
 
-    16. My Schedule
+    10. My Schedule
 
 4. **Logo van het project**
 

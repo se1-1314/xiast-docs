@@ -44,7 +44,7 @@ Volgende zaken moeten nog in het mock-up geintegreerd worden:
 
 ## TODO-list
 * Iedereen: iedereen leest elkaars document na!
-* Iedereen: Clojure Style Guie lezen en toepasen.
+* Iedereen: Clojure Style Guide lezen en toepasen.
 * Front-end: Werken samen aan ui-implementatie.
 * Back-end: Spreken samen af.
 

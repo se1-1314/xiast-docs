@@ -64,7 +64,7 @@ Variabele		|Inhoud
 ## 4. TODO-list
 
 * Lars: Meer uitleg bij model
-* Youssef, Kwinten en Anders: HTML5 en javascript (voor de 2de iteratie, kan nog veranderen: coffescript) 
+* Youssef, Kwinten en Anders: HTML5 en javascript (voor de 2de iteratie, kan nog veranderen: Coffeescript) 
 * Front-end + Adriaan: vergadering voor clojure.
 * Adriaan: verzamelt clojure tutorials.
 * Iedereen: Clojure leren (vanuit java) 
