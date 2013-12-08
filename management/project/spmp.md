@@ -2,15 +2,13 @@ Software Project Management Plan
 ================================
 Software Engineering 2013-2014, group 1
 ----------------------------------------
-###Version 1.0
+###Version 0.4
 #### December 2nd, 2013
 ##### Lars Van Holsbeeke
 ##### *Project Manager*
 ##### <mailto:lavholsb@vub.ac.be>
-<br/><br/>
-######Disclaimer: This document is in beta phase and is therefore subject to possible changes.
+
 * * *
-<!--BREAK-->
 
 <h1 id=RevisionHistory>Revision History</h1>
 
@@ -19,7 +17,7 @@ Version | Date      | Description
 **0.1** |29/10/2013 | Creation of document structure
 **0.2** |03/11/2013 | Completion of initial version
 **0.3** |14/11/2013 | Adapted to feedback of initial version
-**0.4**	|02/12/2013	| Adapted to feedback of version 0.3
+**0.4** |02/12/2013	| Adapted to feedback of version 0.3
 
 <!---
 Contents
@@ -68,7 +66,7 @@ Some constraints involving documentation standards, infrastructure and use of ce
 * An SCMP and an SQMP are not necessary, but all relevant information concerning them must be found in the SPMP.
 
 ####Language
-* Only Java, JavaScript, HTML, CSS, SQL and corresponding libraries and open-source frameworks 
+* Only Clojure, Java, JavaScript, HTML, CSS, SQL and corresponding libraries and open-source frameworks 
 * Only open-source software may be used for both the endproduct and tools
 * A particular choice of library, tool, etc. must be motivated by means of reliabilityn, openness and simplicity.
 * A library can only be used after agreement with the client and a comparative study of other possible libraries.
@@ -202,7 +200,7 @@ In this project the titular of this course, [Software Engineering](#SoftEng), mr
 All communication concerning the available infrastructure: the [Wilma](#Wilma) backend server will be handled with the head of infrastructure, mr. D. Van Deun by the web- and databasemanager.
 
 ###External Scheduling Data
-Any problems, remarks,... involving the dump of scheduling data on November 18th, 2013 will be communicated to the infrastructure manager, mr. D. Van Deun.
+Any problems, remarks,... involving the dump of scheduling data on November 18th, 2013 will be communicated to the professor of the course, mrs. R. Van Der Straeten.
 
 Internal Structure
 ----------------------
@@ -212,16 +210,24 @@ All communication between the teammembers outside meetings must be logged by or 
 ###Internal Organisation
 The chart below shows the internal organisation and flows of information between the actors of the team:
 
+<!-- TODO: UNCOMMENT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-<img src="https://docs.google.com/drawings/d/1Lr1H6Qc6iEJITFeQEQt6LUKlboLE6e78SmbZ2jCZRGw/pub?w=781&amp;h=430">
+<img src="https://docs.google.com/drawings/d/1IYsAJUCK387y5APVW-sHPmnaf-U2Z95roFWV-v7IWAk/pub?w=594&amp;h=351">
+-->
 
-The [Projectmanager](#Projectmanager) acts as a central coordination point for the whole team, he also communicates with the client (see [Client](#4.1.1)). Communicationflows with the client are colored red.
 
-Roles and responsibilities
--------------------------------
+
+*   The [Projectmanager](#Projectmanager) acts as a central coordination point for the whole team. This means that he is         responsible to solve (personal) issues between teammembers,  He also communicates with the client about general project issues concerning planning, progress,...  (see Roles and Responsibilities)
+*   Every manager has the same grade compared to any other manager.  This arises from the fact that every teammember fulfills the role of a manager, because of the restricted number of teammembers. In this way every teammember can communicate problems of any kind to the other teammembers without having to propagate them through a complex hierarchy of chiefs, leaders, managers, etc. "Internal Communication" give more information about how this communication takes place.
+*   Because of their (semi) overlap with the tasks of their super functions, non-managerial positions (secretary, webmaster and Server & Database manager) will have communicate their issues, reports, etc. to their corresponding manager.
+*   As already mentioned, only the project manager, design leader and requirements manager can communicate directly to the client.
+
+<h2 id=RolesResp> Roles and Responsibilities </h2>
+
 <!--- eventueel (zoals in de standaard beschreven) een matrix maken van personen X work activities (= hun verantwoordelijkheden) voor een beter overzicht -->
-<!--- VERGADERING: alle verantwoordelijkheden nog eens goed bespreken -->
 <!--- voeg een server manager toe -->
+
+
 
 * Project Manager
     * Creating & providing the SPMP with updates
@@ -235,7 +241,8 @@ Roles and responsibilities
     * Ensuring quality of non-code artefacts, created by the teammembers
     * Verifying (together with the secretary) meeting minutes and correcting them if needed
     * Creation of a time-scheme, together with the other teammembers
-    * Creation of annotated tags on the Github repository: one for each iteration
+    * Creation of annotated tags on the Github repository (together with the configuration manager): one for each iteration
+    * Creating presentations
 * Configuration Manager
     * Creating & providing the SCMP with updates
     * Managing the [Github](#Github) repository for code and documents
@@ -247,7 +254,7 @@ Roles and responsibilities
     * Optionally creating (and maintaining) an SQAP
     * Quality-based Monitoring of the Software
     * Reviewing source-code: are all required features implemented?
-    * Setting up [JUnit](#JUnit) tests
+    * Setting up Unit tests
 * Requirements Management Leader
     * Creation of & providing the SRS with updates
     * Communicating with client about requirements: p.e. in case of ambiguity, special requests, etc.
@@ -263,12 +270,17 @@ Roles and responsibilities
     *  Reporting issues concerning the source code on meetings
     *  Distributing programming workload to all teammembers
     *  Monitoring developers
-* Server Manager
+* Server & Database responsible
     *  Regularly updates the website with new information
     *  Takes care of communication with the infrastructure manager
     *  Manages database, server applications and related services
+*   Webmaster
+    *   Maintains the static website, generated by GitHub pages
+    *   Maintains the project website on which Xiast runs
+*   Secretary
+    * Creates meeting minutes during meetings
+    * Maintains and corrects this minutes after eacht meeting
 
-<!--- TODO: Secretary, Database Manager, Webmaster) -->
 <!-- TODO: maak een aparte tabel: wie verantwoordelijk voor welk document: headers: "Responsible teammember, Document") -->
 
 Managerial Process Plans
@@ -287,14 +299,15 @@ Quality Assurance Leader|H		|		|		|B		|		|
 Requirements Manager	|		|H		|B		|		|		|
 Design Leader		|		|		|H		|		|B		|
 Implementation Leader	|B		|		|		|H		|		|
-Secretary		|H		|B		|		|		|		|
-Server Manager		|		|		|B		|		|H		|
+Secretary		|		|B		|		|		|H		|
+Server & Database		|		|		|B		|		|H		|
+Test Manager    |H       |       |       |B       |       |
+Webmaster       |        |       |       |       |H       |B
 
 
 
-<!---VERGADERING
-Test Manager    |       |       |       |       |       |
 
+<!---
 <font size="1" color="grey"> Please note that no teammembers holds the function of testmanager in this version of the SPMP. This function will be assigned on the next meeting.</font> -->
 
 <!--- ###5.1.3 Rescource Acquisition Plan -->
@@ -303,33 +316,54 @@ Test Manager    |       |       |       |       |       |
 
 Work Plan
 -------------
+<!-- TODO: change on next iteration!!! -->
 ###Work activities
-The table below shows an overview of the different activities in the development process together with the responsible teammember and an estimation of time needed to complete the activity. The estimated time may differ from the actual performed time 
+The table below shows an overview of the different activities in the development process together with the responsible teammember and an estimation of time needed to complete the activity. Rough time estimations were made by the group and are based on the total workload of each activity package concerning this iteration (iteration 1). This way of estimation has been chosen because the models (Albrecht/IFPUG, Symons/Mark,COSMIC,COCOMO8I, COCOMOII, ...) are made for business software development in the real world (with a real company). We are only students simulating a software company, we don't have the amount of rescources, infrastructure,... a real company has. In this way these models would lead to untrustworthy (time)estimations.
 
-Activity                |Responsible	|Estimated Time	|Documents
---------		        |---------------|--------------:|---------
-Team management		    |PM		        |		        |SPMP
-Configuration management|CM		        |		        |SCMP
-Quality Checks		    |QAM	       	|	        	|n.a.
-Requirements management	|RM		        |	        	|SRS
-Design			        |DeM	       	|	        	|SDD
-Tests			        |QAM	    	|	        	|STP
-Implementation		    |IL, programmers|		        |source code
+#### Time estimations
+Time estimations are made in hours (h).
+<!-- TODO: later: tijdschattingen per iteratie maken -->
 
-<!--- VERGADERING: Tijdschatting maken!! -->
-<font size = "1" color = "grey">Please note that an estimation of time is not yet made in this version of the SPMP. One reason for this is lack of experience. Nevertheless will this estimation be made at the next teammeeting. </font><br/>
+##### Iteration 1
+Activity                |Responsible	|Est. Time  |Documents
+--------		        |---------------|----------:|---------
+Quality Checks		    |QAM	       	|5	        |(SQAP)
+Tests    		        |QAM	    	|15	        |STD
+Requirements management	|RM		        |35	        |SRS
+Design			        |DeM	       	|20	        |SDD
+Implementation		    |IL, programmers|50		    |source code
+Configuration management|CM    	        |30 		|SCMP
+Team management    	    |PM		        |60  	    |SPMP
+Training                |n.a.           |30         |n.a.
 
 
-<!--- TODO: WORKPACKAGES maken -> zie IEEE standaard -->
-During the development proces, each teammember will log how much time he spends on an activity of the project. This includes time spend on programming, documentation, testing, versioning control, etc. but also time spend on meetings. At every (weekly) meeting, each team member should tell how much time he has spent on which activity, with a clear separation between managing and coding.
 
-<!---VERGADERING TODO: Tijdschatting per iteratie maken -->
+#### Actual performed time
+During the development proces, each teammember will log how much time he spends on an activity of the project. This includes time spend on programming, documentation, testing, versioning control, etc. but also time spend on meetings. At every (weekly) meeting, each team member should tell how much time he has spent on which activity. <!---, with a clear separation between managing and coding. -->
+
+Performed time has been logged in hours (h).
+##### Iteration 1
+<!--- TODO BEFORE INDIENEN: VUL TIJDEN AAN ############################################################ -->
+
+Teammember              |Function       |Perf. Time |Documents  |
+--------		        |---------------|----------:|---------  |
+Youssef Boudiba		    |QAM	       	|	        |STD, (SQAP)|<!-- TODO: pas aan als Youssef toch een SQAP heeft gmaakt-->
+Anders Deliens      	|RM		        |	        |SRS        |
+Adriaan Leijnse	        |DeM	       	|	        |SDD        |
+Kwinten Pardon		    |IL, programmers|		    |source code|
+Nils Van Geele          |CM    	        |   		|SCMP       |
+Lars Van Holsbeeke 	    |PM		        |72 	    |SPMP       |
+
+*TOTAL: xx hours* 
+
 
 <!--- TODO: (Roadrunner) tabel maken met hoeveel uren elk teamlid aan management <-> coding heeft gespendeerd  => uit roadrunner: we staan serieus achter!!! -->
 
 
 ###Schedule allocation
-A GANTT chart will be used for this. It will be made at the next teammeeting when a License for Microsoft Project 2013 has been obtained.
+A GANTT chart is used for this:
+<img src="https://docs.google.com/drawings/d/1qP88AVxn3eb1UgbBwOU4hTJh8NGuodBViJ8dIefvQro/pub?w=1535&amp;h=918">
+<!--- uitleg bij geven!!!########################################################################################-->
 
 ###Resource allocation
 An overview of rescources that will be used can be found in the table below
