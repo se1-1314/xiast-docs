@@ -1,8 +1,6 @@
 +-------+----------+------+
 | Table Headings   | Here |
 +-------+----------+------+
-| Sub   | Headings | Too  |
-+=======+==========+======+
 | cell  | column spanning |
 + spans +----------+------+
 | rows  | normal   | cell |
