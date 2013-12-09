@@ -2,7 +2,7 @@
 
 Variabele				|Inhoud
 ---			    		|---
-**Datum:**              |Donderdag 3 december 2013
+**Datum:**              |Donderdag 5 december 2013
 **Locatie:**            |ig lokaal
 **Begin:**              |16u00
 **Einde:**              |
