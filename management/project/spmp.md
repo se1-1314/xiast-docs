@@ -1192,10 +1192,6 @@ Commiting to this branch thus allows us to edit the page manually, although it i
 To keep track of the project's status however, we will use the built-in issue tracker of GitHub.
 
 
-SoftwareDocumentation Plan (SDP)
------------------------------
-<!--- VERGADERING: wie maakt dit plan!!!??? -->
-This plan will be delivered Friday 15th, 2013: deadline for the other documents.
 
 Software Quality Assurance Plan (SQAP)
 ------------------------------------------
@@ -1287,10 +1283,6 @@ The project will require certain knowledge of tools and languages. To prevent te
 7.5 Reviews and Audits
 ----------------------
 -->
-Problem Resolution Plan
---------------------------
-<!--- VERGADERING: wie maakt dit plan!!!??? -->
-This plan will be delivered Friday 15th, 2013: deadline for the other documents.
 
 <!---
 7.7 Subcontracter Management Plan
