@@ -10,9 +10,9 @@
 
 ## 1. Introduction ##
 
-The software test documentation is based on the IEEE standard for software test documentation (829-1998). Since we are working on a small project, we will not cover every topics proposed by the standard, but will instead focus on those who are more relevant to our project. 
+The software test documentation is based on the IEEE standard for software test documentation (829-1998). Since we are working on a small project, we will not cover every topic proposed by the standard, but will instead focus on those who are more relevant to our project. 
 
-This documentation consists of 3 parts:
+This document consists of 3 parts:
 
 
 **_1. Test specification:_**
@@ -73,7 +73,7 @@ This section describes the software test plan.
 
 ### 1. Approach (Testing strategy) ###
 
-Since we are following an iterative and incremental development model for our project (check SPMP for more info), our test strategy will consist of a series of different tests. Those tests are specified below and are done by the whole group since the absence of a development team. 
+Since we are following an iterative and incremental development model for our project (check SPMP for more info), our test strategy will consist of a series of different tests. These tests are specified below and are done by the whole group since the absence of a testing team. 
 
 1. **Unit testing**
 
