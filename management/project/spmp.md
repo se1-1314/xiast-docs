@@ -2,8 +2,8 @@ Software Project Management Plan
 ================================
 Software Engineering 2013-2014, group 1
 ----------------------------------------
-###Version 0.4
-#### December 2nd, 2013
+###Version 1.0
+#### December 12th, 2013
 ##### Lars Van Holsbeeke
 ##### *Project Manager*
 ##### <mailto:lavholsb@vub.ac.be>
@@ -17,7 +17,8 @@ Version | Date      | Description
 **0.1** |29/10/2013 | Creation of document structure
 **0.2** |03/11/2013 | Completion of initial version
 **0.3** |14/11/2013 | Adapted to feedback of initial version
-**0.4** |02/12/2013    | Adapted to feedback of version 0.3
+**0.4** |02/12/2013 | Adapted to feedback of version 0.3
+**1.0** |12/12/2013 | Updated for delivery, iteration 1
 
 <!---
 Contents
@@ -212,11 +213,9 @@ All communication between the teammembers outside meetings must be logged by or 
 ###Internal Organisation
 The chart below shows the internal organisation and flows of information between the actors of the team:
 
-<!-- TODO: UNCOMMENT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 
 <img src="https://docs.google.com/drawings/d/1IYsAJUCK387y5APVW-sHPmnaf-U2Z95roFWV-v7IWAk/pub?w=594&amp;h=351">
--->
-
 
 
 *   The [Projectmanager](#Projectmanager) acts as a central coordination point for the whole team. This means that he is         responsible to solve (personal) issues between teammembers,  He also communicates with the client about general project issues concerning planning, progress,...  (see Roles and Responsibilities)
@@ -284,8 +283,6 @@ The chart below shows the internal organisation and flows of information between
 ### Documentation responsibilities
  <br />
 
-
-
 Responsible teammember  | Document(s)
 ---                     | ---
 Youssef Boudiba         | STD, SQAP
@@ -303,7 +300,7 @@ Start-up Plan
 <br />
 H = Function Holder, B = Back-up
 
-Function/Teammember    |Youssef Boudiba|Anders Deliens    |Adriaan Leijnse| Kwinten Pardon|Nils Van Geele	|Lars Van Holsbeeke
+Function/Teammember    |Youssef Boudiba|Anders Deliens    |Adriaan Leijnse| Kwinten Pardon|Nils Van Geele    |Lars Van Holsbeeke
 ---			|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:
 Project Manager		|		|B		|		|		|		|H
 Configuration Manager	|		|		|		|		|H		|B
@@ -319,7 +316,27 @@ Webmaster       |        |       |       |       |H       |B
 
 <!--- ###5.1.3 Rescource Acquisition Plan -->
 
-<!--- ###5.1.4 Project Staff Training Plan -->
+###Project Staff Training Plan
+Each teammembers is responsible to become familiar with the technologies, languages, etc. used in the project. It is therefore highly recommended to use information from books, (online) tutorials, other teammembers, etc. to resolve the lack of any foreknowledge. At the beginning of the project, the situation is as follows
+
+* Youssef: Has experience with Java and Git but hasn't any experience with Clojure, Latex and webtechnologies 
+* Anders:  Has programming skills and lots of experience with group projects and LaTeX, but never used Git and Clojure before
+* Adriaan: Has lots of experience with Git, Clojure and LaTex but less with webtechnologies
+*  Kwinten: Is very experienced with webtechnologies, has lots of experience with Git, less with LaTex and none with Clojure
+* Nils: Has lots of experience with Git, LateX and webtechnologies, but less with Clojure
+* Lars: Has experience with Java and LateX, less with Git and webtechnologies and none with Clojure.
+
+Based on this information it would be very useful for teammembers to follow tutorials concerning the technologies/languages they are not familiar with. This leads to the following situation: <br />
+*XX = highly recommended, X = recommended, V = not really necessary*
+
+Training        |Youssef    | Anders    | Adriaan   | Kwinten   | Nils  | Lars
+----            |:---:      |:----:     |:----:     |:----:     |:----: |:----:
+Clojure         | XX        | XX        | V         | XX        | X     |  XX                        
+LaTeX           | X         |  V        | V         | V         | V     | V
+Git             | X         | XX        | V         | V         | V     | XX
+Webtechnologies | XX        | XX        | X         | V         | X     | x 
+
+
 
 Work Plan
 -------------
@@ -327,9 +344,31 @@ Work Plan
 ###Work activities
 The table below shows an overview of the different activities in the development process together with the responsible teammember and an estimation of time needed to complete the activity. Rough time estimations were made by the group and are based on the total workload of each package of activities concerning this iteration (iteration 1). This way of estimation has been chosen because the models (Albrecht/IFPUG, Symons/Mark,COSMIC,COCOMO8I, COCOMOII, ...) are made for business software development in the real world (with a real company). We are only students simulating a software company, we don't have the amount of rescources, infrastructure,... a real company has. In this way these models would lead to untrustworthy (time)estimations.
 
+
+###Planning per iteration
+* **Iteration 1 "Writing web applications in Clojure"**, *December 13th, 2013*
+    * Interfaces: A single web interface using dynamically generated static web pages is used.
+        * Internationalisation: The interface needs to be displayed in both English and Dutch, depending on user preference.
+    *  Logging in: Using the VUB's authentication API.
+    *  Courses: Viewing a list of courses, optionally filtered through a keyword.
+    *  Schedules: Viewing the entire schedule of a course, logged in student or room.
+* **Iteration 2 "Making Clojure and JavaScript work together"**, *March 4th, 2014*
+    * Interfaces: Both a mobile and a desktop interface need to be provided.
+    * Schedules for whole programs
+    * Permission system: Program managers can only change the courses they own, etc.
+    * Configuration file driven scheduling algorithm: To make a simple start without introducing too much complexity in the front-end.
+    * Program managers can add programs through a web-interface
+    * Program managers can add rooms through a web-interface
+    * Instructors can change course details of existing courses: E.g. "this course requires an overhead projector", etc.
+* **Iteration 3 "Full base functionality"**, *April 15th, 2014*
+    * Web interface for program manager business: Scheduling courses, configuring programs, etc.
+    * Messaging system for schedule suggestions: Instructors and program managers need to communicate/request schedule changes. These should be easily appliable to the actual schedule by a program manager.
+* **Iteration 4 "Extra features and polishing up"**, *May 16th, 2014* 
+    * E-mail notifications for students about schedule changes
+
+
 #### Time estimations
 Time estimations are made in hours (h).
-<!-- TODO: later: tijdschattingen per iteratie maken -->
 
 ##### Iteration 1
 Activity                |Responsible	|Est. Time  |Documents
@@ -350,27 +389,24 @@ During the development proces, each teammember will log how much time he spends 
 
 Performed time has been logged in hours (h).
 ##### Iteration 1
-<!--- TODO BEFORE INDIENEN: VUL TIJDEN AAN ############################################################ -->
 
 Teammember              |Function       |Perf. Time |Documents  |
 --------		        |---------------|----------:|---------  |
-Youssef Boudiba		    |QAM	       	|	        |STD, (SQAP)|<!-- TODO: pas aan als Youssef toch een SQAP heeft gmaakt-->
-Anders Deliens      	|RM		        |	        |SRS        |
-Adriaan Leijnse	        |DeM	       	|	        |SDD        |
-Kwinten Pardon		    |IL, programmers|		    |source code|
-Nils Van Geele          |CM    	        |   		|SCMP       |
+Youssef Boudiba		    |QAM	       	|27	        |STD, (SQAP)|
+Anders Deliens      	|RM		        |31	        |SRS        |
+Adriaan Leijnse	        |DeM	       	|52	        |SDD        |
+Kwinten Pardon		    |IL, programmers|44		    |source code|
+Nils Van Geele          |CM    	        |44   		|SCMP       |
 Lars Van Holsbeeke 	    |PM		        |67 	    |SPMP       |
 
-*TOTAL: xx hours* 
+*TOTAL: 265 hours* 
 
-
-<!--- TODO: (Roadrunner) tabel maken met hoeveel uren elk teamlid aan management <-> coding heeft gespendeerd  => uit roadrunner: we staan serieus achter!!! -->
-
+<!---
 <table>
     <tr> 
-        <th colspan = "0"> Management </th>
+        <th colspan = "0"> Management and Documentation </th>
     </tr>
-    <tr>
+    <tr>f
         <th> Iteration </th>
         <th> 0 </th>
         <th colspan="7"> 1 </th>
@@ -402,36 +438,419 @@ Lars Van Holsbeeke 	    |PM		        |67 	    |SPMP       |
         <th>	33	</th>
         <th>	34	</th>
         <th>	35	</th>
-		<!--- todo -->
-
-
-
+        <th>        </th>
+    </tr>
     </tr>
     <tr>
-        <th>Column 1 heading</th>
-        <th>Column 2 heading</th>
-        <th>Column 3 heading</th>
+        <th> Youssef Boudiba </th>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
     </tr>
-    <tr>
-        <td>Row 2, cell 1</td>
-        <td colspan="2">Row 2, cell 2, also spanning Row 2, cell 3</td>
+     <tr>
+        <th> Anders Deliens </th>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
     </tr>
-    <tr>
-        <td rowspan="2">Row 3, cell 1, also spanning Row 4, cell 1</td>
-        <td>Row 3, cell 2</td>
-        <td>Row 3, cell 3</td>
+     <tr>
+        <th> Adriaan Leijnse    </th>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
     </tr>
-    <tr>
-        <td>Row 4, cell 2</td>
-        <td>Row 4, cell 3</td>
+     <tr>
+        <th> Kwinten Pardon </th>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+    </tr>
+     <tr>
+        <th> Nils Van Geele </th>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+    </tr>
+     <tr>
+        <th> Lars Van Holsbeeke</th>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
     </tr>
 </table>
 
-###Schedule allocation
-A GANTT chart is used for this:
-<!--- <img src="https://docs.google.com/drawings/d/1qP88AVxn3eb1UgbBwOU4hTJh8NGuodBViJ8dIefvQro/pub?w=1535&amp;h=918"> -->
-<!--- uitleg bij geven!!!########################################################################################-->
+<table>
+    <tr> 
+        <th colspan = "0"> Implementation </th>
+    </tr>
+    <tr>
+        <th> Iteration </th>
+        <th> 0 </th>
+        <th colspan="7"> 1 </th>
+        <th colspan="4"> 2 </th>
+        <th colspan="5"> 3 </th>
+        <th colspan="4"> 4 </th>
+        <th> Total </th>
+    </tr>
+    <tr>
+        <th> Weeks <br /> (academic) </th>
+        <th> 5-7 </th>
+        <th> 8 </th>
+        <th> 9 </th>
+        <th> 10 </th>
+        <th> 11 </th>
+        <th> 12 </th>
+        <th> 13 </th>
+        <th> 14 </th>
+        <th>    22	</th>
+        <th>	23	</th>
+        <th>	24	</th>
+        <th>	25	</th>
+        <th>	26	</th>
+        <th>	27	</th>
+        <th>	28	</th>
+        <th>	29	</th>
+        <th>    30-31   </th>
+        <th>	32	</th>
+        <th>	33	</th>
+        <th>	34	</th>
+        <th>	35	</th>
+        <th>        </th>
+    </tr>
+    </tr>
+    <tr>
+        <th> Youssef Boudiba </th>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+    </tr>
+     <tr>
+        <th> Anders Deliens </th>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+    </tr>
+     <tr>
+        <th> Adriaan Leijnse    </th>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+    </tr>
+     <tr>
+        <th> Kwinten Pardon </th>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+    </tr>
+     <tr>
+        <th> Nils Van Geele </th>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+    </tr>
+     <tr>
+        <th> Lars Van Holsbeeke</th>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+    </tr>
+</table>
+-->
 
+###Schedule allocation
+A GANTT chart is used for this.
+<img src="https://docs.google.com/drawings/d/1qP88AVxn3eb1UgbBwOU4hTJh8NGuodBViJ8dIefvQro/pub?w=1535&amp;h=918">
+The major part of the activities depends on the release of the SRS, because the latter contains all requirements on which our project is build. The majority of the dependencies between activities are logically derivable from the GANTT-chart.
+ <!--- TODO: misschien nog wat meer detail bijvoegen -->
+dsfs
 ###Resource allocation
 An overview of rescources that will be used can be found in the table below
 
@@ -537,6 +956,30 @@ All estimations are on a scale from 0 to 10.
     * Solution: Using the modularity of the software product to correct as easily and efficiently as possible the requirements that were misunderstood
     * Target completion date: n.a.
     * Responsible: Requirements Manager, Implementation Leader
+9. Apache server goes offline on Wilma
+    * Probability: low
+    * Impact: medium
+    * Priority: high
+    * Cost of Solution: low
+    * Solution: Changing the url in the configuration of the application
+    * Target completion date: n.a.
+    * Responsible: Server Manager
+10. Database server goes offline
+    * Probability: low
+    * Impact: high
+    * Priority: high
+    * Cost of Solution: low
+    * Solution: Changing the configuration of the application (dataloss of a part of the database is possible). The cost of this solution is low because back-ups of the database are taken every hour, using a back-upserver of a teammember
+    * Target completion date: n.a.
+    * Responsible: Server Manager
+11. Back-end server goes (temporarly) down
+    * Probability: low
+    * Impact: high
+    * Priority: high
+    * Cost of solution: low
+    * Solution: Using a mirror server: Aphrodite
+    * Target completion date: n.a.
+    * Responsible: Server Manager
 
 <!--- TO ADD: ##############################################################################################9. architectuur, systeem, software platform, main db (bus factor), problemen ivm single server architectuur, backups, eenvoudig backups migreren naar ander systeem, webserver, apache problemen, cve's ivm apache (relevant voor onze applicatie), versioning control, server access (manier waarop mensen toegang hebben tot sytemen)
 -->
@@ -575,14 +1018,18 @@ We try to follow the agile development principles as much as possible:
 
 Methods, tools and techniques
 ---------------------------------
-<!---VERGADERING: Programmeertaal nog te beslissen -->
-<font size="1" color="grey">At the moment of writing, the programming language has not been chosen yet and will therefore not be mentioned in this version of the SPMP. Therefore, some items will be added to the list below in future versions of the SPMP.  </font>
 
 * Github will be used as
     * communication tool for documents
     * versioning control system for source code
-* Eclipse will be used as [IDE](#IDE) during the implementation process.
+* Clojure will be used as programming language
+    * Back-end: to generate schedules and provide an API to login/logout and to view and modify schedules
+    * Front-end: to query schedules using the back-end api. 
+* JavaScript and JQuery to create dynamic webpages, used to view/update
+* Every teammember is free to use his preferred IDE during the implementation process
 * A MySQL database will be used as backend database on Wilma. It will be populated with course schedule data.
+* Markdown will be used to write documents because of its perfect integration with Github. When documents must be delivered, Pandoc will be used to convert the Markdown documents to the 'paper-compatible' LaTeX language from which pdf files are generated.
+* Compojure and Ring are used as the main webframeworks for Clojure.
 
 <!--- niet nodig
 6.3 Infrastructure plan
