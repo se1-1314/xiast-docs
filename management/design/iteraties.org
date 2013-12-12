@@ -1,52 +1,40 @@
-* Iteratie 1
-13 december 2013
+* Iteration 1 "Writing web applications in Clojure"
+December 13th, 2013
 ** Interfaces
-Er wordt een mobiele en een desktop-interface gemaakt voor alle
-functionaliteit.
-*** Internationalisatie (!)
-De interfaces moeten in het Nederlands en het Engels, afhangende van
-browsertaal en de keuze van gebruiker.
-**** Implentatienoot
-Dit moet via taalbestanden om makkelijk talen te kunnen toevoegen.
-** Login
-Via VUB-netId als mogelijk, anders via fake-netIds enzo.
-** Schedule
-Bij het opvragen van een specifieke schedule moet altijd de periode
-gespecifiëerd worden. Bijvoorbeeld: van week 3 dag 1 tot week 4 dag
-6, van 13:00 tot 16:00.
-*** Lijst van vakken opvragen
-Aan de hand van zoekterm in naam vak.
-*** Schedule voor een vak opvragen
-*** Persoonlijke schedule voor een student en prof
-*** Schedule voor een heel programma+jaar+groepletter (Compsci Jaar 1 groep A)
-*** Rooster voor een lokaal
+A single web interface using dynamically generated static web pages is used.
+*** Internationalisation
+The interface needs to be displayed in both English and Dutch,
+depending on user preference.
+** Logging in
+Using the VUB's authentication API.
+** Courses
+Viewing a list of courses, optionally filtered through a keyword.
+** Schedules
+Viewing the entire schedule of a course, logged in student or room.
 
-* Iteratie 2
-4 maart 2014
-** Rechtensysteem
-Bijvoorbeeld, programmabeheerders kunnen alleen aan hun eigen vakken
-zitten etc.
-** Schedulingalgoritme aangedreven door configuratiebestand
-Programmabeheerder heeft hier toegang toe.
-** Programmabeheerders kunnen een programma opstellen via webinterface
-- Vakken toevoegen met info:
-  - Verplicht- of keuzevak
-  - Aantal inschrijvingen voor een vak
-** Programmabeheerders kunnen lokalen toevoegen via webinterface
-- Misschien lokalen gelinkt aan een faculteit?
-** Lesgevers kunnen reeds aangemaakte vakken invullen via webinterface
-Nog niet goed gedefiniëerd wat dit betekent, maar een prof zou zeker
-al moeten kunnen aangeven dat het lokaal een beamer, overhead
-projector nodig heeft e.d. Misschien ook lestijd etc.
+* Iteration 2 "Making Clojure and JavaScript work together"
+March 4th, 2014
+** Interfaces
+Both a mobile and a desktop interface need to be provided.
+** Schedules for whole programs
+** Permission system
+Program managers can only change the courses they own, etc.
+** Configuration file driven scheduling algorithm
+To make a simple start without introducing too much complexity in the
+front-end.
+** Program managers can add programs through a web-interface
+** Program managers can add rooms through a web-interface
+** Instructors can change course details of existing courses
+E.g. "this course requires an overhead projector", etc.
 
-- Voorkeurstijd, lesduur,...
-
-* Iteratie 3
-15 april 2014
-** Webinterface voor programmamanagerdingen
-** Suggesties doorsturen
-Er moet een berichtensysteem zijn zodat lesgevers voorstellen
-kunnen communiceren met programmeheerders, en zodat de
-programmabeheerders makkelijk suggesties kunnen invoegen.
-* Iteratie 4 "Coole features"
-16 mei 2014
+* Iteration 3 "Full base functionality"
+April 15th, 2014
+** Web interface for program manager business
+Scheduling courses, configuring programs, etc.
+** Messaging system for schedule suggestions
+Instructors and program managers need to communicate/request schedule
+changes. These should be easily appliable to the actual schedule by a
+program manager.
+* Iteration 4 "Extra features and polishing up"
+May 16th, 2014
+** E-mail notifications for students about schedule changes
