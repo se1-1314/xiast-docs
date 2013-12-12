@@ -334,7 +334,7 @@ Training        |Youssef    | Anders    | Adriaan   | Kwinten   | Nils  | Lars
 Clojure         | XX        | XX        | V         | XX        | X     |  XX                        
 LaTeX           | X         |  V        | V         | V         | V     | V
 Git             | X         | XX        | V         | V         | V     | XX
-Webtechnologies | XX        | XX        | X         | V         | X     | x 
+Webtechnologies | XX        | XX        | X         | V         | X     | X 
 
 
 
