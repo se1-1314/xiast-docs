@@ -180,7 +180,7 @@ Acronym | Declaration
 **SDD** | Software Design Document
 **SPMP**| Software Project Magement Plan
 **SRS** | Software Requirements Specification
-**STD/STP** | Software Test Plan
+**STD** | Software Test Plan
 **SQAP**|Software Quality Assurance Plan
 **SDP** | Software Documentation Plan
 **VUB** | Vrije Universiteit Brussel
@@ -249,7 +249,7 @@ The chart below shows the internal organisation and flows of information between
     * Providing some documentation concerning the used tools and Git.
     * Ensuring safety and restorability of documents
 * Quality Assurance Leader
-    * Creation of & providing the STP with updates
+    * Creation of & providing the STD with updates
     * Optionally creating (and maintaining) an SQAP
     * Quality-based Monitoring of the Software
     * Reviewing source-code: are all required features implemented?
@@ -334,7 +334,7 @@ Training        |Youssef    | Anders    | Adriaan   | Kwinten   | Nils  | Lars
 Clojure         | XX        | XX        | V         | XX        | X     |  XX                        
 LaTeX           | X         |  V        | V         | V         | V     | V
 Git             | X         | XX        | V         | V         | V     | XX
-Webtechnologies | XX        | XX        | X         | V         | X     | x 
+Webtechnologies | XX        | XX        | X         | V         | X     | X 
 
 
 
