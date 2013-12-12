@@ -87,6 +87,8 @@ This doesn't only make it easier to track changes on the branch, but also makes 
 
 Because some issues have a really small workload and can be solved in a single commit, it's possible to solve multiple issues on one single branch instead of creating a branch for every issue.
 
+To keep things uniform, branch names must be in lower case only and use dashes instead of spaces.
+
 ### Merging
 After the work has been done and the issue is implemented, the working branch needs to be merged into the `master` branch.
 It is mainly the team member's responsibility to avoid merge conflicts!
