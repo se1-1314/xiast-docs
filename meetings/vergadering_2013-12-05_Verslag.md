@@ -5,7 +5,7 @@ Variabele				|Inhoud
 **Datum:**              |Donderdag 5 december 2013
 **Locatie:**            |E.0.02
 **Begin:**              |16u30
-**Einde:**              |
+**Einde:**              |17u45
 **Aanwezigen:**         |Iedereen \\ {Anders}
 **Secretaris:**         |Nils Van Geele
 
