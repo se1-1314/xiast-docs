@@ -385,7 +385,8 @@ Training                |n.a.           |30         |n.a.
 
 
 #### Actual performed time
-During the development proces, each teammember will log how much time he spends on an activity of the project. This includes time spend on programming, documentation, testing, versioning control, etc. but also time spend on meetings. At every (weekly) meeting, each team member should tell how much time he has spent on which activity. <!---, with a clear separation between managing and coding. -->
+During the development proces, each teammember will log how much time he spends on an activity of the project. This includes time spend on programming, documentation, testing, versioning control, etc. but also time spend on meetings. At every (weekly) meeting, each team member should tell how much time he has spent on which activity.
+ <!---, with a clear separation between managing and coding. -->
 
 Performed time has been logged in hours (h).
 ##### Iteration 1
@@ -849,8 +850,9 @@ Lars Van Holsbeeke 	    |PM		        |67 	    |SPMP       |
 A GANTT chart is used for this.
 <img src="https://docs.google.com/drawings/d/1qP88AVxn3eb1UgbBwOU4hTJh8NGuodBViJ8dIefvQro/pub?w=1535&amp;h=918">
 The major part of the activities depends on the release of the SRS, because the latter contains all requirements on which our project is build. The majority of the dependencies between activities are logically derivable from the GANTT-chart.
+
  <!--- TODO: misschien nog wat meer detail bijvoegen -->
-dsfs
+
 ###Resource allocation
 An overview of rescources that will be used can be found in the table below
 
