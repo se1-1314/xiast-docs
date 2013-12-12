@@ -26,7 +26,7 @@ The required information is listed underneath
 
 ### Source Code
 
-As classes and objects are different from functions, an other set of information is required to be documented. Which information is to be documented can be found underneath in corresponding sections.
+As classes and objects are different from functions, another set of information is required to be documented. Which information is to be documented can be found underneath in corresponding sections.
 
 ### Classes / Objects
 
