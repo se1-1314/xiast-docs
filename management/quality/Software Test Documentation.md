@@ -93,7 +93,7 @@ Since we’ll most likely follow the test driven development cycle (TDD), every 
 
 ### 3. Pass/fail criteria ###
 
-A test pass if no error occurs and if it’s conform to its design and requirements. Whenever an error occurs while running a test, the responsible developer will open an issue on gitHub and try to find a solution (with whole team if necessary). When a solution is found, a test incident report must be generated to keep track of the occurred error (see 3. test execution for more info).
+A test pass if no error occurs and if it’s conform to its design and requirements. Whenever an error occurs whilst running a test, the responsible developer will open an issue on gitHub and try to find a solution (with whole team if necessary). When a solution is found, a test incident report must be generated to keep track of the occurred error (see 3. test execution for more info).
 
 ### 4. Testing tools ###
 
