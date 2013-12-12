@@ -3,9 +3,8 @@
 \usepackage{graphicx}
 
 
-\newcommand{\ProjectName}{Xiast}
 \newcommand{\DocumentName}{Enter Title here}
-\newcommand{\Title}{\ProjectName \\ \hfill  \\ \DocumentName \\ \hfill}
+\newcommand{\Title}{\DocumentName \\ \hfill}
 \newcommand{\Author}{Kwinten Pardon}
 \newcommand{\Version}{1.0.0}
 
@@ -13,44 +12,28 @@
 
 \begin{titlepage}
 
-\begin{minipage}{0.45\textwidth}
-\begin{flushleft}
-
-\end{flushleft}
-
-\end{minipage}
-\begin{minipage}{0.45\textwidth}
-
-\begin{flushright}
-
-\includegraphics[width=150pt]{img/logoVUB.jpg}
-
-\end{flushright}
-
-\end{minipage}
-
 \begin{center}
+\includegraphics[width=250pt,angle=90]{img/logopdf.pdf}
 \vfill
-\hrule 
-\hfill \\
 {\Huge \Title}
-\hfill \\
-\hrule
+\hfill
 \vfill
 \vfill
 \end{center}
 
-\begin{minipage}{0.45\textwidth}
+\begin{minipage}[t]{1\textwidth}
 \begin{flushleft}
-\Author \\
-\Version \\
+\includegraphics[width=100pt]{img/VUB_logo_compact.jpg}
 \end{flushleft}
 \end{minipage}
-\begin{minipage}{0.45\textwidth}
-\begin{flushright}
 
+\begin{minipage}[t]{1\textwidth}
+\begin{flushright}
+\Author \\
+\Version \\
 \end{flushright}
 \end{minipage}
+
 \end{titlepage}
 
 \end{document}

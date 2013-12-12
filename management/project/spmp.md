@@ -17,7 +17,7 @@ Version | Date      | Description
 **0.1** |29/10/2013 | Creation of document structure
 **0.2** |03/11/2013 | Completion of initial version
 **0.3** |14/11/2013 | Adapted to feedback of initial version
-**0.4** |02/12/2013	| Adapted to feedback of version 0.3
+**0.4** |02/12/2013    | Adapted to feedback of version 0.3
 
 <!---
 Contents
@@ -90,18 +90,18 @@ Some constraints involving documentation standards, infrastructure and use of ce
 ###Project deliverables
 The table table below shows code, document and other deliverables with their corresponding deadline: 9 o'clock in the morning on the date shown.
 
-Date | Deliverable
----     |---
-04/11/2013 |First version of the SPMP
-15/11/2013 |First version of documents
-18/11/2013 |Data dump: data available for use
-13/12/2013 |End of first iteration: delivery of code and documents
-18/12/2013 |First presentation
-04/03/2014 |End of second iteration: delivery of code and documents
-12/03/2014 |Second presentation
-15/04/2014 |End of thirth iteration: delivery of code and documents
-16/05/2014 |End of fourth iteration: final delivery of code and documents
-21/05/2014 |Final presentation
+Date        | Deliverable
+---         |---
+04/11/2013  |First version of the SPMP
+15/11/2013  |First version of documents
+18/11/2013  |Data dump: data available for use
+13/12/2013  |End of first iteration: delivery of code and documents
+18/12/2013  |First presentation
+04/03/2014  |End of second iteration: delivery of code and documents
+12/03/2014  |Second presentation
+15/04/2014  |End of thirth iteration: delivery of code and documents
+16/05/2014  |End of fourth iteration: final delivery of code and documents
+21/05/2014  |Final presentation
 
 ###Schedule
 Section 5.2 describes the work plan of the project, which contains a detailed description of the work activities with the corresponding teammembers that work on it along with an estimation of time they will need to complete it.
@@ -129,19 +129,6 @@ https://github.com
 5. <h4 id=JUnit>JUnit framework</h4>
 http://junit.org/
 
-<!--- TODO: steek deze in een aparte personenlijst: STAKEHOLDERS
-6. <h4 id=Ragnhild>Ragnhild Van Der Straeten</h4>
-Professor of the Software Engineering course. <br/>
-rvdstrae@vub.ac.be
-
-7. <h4 id=Jens>Jens Nicolay</h4>
-Assistant of the Software Engineering course. <br/>
-jens.nicolay@vub.ac.be
-
-8. <h4 id=Dirk>Dirk Van Deun</h4>
-System administrator of the [Wilma](#Wilma) backend server. <br/>
-dirk@dinf.vub.ac.be
--->
 9. <h4 id=Markable>Markable.in</h4>
 Online document writing tool for the Markdown language. <br/>
 [markable.in](markable.in)
@@ -161,6 +148,21 @@ Further information: http://en.wikipedia.org/wiki/Spiral_model
 <!---
 12. <h4 id=#>__</h4>
 -->
+
+External Stakeholders
+=====================
+1. <h4 id=Ragnhild>Ragnhild Van Der Straeten</h4>
+Professor of the Software Engineering course. <br/>
+rvdstrae@vub.ac.be
+
+2. <h4 id=Jens>Jens Nicolay</h4>
+Assistant of the Software Engineering course. <br/>
+jens.nicolay@vub.ac.be
+
+3. <h4 id=Dirk>Dirk Van Deun</h4>
+System administrator of the [Wilma](#Wilma) backend server. <br/>
+dirk@dinf.vub.ac.be
+
 
 Definitions
 ==============
@@ -225,9 +227,7 @@ The chart below shows the internal organisation and flows of information between
 <h2 id=RolesResp> Roles and Responsibilities </h2>
 
 <!--- eventueel (zoals in de standaard beschreven) een matrix maken van personen X work activities (= hun verantwoordelijkheden) voor een beter overzicht -->
-<!--- voeg een server manager toe -->
-
-
+### Main responsibilities
 
 * Project Manager
     * Creating & providing the SPMP with updates
@@ -281,7 +281,19 @@ The chart below shows the internal organisation and flows of information between
     * Creates meeting minutes during meetings
     * Maintains and corrects this minutes after eacht meeting
 
-<!-- TODO: maak een aparte tabel: wie verantwoordelijk voor welk document: headers: "Responsible teammember, Document") -->
+### Documentation responsibilities
+ <br />
+
+
+
+Responsible teammember  | Document(s)
+---                     | ---
+Youssef Boudiba         | STD, SQAP
+Anders Deliens          | SRS
+Adriaan Leijnse         | SDD
+Kwinten Pardon          | SDP
+Nils Van Geele          | SCMP
+Lars Van Holsbeeke      | SPMP
 
 Managerial Process Plans
 ===========================
@@ -305,11 +317,6 @@ Test Manager    |H       |       |       |B       |       |
 Webmaster       |        |       |       |       |H       |B
 
 
-
-
-<!---
-<font size="1" color="grey"> Please note that no teammembers holds the function of testmanager in this version of the SPMP. This function will be assigned on the next meeting.</font> -->
-
 <!--- ###5.1.3 Rescource Acquisition Plan -->
 
 <!--- ###5.1.4 Project Staff Training Plan -->
@@ -318,7 +325,7 @@ Work Plan
 -------------
 <!-- TODO: change on next iteration!!! -->
 ###Work activities
-The table below shows an overview of the different activities in the development process together with the responsible teammember and an estimation of time needed to complete the activity. Rough time estimations were made by the group and are based on the total workload of each activity package concerning this iteration (iteration 1). This way of estimation has been chosen because the models (Albrecht/IFPUG, Symons/Mark,COSMIC,COCOMO8I, COCOMOII, ...) are made for business software development in the real world (with a real company). We are only students simulating a software company, we don't have the amount of rescources, infrastructure,... a real company has. In this way these models would lead to untrustworthy (time)estimations.
+The table below shows an overview of the different activities in the development process together with the responsible teammember and an estimation of time needed to complete the activity. Rough time estimations were made by the group and are based on the total workload of each package of activities concerning this iteration (iteration 1). This way of estimation has been chosen because the models (Albrecht/IFPUG, Symons/Mark,COSMIC,COCOMO8I, COCOMOII, ...) are made for business software development in the real world (with a real company). We are only students simulating a software company, we don't have the amount of rescources, infrastructure,... a real company has. In this way these models would lead to untrustworthy (time)estimations.
 
 #### Time estimations
 Time estimations are made in hours (h).
@@ -352,17 +359,77 @@ Anders Deliens      	|RM		        |	        |SRS        |
 Adriaan Leijnse	        |DeM	       	|	        |SDD        |
 Kwinten Pardon		    |IL, programmers|		    |source code|
 Nils Van Geele          |CM    	        |   		|SCMP       |
-Lars Van Holsbeeke 	    |PM		        |72 	    |SPMP       |
+Lars Van Holsbeeke 	    |PM		        |67 	    |SPMP       |
 
 *TOTAL: xx hours* 
 
 
 <!--- TODO: (Roadrunner) tabel maken met hoeveel uren elk teamlid aan management <-> coding heeft gespendeerd  => uit roadrunner: we staan serieus achter!!! -->
 
+<table>
+    <tr> 
+        <th colspan = "0"> Management </th>
+    </tr>
+    <tr>
+        <th> Iteration </th>
+        <th> 0 </th>
+        <th colspan="7"> 1 </th>
+        <th colspan="4"> 2 </th>
+        <th colspan="5"> 3 </th>
+        <th colspan="4"> 4 </th>
+        <th> Total </th>
+    </tr>
+    <tr>
+        <th> Weeks <br /> (academic) </th>
+        <th> 5-7 </th>
+        <th> 8 </th>
+        <th> 9 </th>
+        <th> 10 </th>
+        <th> 11 </th>
+        <th> 12 </th>
+        <th> 13 </th>
+        <th> 14 </th>
+        <th>	22	</th>
+        <th>	23	</th>
+        <th>	24	</th>
+        <th>	25	</th>
+        <th>	26	</th>
+        <th>	27	</th>
+        <th>	28	</th>
+        <th>	29	</th>
+        <th>    30-31   </th>
+        <th>	32	</th>
+        <th>	33	</th>
+        <th>	34	</th>
+        <th>	35	</th>
+		<!--- todo -->
+
+
+
+    </tr>
+    <tr>
+        <th>Column 1 heading</th>
+        <th>Column 2 heading</th>
+        <th>Column 3 heading</th>
+    </tr>
+    <tr>
+        <td>Row 2, cell 1</td>
+        <td colspan="2">Row 2, cell 2, also spanning Row 2, cell 3</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Row 3, cell 1, also spanning Row 4, cell 1</td>
+        <td>Row 3, cell 2</td>
+        <td>Row 3, cell 3</td>
+    </tr>
+    <tr>
+        <td>Row 4, cell 2</td>
+        <td>Row 4, cell 3</td>
+    </tr>
+</table>
 
 ###Schedule allocation
 A GANTT chart is used for this:
-<img src="https://docs.google.com/drawings/d/1qP88AVxn3eb1UgbBwOU4hTJh8NGuodBViJ8dIefvQro/pub?w=1535&amp;h=918">
+<!--- <img src="https://docs.google.com/drawings/d/1qP88AVxn3eb1UgbBwOU4hTJh8NGuodBViJ8dIefvQro/pub?w=1535&amp;h=918"> -->
 <!--- uitleg bij geven!!!########################################################################################-->
 
 ###Resource allocation
@@ -407,107 +474,77 @@ All estimations are on a scale from 0 to 10.
 <!---TODO: uitleg i.v.m. de schaal van 0 tot 10 -->
 
 1. One of the teammembers is sick or leaves
-    * Probability: 3
-    * Impact: 6
-    * Priority: 9
-    * Cost of solution: 8
+    * Probability: medium
+    * Impact: high
+    * Priority: high
+    * Cost of solution: high
     * Solution: Teammember with corresponding back-up function takes over.
     * Target completion date: n.a.
     * Responsible: Project Manager
 2. Bad communication between teammembers
-    * Probability: 5
-    * Impact: 6
-    * Priority: 8
-    * Cost of solution: 4
+    * Probability: medium
+    * Impact: medium
+    * Priority: high
+    * Cost of solution: low
     * Solution: Don't use too much private communication, use the mailinglist. The issue tracker on [Github](#Github) must be up-to-date at all times.
     * Target completion date: n.a.
     * Responsible: Project Manager
 3. Not meeting deadlines
-    * Probability: 5
-    * Impact: 10
-    * Priority: 6
-    * Cost of solution: 5
+    * Probability: medium
+    * Impact: high
+    * Priority: high
+    * Cost of solution: low
     * Solution: Keeping track of progress made using [Github](#Github) functionality, weekly progress reports of teammembers.
     * Target completion date: n.a.
     * Responsible: Project Manager
 4. Lack of software quality
-    * Probability: 3
-    * Impact: 3
-    * Priority: 2
-    * Cost of solution: 5
+    * Probability: low
+    * Impact: low
+    * Priority: low
+    * Cost of solution: medium
     * Solution: Periodically quality checks, tests,... Reporting them to the weekly meeting. QAM gives recommendations to the teammembers on the weekly meeting and by using the mailing list. Making and resolving issues on the [Github](#Github) issue tracker. 
     * Target completion date: n.a.
     * Responsible: Quality Assurance Manager
 5. Misunderstandings between client and team
-    * Probability: 3
-    * Impact: 8
-    * Priority: 8
-    * Cost of solution: 5
+    * Probability: low
+    * Impact: high
+    * Priority: high
+    * Cost of solution: medium
     * Solution: Regular meetings with the client to check if product meets expectations
     * Target completion date: n.a.
     * Responsible: Requirements Manager
-6. Not enough knowledge concerning the used programming language (p.e. Clojure, JavaScript, HTML5,...)
-    * Probability: 10
-    * Impact: 8
-    * Priority: 7
-    * Cost of solution: 7
-    * Solution: Watching tutorials, asking teammembers that know the language for help
-    * Target completion date: end of 1st iteration (Clojure basics), end of 2nd iteration (JavaScript, HTML5) 
-    * Responsible: Design Manager, Implementation Leader
-7. Back-end server goes (temporarly) down
-    * Probability: 2
-    * Impact: 6
-    * Priority: 7
-    * Cost of solution: 2
-    * Solution: Using a mirror server: Aphrodite
-    * Target completion date: n.a.
-    * Responsible: Infrastructure Manager, Configuration Manager
-8. Github Versioning Control System goes down
-    * Probability: 1
-    * Impact: 6
-    * Priority: 7
-    * Cost of solution: 2
-    * Solution: Using the backup server (Aphrodite) running Gitlab
-    * Target completion date: n.a.
-    * Responsible: Configuration Manager
-9. Conflicts between teammembers
-    * Probability: 3
-    * Impact: 8
-    * Priority: 8
-    * Cost of solution: 7
-    * Solution: Negotiation between the teammembers involved together with the projectmanager.
+6. Conflicts between teammembers
+    * Probability: low 
+    * Impact: high
+    * Priority: high
+    * Cost of solution: high
+    * Solution: Negotiation between the teammembers involved, together with the projectmanager.
     * Target completion date: n.a.
     * Responsible: Project Manager
-10. Abrupt changes in requirements
-    * Probability: 2
-    * Impact: 7
-    * Priority: 8
-    * Cost of solution: 6
+7. Abrupt changes in requirements
+    * Probability: low
+    * Impact: high
+    * Priority: high
+    * Cost of solution: medium (depends)
     * Solution: Using the modularity of the software product to implement as easily and efficiently as possible the changes. Prevention by involving the client in the development process.
     * Target completion date: n.a.
     * Responsible: Requirements manager, Implementation Leader
-11. Client cancels the project
-    * Probability: 1
-    * Impact: 10
-    * Priority: 10
-    * Cost of Solution: 10
-    * Solution: Closing down the project after double checking/negotiating with the client
-    * Target completion date: n.a.
-    * Responsible: Project Manager
-12. Wrong interpretation of requirements by the team
-    * Probability: 5
-    * Impact: 7
-    * Priority: 8
-    * Cost of Solution: 6
+8. Wrong interpretation of requirements by the team
+    * Probability: medium
+    * Impact: high
+    * Priority: high
+    * Cost of Solution: medium (depends)
     * Solution: Using the modularity of the software product to correct as easily and efficiently as possible the requirements that were misunderstood
     * Target completion date: n.a.
     * Responsible: Requirements Manager, Implementation Leader
 
+<!--- TO ADD: ##############################################################################################9. architectuur, systeem, software platform, main db (bus factor), problemen ivm single server architectuur, backups, eenvoudig backups migreren naar ander systeem, webserver, apache problemen, cve's ivm apache (relevant voor onze applicatie), versioning control, server access (manier waarop mensen toegang hebben tot sytemen)
+-->
 
 
 Closeout plan
 -----------------
-Not of any importance for this project.
+Not of any importance to this project.
 
 Technical Process Plan
 =========================

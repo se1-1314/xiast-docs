@@ -5,7 +5,7 @@ Variabele	|Inhoud
 **Datum:**	|Dinsdag 15 oktober 2013
 **Locatie:** 	|SCB, Campus VUB Etterbeek
 **Begin:**	|14u
-**Einde:**	|**15u30
+**Einde:**	|15u30
 **Aanwezigen:**	|Adriaan Leijnse, Nils Van Geele, Lars Van Holsbeke, Anders Deliens, Kwinten Pardon, Youssef Boudiba
 **Secretaris:** |Youssef Boudiba
 

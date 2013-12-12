@@ -1,6 +1,6 @@
 **Author:**Kwinten Pardon
 
-**Version:** 0.1.1
+**Version:** 0.2.0
 
 ## Introduction
 
@@ -30,7 +30,7 @@ As classes and objects are different from functions, an other set of information
 
 ### Classes / Objects
 
-Above each class or object the following information should be written
+Each class / object should contain the following information.
 
 -   Authors(s)
 
@@ -42,19 +42,15 @@ Above each class or object the following information should be written
 
 ### Functions
 
-Above each function the following information should be written
+Each function should contain the following information.
 
 -   Author(s)
 
 -   Date of creation
 
--   Explanation of the paramaters
+-   Explanation of the paramaters and his types
 
--   Type
-
--   Explanation of the return value
-
--   Type
+-   Explanation of the return value and its type
 
 -   Exceptions
 
@@ -62,8 +58,17 @@ Above each function the following information should be written
 
 As stated above, the to be documented information must be written in the source code. The documentation will be created by parsing this information from the source file. To be able to this, this information must be written in a certain syntax.
 
-### Syntax
+### Docstrings
 
-We will be using an XML syntax to write the necessary information in the source code. The XML lines will be parsed from the source code to create the documentation.
+We will be using docstring which are included in the clojure language. Docstrings allow us to create an annotation related to any given function at its declaration.
 
-The XML tags that will be used have yet to be determined.
+### syntax
+Each type of information should be written on its own line. This line should contain a prefix for what kind of information it contains.
+The prefix may be ommited for the general explanation of the function.
+
+prefixes are:
+- Author:
+- Date:
+- Parameter:
+- Return value:
+- Exception:
