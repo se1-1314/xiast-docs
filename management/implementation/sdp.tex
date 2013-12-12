@@ -1,0 +1,143 @@
+\documentclass[12pt]{article}
+
+\usepackage{graphicx}
+
+
+\newcommand{\DocumentName}{Software Documentation Plan}
+\newcommand{\Title}{\DocumentName \\ \hfill}
+\newcommand{\Author}{Kwinten Pardon}
+\newcommand{\Version}{2.0}
+
+\begin{document}
+
+\begin{titlepage}
+
+\begin{center}
+\includegraphics[width=250pt,angle=90]{../../templates/img/logopdf.pdf}
+\vfill
+{\Huge \Title}
+\hfill
+\vfill
+\vfill
+\end{center}
+
+\begin{minipage}[t]{1\textwidth}
+\begin{flushleft}
+\includegraphics[width=100pt]{../../templates/img/VUB_logo_compact.jpg}
+\end{flushleft}
+\end{minipage}
+
+\begin{minipage}[t]{1\textwidth}
+\begin{flushright}
+\Author \\
+\Version \\
+\end{flushright}
+\end{minipage}
+
+\end{titlepage}
+
+\section{Introduction}\label{introduction}
+
+This document describes the information that our documentation must
+contain. It will also describe the methods that will be used to generate
+documentation for the source code. Software documentation comes in two
+different forms. Documentation for the end user and documentation for
+developers. This Software documentation plan only handles the creation
+of developers documentation
+
+\section{Purpose}\label{purpose}
+
+The purpose of the created documentation is for the reader to understand
+the code and be able to write additional functionalities relying and
+using the documented code without having to read the source code.
+
+\section{Documented information}\label{documented-information}
+
+\subsection{Source File}\label{source-file}
+
+Source file must contain certain information before any functionalities
+or code has been written. This information may be written after or
+before the required imports.
+
+The required information is listed underneath
+
+\begin{itemize}
+\item
+  Author(s)
+\item
+  Date of creation
+\item
+  Summary of the functionalities it contains
+\end{itemize}
+
+\subsection{Source Code}\label{source-code}
+
+As classes and objects are different from functions, an other set of
+information is required to be documented. Which information is to be
+documented can be found underneath in corresponding sections.
+
+\subsection{Classes / Objects}\label{classes-objects}
+
+Each class / object should contain the following information.
+
+\begin{itemize}
+\item
+  Authors(s)
+\item
+  Date of creation
+\item
+  Summary of the functionalities it contains
+\item
+  Explanation of fields
+\end{itemize}
+
+\subsection{Functions}\label{functions}
+
+Each function should contain the following information.
+
+\begin{itemize}
+\item
+  Author(s)
+\item
+  Date of creation
+\item
+  Explanation of the paramaters and his types
+\item
+  Explanation of the return value and its type
+\item
+  Exceptions
+\end{itemize}
+
+\section{Method of documenting}\label{method-of-documenting}
+
+As stated above, the to be documented information must be written in the
+source code. The documentation will be created by parsing this
+information from the source file. To be able to this, this information
+must be written in a certain syntax.
+
+\subsection{Docstrings}\label{docstrings}
+
+We will be using docstring which are included in the clojure language.
+Docstrings allow us to create an annotation related to any given
+function at its declaration.
+
+\subsection{syntax}\label{syntax}
+
+Each type of information should be written on its own line. This line
+should contain a prefix for what kind of information it contains. The
+prefix may be ommited for the general explanation of the function.
+
+prefixes are:
+\begin{itemize}
+\item
+Author:
+\item
+Date:
+\item
+Parameter:
+\item
+Return value:
+\item
+Exception:
+\end{itemize}
+\end{document}
