@@ -1,9 +1,9 @@
 # Software Test Documentation #
 
 
-**Version: 0.3**	
+**Version: 1.0**	
 	
-**Date: 8/12/2013**
+**Date: 12/12/2013**
 
 **Author**: Youssef Boudiba (QAM)
 
@@ -50,6 +50,11 @@ Last but not least is the test report. This will be an overview (summary) of som
     <td>V0.3</td>
     <td>8/12/2013</td>
     <td>removing unnecessary content and updating topics</td>
+  </tr>
+    <tr>
+    <td>V1.0</td>
+    <td>12/12/2013</td>
+    <td>ready for delivery: iteration 1</td>
   </tr>
 </table>
 
