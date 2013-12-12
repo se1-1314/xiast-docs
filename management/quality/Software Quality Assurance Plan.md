@@ -12,16 +12,14 @@ The main tasks of the QAM consist of:
 
 * Writing and updating of the SQAP.
 * Writing and updating of the STD.
-* Checking whether or not the delivered documents confirms to their purpose.
+* Checking whether or not the delivered documents confirm to their purpose.
 * Checking if all documents are consistent and follows established guidelines (coding style, use of template for all documents, etc.).
 
 ### 3. Standards, practices, conventions and metrics ###
 
 #### Documentation Standards ####
 
-All documents must be based on IEEE standards and follow a certain template. The template has not been decided yet but we'll most likely use the VUB home-style template found here:
-[http://www.vub.ac.be/downloads/huisstijlhandboek.pdf](http://www.vub.ac.be/downloads/huisstijlhandboek.pdf)
-[https://intranet.vub.ac.be/marcom_old/templates.html](https://intranet.vub.ac.be/marcom_old/templates.html)
+All documents must be based on IEEE standards and follow a certain template.
 
 All documentation and source code must be written in English (except meetings reports that will be written in Dutch).
 
@@ -41,7 +39,7 @@ During random checks, the quality of the project will be measured by using follo
 * Numbers of bugs found per tests.
 * Time to fix bug/close issue.
 
-Exacts number will be communicated later.
+Exact numbers will be communicated later.
 
 #### Conventions ####
 
@@ -55,13 +53,9 @@ All the information about testing methodology, procedures and execution can be f
 
 **Documents:**
 
-Spelling mistakes and other small mistakes can be solved by the person who found it.
-
-Problems concerning structure and content of documents are communicated to the author.
+Problems concerning structure and content of documents are communicated to the author. Small mistakes (such as spelling mistakes, etc.), are also informed to the author.
 
 **Source Code:**
-
-Small typing mistakes can be corrected by the person who found it.
 
 Whenever a member does not agree with the implementation of a feature or a small function, an issue will be opened and the code will be reviewed by the group. 
 
