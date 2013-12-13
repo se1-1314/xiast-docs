@@ -2,9 +2,9 @@
 #+AUTHOR: Adriaan Leijnse
 
 * Change history
-| Version | Comment              |
-|---------+----------------------|
-|       1 | Iteration 1's design |
+| Version | Comment                    |
+|---------+----------------------------|
+|       1 | Iteration 1's basic design |
 
 
 * Introduction
@@ -27,15 +27,17 @@ iteration.
 
 This document will describe the design decisions for the current
 iteration, as well as directional pointers on how to proceed to the
-next iteration(s).
+next iteration(s). It is a work in progress and needs further work to
+fully support the development team, testers and configuration manager
+in their work.
 
 * Definitions
 - JVM :: Java Virtual Machine [fn::http://www.java.com]
-#- Server-side ::
-#- Client-side ::
+# - Server-side ::
+# - Client-side ::
 - Protocol :: A way to define interfaces in Clojure
               [fn::http://clojure.org/protocols].
-- Docstring :: an in-code description of a function, interface or any
+- Docstring :: An in-code description of a function, interface or any
                other language feature supporting docstrings
                [fn::http://en.wikipedia.org/wiki/Docstring].
 
@@ -80,7 +82,7 @@ front end, reducing parts of Xiast into an online-accessible API,
 transmitting data via the edn data notation format
 [fn::http://edn-format.org].
 
-* Logical
+* Common abstractions in the Xiast code base
 Xiast contains a number of abstractions and data types which allow
 code reuse throughout the program. Some of these data types will be
 used to transmit information from the back end to the front end and
@@ -89,11 +91,12 @@ back.
 ** Iteration 1
 The interfaces and data types here are all designed to be extensible,
 ensuring that they can be used in further iterations.
+
 *** The XiastQuery protocol
-The =XiastQuery= protocol defines access to Xiast's cachable
+The =XiastQuery= protocol defines read-only access to Xiast's cachable
 data. This currently includes the course list, course schedules,
 student's personal schedules and room schedules. The full definition
-of the protocol is defined in the =query.clj= source file.
+of the protocol is defined in the =query.clj= source file's docstrings.
 
 The full definitions of the following data types can be found in the
 aforementioned source file:
@@ -105,7 +108,6 @@ aforementioned source file:
      is taught in week 3, on day 1, from 9am till 11am in room E1.03.
 - Timespans :: Describe a span of time over multiple days or weeks.
 
-* Dependency
 
 * Persistent information
 Xiast will need store various forms of information in order to
@@ -122,20 +124,12 @@ data defined in the source code, loaded into memory at runtime,
 queryable via the Query protocol.
 
 Student authentication is done through the VUB's authentication
-API. And sessions are stored in cookies.
-* Patterns (niet?)
-* Interface
-Xiast will need a number of interfaces to grant access to, and
-manipulate data.
+API; sessions are stored in encrypted cookies.
 
-** Iteration 1
-The =XiastQuery= interface only supports querying of courses basic
-course information and course, student and room schedules.
+** Future iterations
+Future iterations will see the implementation of an SQL database
+schema to store updatable persistent information, as well as
+APIs to manipulate the stored data.
 
-The full description of the interface can be found in the docstrings
-of the =query.clj= source file.
-* Structure
-* Interaction
-* State dynamics
-* Algorithm
-* Resources
+Users will also get their own persistent session data, as their
+settings are currently only retained when using the same browser.
