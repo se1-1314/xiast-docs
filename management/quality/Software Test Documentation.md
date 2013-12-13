@@ -1,9 +1,9 @@
 # Software Test Documentation #
 
 
-**Version: 0.3**	
+**Version: 1.0**	
 	
-**Date: 8/12/2013**
+**Date: 12/12/2013**
 
 **Author**: Youssef Boudiba (QAM)
 
@@ -51,6 +51,11 @@ Last but not least is the test report. This will be an overview (summary) of som
     <td>8/12/2013</td>
     <td>removing unnecessary content and updating topics</td>
   </tr>
+    <tr>
+    <td>V1.0</td>
+    <td>12/12/2013</td>
+    <td>ready for delivery: iteration 1</td>
+  </tr>
 </table>
 
 
@@ -93,7 +98,7 @@ Since we’ll most likely follow the test driven development cycle (TDD), every 
 
 ### 3. Pass/fail criteria ###
 
-A test pass if no error occurs and if it’s conform to its design and requirements. Whenever an error occurs while running a test, the responsible developer will open an issue on gitHub and try to find a solution (with whole team if necessary). When a solution is found, a test incident report must be generated to keep track of the occurred error (see 3. test execution for more info).
+A test pass if no error occurs and if it’s conform to its design and requirements. Whenever an error occurs whilst running a test, the responsible developer will open an issue on gitHub and try to find a solution (with whole team if necessary). When a solution is found, a test incident report must be generated to keep track of the occurred error (see 3. test execution for more info).
 
 ### 4. Testing tools ###
 

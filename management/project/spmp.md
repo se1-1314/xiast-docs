@@ -2,8 +2,8 @@ Software Project Management Plan
 ================================
 Software Engineering 2013-2014, group 1
 ----------------------------------------
-###Version 0.4
-#### December 2nd, 2013
+###Version 1.0
+#### December 12th, 2013
 ##### Lars Van Holsbeeke
 ##### *Project Manager*
 ##### <mailto:lavholsb@vub.ac.be>
@@ -17,7 +17,8 @@ Version | Date      | Description
 **0.1** |29/10/2013 | Creation of document structure
 **0.2** |03/11/2013 | Completion of initial version
 **0.3** |14/11/2013 | Adapted to feedback of initial version
-**0.4** |02/12/2013    | Adapted to feedback of version 0.3
+**0.4** |02/12/2013 | Adapted to feedback of version 0.3
+**1.0** |12/12/2013 | Updated for delivery, iteration 1
 
 <!---
 Contents
@@ -179,7 +180,7 @@ Acronym | Declaration
 **SDD** | Software Design Document
 **SPMP**| Software Project Magement Plan
 **SRS** | Software Requirements Specification
-**STD/STP** | Software Test Plan
+**STD** | Software Test Plan
 **SQAP**|Software Quality Assurance Plan
 **SDP** | Software Documentation Plan
 **VUB** | Vrije Universiteit Brussel
@@ -212,11 +213,9 @@ All communication between the teammembers outside meetings must be logged by or 
 ###Internal Organisation
 The chart below shows the internal organisation and flows of information between the actors of the team:
 
-<!-- TODO: UNCOMMENT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 
 <img src="https://docs.google.com/drawings/d/1IYsAJUCK387y5APVW-sHPmnaf-U2Z95roFWV-v7IWAk/pub?w=594&amp;h=351">
--->
-
 
 
 *   The [Projectmanager](#Projectmanager) acts as a central coordination point for the whole team. This means that he is         responsible to solve (personal) issues between teammembers,  He also communicates with the client about general project issues concerning planning, progress,...  (see Roles and Responsibilities)
@@ -250,7 +249,7 @@ The chart below shows the internal organisation and flows of information between
     * Providing some documentation concerning the used tools and Git.
     * Ensuring safety and restorability of documents
 * Quality Assurance Leader
-    * Creation of & providing the STP with updates
+    * Creation of & providing the STD with updates
     * Optionally creating (and maintaining) an SQAP
     * Quality-based Monitoring of the Software
     * Reviewing source-code: are all required features implemented?
@@ -284,8 +283,6 @@ The chart below shows the internal organisation and flows of information between
 ### Documentation responsibilities
  <br />
 
-
-
 Responsible teammember  | Document(s)
 ---                     | ---
 Youssef Boudiba         | STD, SQAP
@@ -303,7 +300,7 @@ Start-up Plan
 <br />
 H = Function Holder, B = Back-up
 
-Function/Teammember    |Youssef Boudiba|Anders Deliens    |Adriaan Leijnse| Kwinten Pardon|Nils Van Geele	|Lars Van Holsbeeke
+Function/Teammember    |Youssef Boudiba|Anders Deliens    |Adriaan Leijnse| Kwinten Pardon|Nils Van Geele    |Lars Van Holsbeeke
 ---			|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:
 Project Manager		|		|B		|		|		|		|H
 Configuration Manager	|		|		|		|		|H		|B
@@ -319,7 +316,27 @@ Webmaster       |        |       |       |       |H       |B
 
 <!--- ###5.1.3 Rescource Acquisition Plan -->
 
-<!--- ###5.1.4 Project Staff Training Plan -->
+###Project Staff Training Plan
+Each teammembers is responsible to become familiar with the technologies, languages, etc. used in the project. It is therefore highly recommended to use information from books, (online) tutorials, other teammembers, etc. to resolve the lack of any foreknowledge. At the beginning of the project, the situation is as follows
+
+* Youssef: Has experience with Java and Git but hasn't any experience with Clojure, Latex and webtechnologies 
+* Anders:  Has programming skills and lots of experience with group projects and LaTeX, but never used Git and Clojure before
+* Adriaan: Has lots of experience with Git, Clojure and LaTex but less with webtechnologies
+*  Kwinten: Is very experienced with webtechnologies, has lots of experience with Git, less with LaTex and none with Clojure
+* Nils: Has lots of experience with Git, LateX and webtechnologies, but less with Clojure
+* Lars: Has experience with Java and LateX, less with Git and webtechnologies and none with Clojure.
+
+Based on this information it would be very useful for teammembers to follow tutorials concerning the technologies/languages they are not familiar with. This leads to the following situation: <br />
+*XX = highly recommended, X = recommended, V = not really necessary*
+
+Training        |Youssef    | Anders    | Adriaan   | Kwinten   | Nils  | Lars
+----            |:---:      |:----:     |:----:     |:----:     |:----: |:----:
+Clojure         | XX        | XX        | V         | XX        | X     |  XX                        
+LaTeX           | X         |  V        | V         | V         | V     | V
+Git             | X         | XX        | V         | V         | V     | XX
+Webtechnologies | XX        | XX        | X         | V         | X     | X 
+
+
 
 Work Plan
 -------------
@@ -327,9 +344,31 @@ Work Plan
 ###Work activities
 The table below shows an overview of the different activities in the development process together with the responsible teammember and an estimation of time needed to complete the activity. Rough time estimations were made by the group and are based on the total workload of each package of activities concerning this iteration (iteration 1). This way of estimation has been chosen because the models (Albrecht/IFPUG, Symons/Mark,COSMIC,COCOMO8I, COCOMOII, ...) are made for business software development in the real world (with a real company). We are only students simulating a software company, we don't have the amount of rescources, infrastructure,... a real company has. In this way these models would lead to untrustworthy (time)estimations.
 
+
+###Planning per iteration
+* **Iteration 1 "Writing web applications in Clojure"**, *December 13th, 2013*
+    * Interfaces: A single web interface using dynamically generated static web pages is used.
+        * Internationalisation: The interface needs to be displayed in both English and Dutch, depending on user preference.
+    *  Logging in: Using the VUB's authentication API.
+    *  Courses: Viewing a list of courses, optionally filtered through a keyword.
+    *  Schedules: Viewing the entire schedule of a course, logged in student or room.
+* **Iteration 2 "Making Clojure and JavaScript work together"**, *March 4th, 2014*
+    * Interfaces: Both a mobile and a desktop interface need to be provided.
+    * Schedules for whole programs
+    * Permission system: Program managers can only change the courses they own, etc.
+    * Configuration file driven scheduling algorithm: To make a simple start without introducing too much complexity in the front-end.
+    * Program managers can add programs through a web-interface
+    * Program managers can add rooms through a web-interface
+    * Instructors can change course details of existing courses: E.g. "this course requires an overhead projector", etc.
+* **Iteration 3 "Full base functionality"**, *April 15th, 2014*
+    * Web interface for program manager business: Scheduling courses, configuring programs, etc.
+    * Messaging system for schedule suggestions: Instructors and program managers need to communicate/request schedule changes. These should be easily appliable to the actual schedule by a program manager.
+* **Iteration 4 "Extra features and polishing up"**, *May 16th, 2014* 
+    * E-mail notifications for students about schedule changes
+
+
 #### Time estimations
 Time estimations are made in hours (h).
-<!-- TODO: later: tijdschattingen per iteratie maken -->
 
 ##### Iteration 1
 Activity                |Responsible	|Est. Time  |Documents
@@ -346,31 +385,29 @@ Training                |n.a.           |30         |n.a.
 
 
 #### Actual performed time
-During the development proces, each teammember will log how much time he spends on an activity of the project. This includes time spend on programming, documentation, testing, versioning control, etc. but also time spend on meetings. At every (weekly) meeting, each team member should tell how much time he has spent on which activity. <!---, with a clear separation between managing and coding. -->
+During the development proces, each teammember will log how much time he spends on an activity of the project. This includes time spend on programming, documentation, testing, versioning control, etc. but also time spend on meetings. At every (weekly) meeting, each team member should tell how much time he has spent on which activity.
+ <!---, with a clear separation between managing and coding. -->
 
 Performed time has been logged in hours (h).
 ##### Iteration 1
-<!--- TODO BEFORE INDIENEN: VUL TIJDEN AAN ############################################################ -->
 
 Teammember              |Function       |Perf. Time |Documents  |
 --------		        |---------------|----------:|---------  |
-Youssef Boudiba		    |QAM	       	|	        |STD, (SQAP)|<!-- TODO: pas aan als Youssef toch een SQAP heeft gmaakt-->
-Anders Deliens      	|RM		        |	        |SRS        |
-Adriaan Leijnse	        |DeM	       	|	        |SDD        |
-Kwinten Pardon		    |IL, programmers|		    |source code|
-Nils Van Geele          |CM    	        |   		|SCMP       |
+Youssef Boudiba		    |QAM	       	|27	        |STD, (SQAP)|
+Anders Deliens      	|RM		        |31	        |SRS        |
+Adriaan Leijnse	        |DeM	       	|52	        |SDD        |
+Kwinten Pardon		    |IL, programmers|44		    |source code|
+Nils Van Geele          |CM    	        |44   		|SCMP       |
 Lars Van Holsbeeke 	    |PM		        |67 	    |SPMP       |
 
-*TOTAL: xx hours* 
+*TOTAL: 265 hours* 
 
-
-<!--- TODO: (Roadrunner) tabel maken met hoeveel uren elk teamlid aan management <-> coding heeft gespendeerd  => uit roadrunner: we staan serieus achter!!! -->
-
+<!---
 <table>
     <tr> 
-        <th colspan = "0"> Management </th>
+        <th colspan = "0"> Management and Documentation </th>
     </tr>
-    <tr>
+    <tr>f
         <th> Iteration </th>
         <th> 0 </th>
         <th colspan="7"> 1 </th>
@@ -402,35 +439,419 @@ Lars Van Holsbeeke 	    |PM		        |67 	    |SPMP       |
         <th>	33	</th>
         <th>	34	</th>
         <th>	35	</th>
-		<!--- todo -->
-
-
-
+        <th>        </th>
+    </tr>
     </tr>
     <tr>
-        <th>Column 1 heading</th>
-        <th>Column 2 heading</th>
-        <th>Column 3 heading</th>
+        <th> Youssef Boudiba </th>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
     </tr>
-    <tr>
-        <td>Row 2, cell 1</td>
-        <td colspan="2">Row 2, cell 2, also spanning Row 2, cell 3</td>
+     <tr>
+        <th> Anders Deliens </th>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
     </tr>
-    <tr>
-        <td rowspan="2">Row 3, cell 1, also spanning Row 4, cell 1</td>
-        <td>Row 3, cell 2</td>
-        <td>Row 3, cell 3</td>
+     <tr>
+        <th> Adriaan Leijnse    </th>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
     </tr>
-    <tr>
-        <td>Row 4, cell 2</td>
-        <td>Row 4, cell 3</td>
+     <tr>
+        <th> Kwinten Pardon </th>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+    </tr>
+     <tr>
+        <th> Nils Van Geele </th>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+    </tr>
+     <tr>
+        <th> Lars Van Holsbeeke</th>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
     </tr>
 </table>
 
+<table>
+    <tr> 
+        <th colspan = "0"> Implementation </th>
+    </tr>
+    <tr>
+        <th> Iteration </th>
+        <th> 0 </th>
+        <th colspan="7"> 1 </th>
+        <th colspan="4"> 2 </th>
+        <th colspan="5"> 3 </th>
+        <th colspan="4"> 4 </th>
+        <th> Total </th>
+    </tr>
+    <tr>
+        <th> Weeks <br /> (academic) </th>
+        <th> 5-7 </th>
+        <th> 8 </th>
+        <th> 9 </th>
+        <th> 10 </th>
+        <th> 11 </th>
+        <th> 12 </th>
+        <th> 13 </th>
+        <th> 14 </th>
+        <th>    22	</th>
+        <th>	23	</th>
+        <th>	24	</th>
+        <th>	25	</th>
+        <th>	26	</th>
+        <th>	27	</th>
+        <th>	28	</th>
+        <th>	29	</th>
+        <th>    30-31   </th>
+        <th>	32	</th>
+        <th>	33	</th>
+        <th>	34	</th>
+        <th>	35	</th>
+        <th>        </th>
+    </tr>
+    </tr>
+    <tr>
+        <th> Youssef Boudiba </th>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+    </tr>
+     <tr>
+        <th> Anders Deliens </th>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+    </tr>
+     <tr>
+        <th> Adriaan Leijnse    </th>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+    </tr>
+     <tr>
+        <th> Kwinten Pardon </th>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+    </tr>
+     <tr>
+        <th> Nils Van Geele </th>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+    </tr>
+     <tr>
+        <th> Lars Van Holsbeeke</th>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        <td>                </td>
+        
+        <td>                </td>
+        <td>                </td>
+    </tr>
+</table>
+-->
+
 ###Schedule allocation
-A GANTT chart is used for this:
-<!--- <img src="https://docs.google.com/drawings/d/1qP88AVxn3eb1UgbBwOU4hTJh8NGuodBViJ8dIefvQro/pub?w=1535&amp;h=918"> -->
-<!--- uitleg bij geven!!!########################################################################################-->
+A GANTT chart is used for this.
+<img src="https://docs.google.com/drawings/d/1qP88AVxn3eb1UgbBwOU4hTJh8NGuodBViJ8dIefvQro/pub?w=1535&amp;h=918">
+The major part of the activities depends on the release of the SRS, because the latter contains all requirements on which our project is build. The majority of the dependencies between activities are logically derivable from the GANTT-chart.
+
+ <!--- TODO: misschien nog wat meer detail bijvoegen -->
 
 ###Resource allocation
 An overview of rescources that will be used can be found in the table below
@@ -537,6 +958,30 @@ All estimations are on a scale from 0 to 10.
     * Solution: Using the modularity of the software product to correct as easily and efficiently as possible the requirements that were misunderstood
     * Target completion date: n.a.
     * Responsible: Requirements Manager, Implementation Leader
+9. Apache server goes offline on Wilma
+    * Probability: low
+    * Impact: medium
+    * Priority: high
+    * Cost of Solution: low
+    * Solution: Changing the url in the configuration of the application
+    * Target completion date: n.a.
+    * Responsible: Server Manager
+10. Database server goes offline
+    * Probability: low
+    * Impact: high
+    * Priority: high
+    * Cost of Solution: low
+    * Solution: Changing the configuration of the application (dataloss of a part of the database is possible). The cost of this solution is low because back-ups of the database are taken every hour, using a back-upserver of a teammember
+    * Target completion date: n.a.
+    * Responsible: Server Manager
+11. Back-end server goes (temporarly) down
+    * Probability: low
+    * Impact: high
+    * Priority: high
+    * Cost of solution: low
+    * Solution: Using a mirror server: Aphrodite
+    * Target completion date: n.a.
+    * Responsible: Server Manager
 
 <!--- TO ADD: ##############################################################################################9. architectuur, systeem, software platform, main db (bus factor), problemen ivm single server architectuur, backups, eenvoudig backups migreren naar ander systeem, webserver, apache problemen, cve's ivm apache (relevant voor onze applicatie), versioning control, server access (manier waarop mensen toegang hebben tot sytemen)
 -->
@@ -575,14 +1020,18 @@ We try to follow the agile development principles as much as possible:
 
 Methods, tools and techniques
 ---------------------------------
-<!---VERGADERING: Programmeertaal nog te beslissen -->
-<font size="1" color="grey">At the moment of writing, the programming language has not been chosen yet and will therefore not be mentioned in this version of the SPMP. Therefore, some items will be added to the list below in future versions of the SPMP.  </font>
 
 * Github will be used as
     * communication tool for documents
     * versioning control system for source code
-* Eclipse will be used as [IDE](#IDE) during the implementation process.
+* Clojure will be used as programming language
+    * Back-end: to generate schedules and provide an API to login/logout and to view and modify schedules
+    * Front-end: to query schedules using the back-end api. 
+* JavaScript and JQuery to create dynamic webpages, used to view/update
+* Every teammember is free to use his preferred IDE during the implementation process
 * A MySQL database will be used as backend database on Wilma. It will be populated with course schedule data.
+* Markdown will be used to write documents because of its perfect integration with Github. When documents must be delivered, Pandoc will be used to convert the Markdown documents to the 'paper-compatible' LaTeX language from which pdf files are generated.
+* Compojure and Ring are used as the main webframeworks for Clojure.
 
 <!--- niet nodig
 6.3 Infrastructure plan
@@ -597,28 +1046,25 @@ Supporting Process Plans
 ===========================
 Software Configuration Management Plan (SCMP)
 -------------------------------------------------
-### Software Configuration Management Plan
-
-#### Introduction
+### Introduction
 
 In this document we will describe the workflow that needs to be followed for the Xiast project.
 We will also talk about the two **Git** repositories that will be used.
 This document will also be included in an adapted form in the SPMP.
 
-#### The repositories
+### The repositories
 
 For this project we will be using two distinct Git repositories, each with their own specific purpose.
 
-##### xiast-docs
+#### xiast-docs
 
 The `xiast-docs` repository will be used to hold all documents related to the project.
 This includes reports made during meetings and all plans made by the different leaders and managers.
 
 Every manager has his own directory inside the `management` directory.
 In this directory, the manager can put all files related to his work and reports.
-If a manager wants to make a change to the directory structure, for instance a new folder inside the management directory, an issue (see below) should be created and closed by the software configuration manager.
+If a manager wants to make a change to the main directory structure, he is free to do so but must contact the configuration manager about it.
 By doing this the software configuration manager can keep the directory structure in the SCMP up-to-date.
-Issues should not be created for structural changes inside one's own directory.
 
 The current directory structure, which may be subject to change, is:
 
@@ -632,56 +1078,64 @@ The current directory structure, which may be subject to change, is:
 		* **requirements** concerning all software requirements
 	* **meetings** contains all agendas and reports of meetings
 	* **manuals** contains all files related to the Xiast manuals
+	* **templates** contains templates for deliverables
 
 
-##### xiast
+#### xiast
 
-The `xiast` repository is the main repository that will contain all the code for both the server and the Xiast website.
-The current directory structure, which again may be subject to change, is:
+The `xiast` repository is the main repository that contains all the code for both the server and the Xiast website.
+The directory structure is that of a basic Leiningen project:
 
 * **/**
+	* **resources**
+		* **dictionaries** directory containing translates strings for internationalisation
+		* **public** directory containing public files such as images, CSS stylesheets, ...
+		* **templates** directory containing all website templates
+	* **src** directory containing the source files
+	* **test** directory containing all tests
 
 The `xiast` repository is for code and related resources (graphics, sound, SQL, ...) only.
 
-#### Tracking issues
+### Tracking issues
 
 With GitHub's issue tracker, which can be found at `https://github.com/se1-1314/xiast/issues`, we can create so-called *issues*.
 An issue can be anything from a bug, request for implementation or suggestion, goal, ...
 By using this tool we can achieve a workflow that will make it easier for both us and others to track the progress of the project.
 
-First of all, when all requirements of the project are known and we know more about the design of the software, we will split up every requirement in one or more smaller "tasks" that need to be finished in order to implement the requirement.
-These issues can then be bundled into a *milestone* which denotes the requirement that needs to be implemented.
+When all requirements of the project are known, we will start splitting up the requirements in one or more smaller "tasks" that need to be finished in order to implement the requirement.
+These issues can then be bundled into a *milestone* which denotes the requirement or part of the requirement that needs to be implemented.
 Milestones feature progress trackers which again makes it really easy for people to see how much still needs to be done for a requirement.
 
 For example: "Functioning user system" can be a milestone, with issues such as "User registration" and "User login", or "Access control" with "Assigning user rights" and "Rights checking" as some of the issues.
 
-Furthermore, if bugs are found during testing or actual use of the application, issues can be made for these bugs which will be assigned to a special milestone exclusively for bug fixing.
-
-Requests for implementation and suggestions can also be made through the creation of issues. If a request or suggestion gets denied, we can just simply close the issue (issues can always be re-opened). If the request or suggestion gets accepted, the issue needs to be assigned to a milestone specific for this issue.
+As mentioned earlier, the issue tracker can and must be used for more than just tracking progress of the requirements.
+Issues will be made to report bugs and propose fixes, to propose enhancements or request extra functionality, to report on critical errors and so on.
+Every issue features a comment section which makes it easy for team members to discuss requests, bugs, and so on.
 
 It is important that the issue tracker is kept clean at all times.
 What this means is that all issues and milestones have proper descriptions and descriptive titles, issues that are finished must be closed (see workflow), when one team member takes over an issue from another team member this must be updated on the tracker, ... and so on.
 
 The usage of the issue tracker, when done properly, causes less overhead on the project because we do not need to maintain our own tracker or website.
 
-#### Git workflow
+### Git workflow
 
 When working with Git, there are multiple workflows possible.
 Considiring the size of the team and project, we will be using the so called **feature branching workflow**.
 This workflow allows us to tightly integrate the issue tracker into our project.
 
-##### Branches
+#### Branches
 There will always be one central branch: the **master** branch.
 This branch is the actual "master copy" of our project and should contain preferably only working code.
 
-Whenever an issue needs to be implemented, it first needs to be assigned to a team member who will then be responsible for the implementation of said issue.
-The member will then locally, after pulling the repository first, create a new branch from the `master` branch and name it after the issue.
-He will then checkout the newly made branch, from now on the working branch, and publish it to GitHub.
+Whenever a team member wants to implement changes, he must first branch the master branch into a new one and commit all his changes to the newly created branch.
+This branch, which is created locally, needs to be published to GitHub.
+This doesn't only make it easier to track changes on the branch, but also makes it easier to transfer the work to someone else.
 
-All work related to implementing the feature will then be done on the working branch and that branch only.
-Regulary pushing commits made in the working branch is a must.
+Because some issues have a really small workload and can be solved in a single commit, it's possible to solve multiple issues on one single branch instead of creating a branch for every issue.
 
-##### Merging
+To keep things uniform, branch names must be in lower case only and use dashes instead of spaces.
+
+#### Merging
 After the work has been done and the issue is implemented, the working branch needs to be merged into the `master` branch.
 It is mainly the team member's responsibility to avoid merge conflicts!
 
@@ -691,11 +1145,12 @@ By doing this regulary, conflicts that will occur will be smaller than they woul
 If and only if all work is done and the working branch is conflict free and the head of the branch is pushed to GitHub, steps can be taken to merge the working branch into the `master` branch.
 This is done by making a **pull request**.
 
-##### Pull request
-When making a pull request, select the `master` branch as the base branch and the working branch as the copmare branch.
-In the description of a pull request a link to the appropriate issue of the working branch should be included.
+#### Pull request
+When making a pull request, select the `master` branch as the base branch and the working branch as the compare branch.
+If the branch that is being merged closes one or more issues, they should be referenced in the description.
+If done correctly, like described in [this guide](https://help.github.com/articles/closing-issues-via-commit-messages), the issues can be automatically closed when the pull request gets accepted.
 
-After making the pull request, it is the implementation manager's responsibility to accept or deny the request.
+After making the pull request, it is the (backup) implementation manager's responsibility to accept or deny the request.
 The first step is to review the code by testing it locally to see if it actually works.
 If he so chooses, he can also simulate the merging locally to see if it works with previous accepted pull requests.
 
@@ -708,23 +1163,18 @@ The second option is advised.
 In this case, the team member must fix his code and make a new pull request.
 The same is valid for when there are problems with the code itself.
 
-##### Reassigning issues
-When a member is assigned to an issue and can't implement or solve it because of reasons, the issue can be reassigned to another team member.
-In this case, the previous member should make sure the latest commits on the working branch are pushed to GitHub.
-The new member can then easily pick up the previous member's work.
+#### Assigning and reassigning issues
+To keep track of who is working on what and to avoid double work, members should assign themselves or others to issues.
+This can be done on the issue tracker itself.
 
-Updating the issue on the tracker must not be forgotten either!
+If a team member is stuck, the member is free to transfer the work to someone else.
+But he must not forget to reassign the issue to the other person
 
-##### docs
+#### docs
 For the `xiast-docs` repository, we don't need to use the feature branch workflow, we can just use a **centralized workflow**.
 This means we won't use branching and we will just commit to the master branch.
 
-##### Tagging
-At the end of every iteration of the project, the project manager is responsible to make an *annotated tag* for both repositories.
-The names of the tag should follow the following naming convention: `iteration-{i}.{e}` where `{i}` is the current iteration and `{e}` stand for last minute edits after making the tag starting with 0.
-This leaves room for a small amount of error.
-
-#### Project website
+### Project website
 
 One of the requirements of the project is a website that can be used to track the progress of the project.
 Instead of focussing on implementing our own system, we will make full use of the tools GitHub is providing us.
@@ -742,28 +1192,97 @@ Commiting to this branch thus allows us to edit the page manually, although it i
 
 To keep track of the project's status however, we will use the built-in issue tracker of GitHub.
 
-Verification and Validation Plan (STD)
-------------------------------------------
-This plan will be delivered Friday 15th 2013, 2013: deadline for the other documents.
-
-SoftwareDocumentation Plan (SDP)
------------------------------
-<!--- VERGADERING: wie maakt dit plan!!!??? -->
-This plan will be delivered Friday 15th, 2013: deadline for the other documents.
 
 Software Quality Assurance Plan (SQAP)
 ------------------------------------------
-<!--- VERGADERING: dit plan moet nog gemaakt worden) -->
-No seperate plan required for this project. All relevant information concerning this plan can be found in this document, the SPMP. The QAM is responsible for this.
+The Software Quality Assurance Plan (SQAP) is based on the IEEE standard for software quality assurance plans (730-2002). Since almost all information can be found in the SPMP, we will not cover every topics proposed by the standard. 
+
+### 1. Purpose ###
+
+This SQAP's objective is to ensure that the project does not deviate from its requirements and that a certain level of quality is maintained. By defining several methods and guidelines we ensure that the development of the project proceeds smoothly while keeping the quality high.
+
+### 2. Tasks ###
+
+The main tasks of the QAM consist of:
+
+* Writing and updating of the SQAP.
+* Writing and updating of the STD.
+* Checking whether or not the delivered documents confirm to their purpose.
+* Checking if all documents are consistent and follows established guidelines (coding style, use of template for all documents, etc.).
+
+### 3. Standards, practices, conventions and metrics ###
+
+#### Documentation Standards ####
+
+All documents must be based on IEEE standards and follow a certain template.
+
+All documentation and source code must be written in English (except meetings reports that will be written in Dutch).
+
+#### Coding (and comment) Standards ####
+
+The code documentation must follow the SDP.
+
+#### Testing standards ####
+
+Testing of code must follow steps of to the STD.
+
+#### Metrics ####
+
+During random checks, the quality of the project will be measured by using following metrics:
+
+* Test Pass Rate.
+* Numbers of bugs found per tests.
+* Time to fix bug/close issue.
+
+Exact numbers will be communicated later.
+
+#### Conventions ####
+
+We'll organize weekly meetings to resume the current state of the project and to discuss the evolution of it.
+
+### 4. Test ###
+
+All the information about testing methodology, procedures and execution can be found in the STD.
+
+### 5. Problem reporting and corrective actions ###
+
+**Documents:**
+
+Problems concerning structure and content of documents are communicated to the author. Small mistakes (such as spelling mistakes, etc.), are also informed to the author.
+
+**Source Code:**
+
+Whenever a member does not agree with the implementation of a feature or a small function, an issue will be opened and the code will be reviewed by the group. 
+
+### 5. Tools ###
+
+See reference.
+
+### 6. Media Control ###
+
+Standards described in the SCMP must be followed by the whole team and controlled by the QAM. 
+
+### 7. Supplier Control ###
+
+Software provide by an external provider must undergo a series of tests and must conform to the requirements before integrating the project.
+
+### 8. Records collection, maintenance and retenetion ###
+
+All documents are stored remotely at the gitHub repository ([https://github.com/se1-1314](https://github.com/se1-1314)) and locally.
+
+### 9. Training ###
+
+The project will require certain knowledge of tools and languages. To prevent team members from getting lost during the project, following tools and languages must be mastered by the whole team:
+
+* HTML
+* Clojure
+* Git
+* Java (and JUNIT)
 
 <!---
 7.5 Reviews and Audits
 ----------------------
 -->
-Problem Resolution Plan
---------------------------
-<!--- VERGADERING: wie maakt dit plan!!!??? -->
-This plan will be delivered Friday 15th, 2013: deadline for the other documents.
 
 <!---
 7.7 Subcontracter Management Plan
