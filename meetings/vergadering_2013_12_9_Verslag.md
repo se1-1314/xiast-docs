@@ -52,5 +52,5 @@ Variabele				|Inhoud
 
 ## Volgende vergadering
 * Locatie: IG
-* Datum: 16 december 2013
-* Tijd: 12u
+* Datum: volgend semester (zal nog rondgemaild worden)
+* Tijd: 
