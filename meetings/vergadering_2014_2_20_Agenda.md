@@ -40,12 +40,13 @@ LET OP: ER IS NIET ZOVEEL TIJD MEER!
 We zullen volgende vergadering Jens/Ragnhild uitnodigen (zie mail Jens), vermoedelijk zal dit donderdag 27/02/2014 zijn. Ik zal een mailtje sturen.
 
 # 4. Documenten in LaTeX (Lars) (10 min)
+De laatste iteratie zijn alle documenten van markdown -> tex -> pdf omgezet. Het is geen slecht idee om eens te checken of die tex code volledig is wat je wil en eventuele aanpassigen te doen (lage prioriteit)
 
 
 # Mededelingen
 
 Deadlines:
- * **!**Dinsdag 04/03/2014 - Opleveren CODE en DOCUMENTEN **!**
+ * **!** Dinsdag 04/03/2014 - Opleveren CODE en DOCUMENTEN **!**
  * Woensdag 12/03/2014 - Presentatie
 
 # TODO-list
