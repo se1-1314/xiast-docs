@@ -21,34 +21,19 @@ Ook i.v.m. de finale presentatie van vorig iteratie had ik graag (bovenop hetgen
 Overlopen van en toewijzen van het werk voor iteratie 2 a.d.h.v. het planningsdocument opgesteld door Adriaan.
 LET OP: ER IS NIET ZOVEEL TIJD MEER!
 
-* Iteration 1 "Writing web applications in Clojure"
-December 13th, 2013
-** Interfaces
-A single web interface using dynamically generated static web pages is used.
-*** Internationalisation
-The interface needs to be displayed in both English and Dutch,
-depending on user preference.
-** Logging in
-Using the VUB's authentication API.
-** Courses
-Viewing a list of courses, optionally filtered through a keyword.
-** Schedules
-Viewing the entire schedule of a course, logged in student or room.
-
-* Iteration 2 "Making Clojure and JavaScript work together"
-March 4th, 2014
-** Interfaces
-Both a mobile and a desktop interface need to be provided.
-** Schedules for whole programs
-** Permission system
-Program managers can only change the courses they own, etc.
-** Configuration file driven scheduling algorithm
-To make a simple start without introducing too much complexity in the
-front-end.
-** Program managers can add programs through a web-interface
-** Program managers can add rooms through a web-interface
-** Instructors can change course details of existing courses
-E.g. "this course requires an overhead projector", etc.
+* Iteration 2 "Making Clojure and JavaScript work together" - March 4th, 2014
+  * Interfaces
+    Both a mobile and a desktop interface need to be provided.
+  * Schedules for whole programs
+  * Permission system
+    Program managers can only change the courses they own, etc.
+  * Configuration file driven scheduling algorithm
+    To make a simple start without introducing too much complexity in the
+    front-end.
+  * Program managers can add programs through a web-interface
+  * Program managers can add rooms through a web-interface
+  * Instructors can change course details of existing courses
+    E.g. "this course requires an overhead projector", etc.
 
 
 # 3. Uitnodigen Jens/Ragnhild (Lars) (10 min)
