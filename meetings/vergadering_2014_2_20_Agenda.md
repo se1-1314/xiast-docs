@@ -45,7 +45,7 @@ We zullen volgende vergadering Jens/Ragnhild uitnodigen (zie mail Jens), vermoed
 # Mededelingen
 
 Deadlines:
- * *!*Dinsdag 04/03/2014 - Opleveren CODE en DOCUMENTEN *!*
+ * **!**Dinsdag 04/03/2014 - Opleveren CODE en DOCUMENTEN **!**
  * Woensdag 12/03/2014 - Presentatie
 
 # TODO-list
