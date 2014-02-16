@@ -19,6 +19,7 @@ Ook i.v.m. de finale presentatie van vorig iteratie had ik graag (bovenop hetgen
 
 # 2. Overlopen TODO iteratie 2 (Lars) (30 min)
 Overlopen van en toewijzen van het werk voor iteratie 2 a.d.h.v. het planningsdocument opgesteld door Adriaan.
+
 LET OP: ER IS NIET ZOVEEL TIJD MEER!
 
 * Iteration 2 "Making Clojure and JavaScript work together" - March 4th, 2014
