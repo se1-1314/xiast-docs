@@ -39,8 +39,14 @@ LET OP: ER IS NIET ZOVEEL TIJD MEER!
 # 3. Uitnodigen Jens/Ragnhild (Lars) (10 min)
 We zullen volgende vergadering Jens/Ragnhild uitnodigen (zie mail Jens), vermoedelijk zal dit donderdag 27/02/2014 zijn. Ik zal een mailtje sturen.
 
+# 4. Documenten in LaTeX (Lars) (10 min)
+
 
 # Mededelingen
+
+Deadlines:
+ * *!*Dinsdag 04/03/2014 - Opleveren CODE en DOCUMENTEN *!*
+ * Woensdag 12/03/2014 - Presentatie
 
 # TODO-list
 
