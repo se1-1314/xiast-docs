@@ -24,17 +24,17 @@ LET OP: ER IS NIET ZOVEEL TIJD MEER!
 
 * Iteration 2 "Making Clojure and JavaScript work together" - March 4th, 2014
   * Interfaces
-    Both a mobile and a desktop interface need to be provided.
+    * Both a mobile and a desktop interface need to be provided.
   * Schedules for whole programs
   * Permission system
-    Program managers can only change the courses they own, etc.
+    * Program managers can only change the courses they own, etc.
   * Configuration file driven scheduling algorithm
-    To make a simple start without introducing too much complexity in the
-    front-end.
+    * To make a simple start without introducing too much complexity in the
+      front-end.
   * Program managers can add programs through a web-interface
   * Program managers can add rooms through a web-interface
   * Instructors can change course details of existing courses
-    E.g. "this course requires an overhead projector", etc.
+    * E.g. "this course requires an overhead projector", etc.
 
 
 # 3. Uitnodigen Jens/Ragnhild (Lars) (10 min)
