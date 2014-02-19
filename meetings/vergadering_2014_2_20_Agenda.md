@@ -57,6 +57,8 @@ We zullen volgende vergadering Jens/Ragnhild uitnodigen (zie mail Jens), vermoed
 # 4. Documenten in LaTeX (Lars) (10 min)
 De laatste iteratie zijn alle documenten van markdown -> tex -> pdf omgezet. Het is geen slecht idee om eens te checken of die tex code volledig is wat je wil en eventuele aanpassigen te doen (lage prioriteit)
 
+# 5. Eens langer samenzitten met iedereen om veel in een keer gedaan te krijgen (Adriaan) (10 min)
+Dit is heel handig en zo krijgen we veel gedaan, dus ik denk dat we dit eens moeten doen op een dag waarop veel mensen kunnen.
 
 # Mededelingen
 
