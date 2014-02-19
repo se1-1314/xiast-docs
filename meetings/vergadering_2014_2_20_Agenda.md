@@ -39,11 +39,11 @@ LET OP: ER IS NIET ZOVEEL TIJD MEER!
 ## Wat er allemaal moet worden gedaan (Adriaan)
 * Front-end moet samenzitten/mailen/chatten om:
   * Use cases te maken: verhaaltjes over hoe het programma gebruikt wordt (kunnen in de SRS als ik het goed heb)
-  * Requirements aan te vullen. (Requirements moeten het probleemdomein volledig beschrijven, dus wat het programma moet doen. Hoe dat de GUI eruitziet en dergelijke is niet zo belangrijk. "Cycling tabs" moet bijvoorbeeld weg aangezien het geen requirement is dat het met tabs werkt.)
+  * Requirements aan te vullen. (Requirements moeten het probleemdomein volledig beschrijven, dus wat het programma moet doen. Hoe dat de GUI eruitziet en dergelijke is niet zo belangrijk. "Cycling tabs" moet bijvoorbeeld weg aangezien het geen requirement is dat het met tabs werkt.) `(Lars) Best samen eens de volledige werking van het probleem samen overlopen (+ ev. audiorecorden): wat moet het allemaal kunnen, wie heeft welke rechten, hoe verloopt de Dataflow => ervoor zorgen dat iedereen zich kan 'oriënteren' in de complexiteit`
   * Eventueel mock-ups maken voor alle functionaliteit in de requirements. Belangrijker dan echte mock-ups is lijstjes hebben met alles wat er op de pagina moet staan.
   * HTML-pagina's voor de functionaliteit maken, zit hiervoor samen met Kwinten.
   * Vertalingen vervolledigen (ik denk dat Youssef al weet hoe dit moet)
-  * Documentatie schrijven voor de webpagina's in Clojure en voor de code in JavaScript
+  * Documentatie schrijven voor de webpagina's in Clojure en voor de code in JavaScript `(Lars) Opm van een teamlid: in hoeverre dient team front-end Clojure te kennen, aangezien dit nogal tijdverslindend.`
 * Back-end moet samenzitten/mailen/chatten om:
   * Database design maken, eventueel met een modeleertool.
   * Database implementeren (en een SQL-library kiezen) en zorgen dat de queryprotocols erop werken
