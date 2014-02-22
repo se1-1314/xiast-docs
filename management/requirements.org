@@ -1,0 +1,86 @@
+* Programmabeheerder
+- Hoofdadmin
+- Programma r/w
+- Vakken r/w
+  - looptijd
+  - titularis
+  - etc.
+- Lokalenbeheer
+  - Toevoegen
+  - verwijderen
+  - op non-actief zetten
+  - Faciliteiten:
+    - Aantal plaatsen
+    - Apparatuur (beamer)
+- Semi-automatische scheduling
+  - Kan voorstellen van lesgevers permanent maken
+* Titularissen/lesgevers
+- Details van eigen vakken
+- Studieonderdelen
+  - HOC/WPO/... r/w
+  - Het aantal uren in deze r/w
+- Voorkeuren voor lesonderdelen r/w
+  - Wanneer onderdeel
+  - Faciliteiten voor onderdeel: wanneer, plaats, etc
+- Semi-automatische scheduling
+  - Voor eigen vakken
+  - Kan als voorstel gemarkeerd worden naar PB toe als /er geen
+    conflicten zijn/
+- Kunnen hun rooster zien
+- Last minute wijzigingen die worden doorgestuurd aan belanghebbenden:
+  - Afwezigheid: studenten moeten dit doorgestuurd krijgen
+  - (Mss later snelle communicatie met PB)
+- Hebben beschikbaarheidsdagen
+* Studenten
+- Inschrijven (met deadline)
+  - We negeren deadlines etc, begin gewoon met weten wie ingeschreven
+    is op wat
+- Kunnen rooster zien
+* Vak
+- Bevat lesonderdelen
+- Titularis
+- Verplicht/niet verplicht (in een lesprogramma)
+* Programma
+- Richting+Orientatie+Jaar
+- TO ASK
+- Bevat vakken (courses), bijv. SoftEng
+  - Verplicht
+  - Keuze
+* Lesonderdeel
+- Faciliteiten
+- Lesgever
+- Voorkeuren (tijdstip etc), misschien beter bij lesgever?
+* Lesblok
+- Tijdstip
+- Lokaal
+* Schedule
+- Voor elk lesonderdeelblok:
+  - Datum
+  - Tijdstip
+  - Lokaal
+* Lokaal
+- Aantal beschikbare plaatsen
+- Faciliteiten
+- Faculteit
+- Gebouw
+- Nummer
+* Semi-automatische scheduling
+Idee krijgen of het haalbaar is of niet wat ze voorstellen van
+constraints.
+- De aangepaste schedules kunnen worden aangepast
+- Constraint violations moeten worden weergegeven
+- Als constraint violations voorkomen kunnen de constraints aangepast
+  worden.
+* Scheduling
+- Sanity check: WPO na HOC
+- Blok/week/les
+* Dunno
+- Vakken worden ofwel in het faculteitsgebouw gegeven ofwel in een
+  algemeen lokaal als D
+* GUI
+rooster voor
+  - studenten (persoonlijk)
+  - lesgever
+  - vak
+  - lokaal
+op tijdsperiode gefilterd + andere filters
