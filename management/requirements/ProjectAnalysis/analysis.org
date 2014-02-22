@@ -50,6 +50,8 @@
 - Faciliteiten
 - Lesgever
 - Voorkeuren (tijdstip etc), misschien beter bij lesgever?
+- Lesonderdelen moeten een aantal keren worden gegeven in blokken met
+  een bepaalde lengte
 * Lesblok
 - Tijdstip
 - Lokaal
@@ -64,14 +66,20 @@
 - Faculteit
 - Gebouw
 - Nummer
-* Semi-automatische scheduling
-Idee krijgen of het haalbaar is of niet wat ze voorstellen van
-constraints.
+* Scheduling
+** Semi-automatisch
+Scheduling is semi-automatisch: idee krijgen of het haalbaar is of
+niet wat ze voorstellen van constraints.
 - De aangepaste schedules kunnen worden aangepast
 - Constraint violations moeten worden weergegeven
 - Als constraint violations voorkomen kunnen de constraints aangepast
   worden.
-* Scheduling
+
+Ideeën:
+- De PM een aantal vakken per keer laten schedulen. Dit zou toelaten
+  om bevoorbeeld eerst alle vakken te selecteren die gemeenschappelijk
+  zijn tussen verschillende richtingen.
+** Schedulingalgoritme
 - Sanity check: WPO na HOC
 - Blok/week/les
 * Dunno
