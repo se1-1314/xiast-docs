@@ -79,9 +79,16 @@ Ideeën:
 - De PM een aantal vakken per keer laten schedulen. Dit zou toelaten
   om bevoorbeeld eerst alle vakken te selecteren die gemeenschappelijk
   zijn tussen verschillende richtingen.
+- Alle voorstellen voor schedule-slots voor de vakken van een bepaalde
+  groep weergeven, als een vak in die groep wordt gescheduled door een
+  titularis.
+- Verschillende "scheduling modes": modelweek, elke week apart, etc.
 ** Schedulingalgoritme
 - Sanity check: WPO na HOC
 - Blok/week/les
+* Messaging
+Kan eventueel geïmplementeerd worden om re-scheduling van een les te
+vergemakkelijken tussen titularis en PM
 * Dunno
 - Vakken worden ofwel in het faculteitsgebouw gegeven ofwel in een
   algemeen lokaal als D
