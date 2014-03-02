@@ -2,8 +2,8 @@ Software Project Management Plan
 ================================
 Software Engineering 2013-2014, group 1
 ----------------------------------------
-###Version 1.0
-#### December 12th, 2013
+###Version 2.0
+#### March 3th, 2014
 ##### Lars Van Holsbeeke
 ##### *Project Manager*
 ##### <mailto:lavholsb@vub.ac.be>
@@ -19,6 +19,7 @@ Version | Date      | Description
 **0.3** |14/11/2013 | Adapted to feedback of initial version
 **0.4** |02/12/2013 | Adapted to feedback of version 0.3
 **1.0** |12/12/2013 | Updated for delivery, iteration 1
+**2.0** |03/03/2014 | Updating, iteration 2
 
 <!---
 Contents
@@ -301,7 +302,7 @@ Start-up Plan
 H = Function Holder, B = Back-up
 
 Function/Teammember    |Youssef Boudiba|Anders Deliens    |Adriaan Leijnse| Kwinten Pardon|Nils Van Geele    |Lars Van Holsbeeke
----			|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:
+---    		|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:
 Project Manager		|		|B		|		|		|		|H
 Configuration Manager	|		|		|		|		|H		|B
 Quality Assurance Leader|H		|		|		|B		|		|
@@ -331,7 +332,7 @@ Based on this information it would be very useful for teammembers to follow tuto
 
 Training        |Youssef    | Anders    | Adriaan   | Kwinten   | Nils  | Lars
 ----            |:---:      |:----:     |:----:     |:----:     |:----: |:----:
-Clojure         | XX        | XX        | V         | XX        | X     |  XX                        
+Clojure         | XX        | XX        | V         | XX        | X     | XX                        
 LaTeX           | X         |  V        | V         | V         | V     | V
 Git             | X         | XX        | V         | V         | V     | XX
 Webtechnologies | XX        | XX        | X         | V         | X     | X 
@@ -344,7 +345,8 @@ Work Plan
 ###Work activities
 The table below shows an overview of the different activities in the development process together with the responsible teammember and an estimation of time needed to complete the activity. Rough time estimations were made by the group and are based on the total workload of each package of activities concerning this iteration (iteration 1). This way of estimation has been chosen because the models (Albrecht/IFPUG, Symons/Mark,COSMIC,COCOMO8I, COCOMOII, ...) are made for business software development in the real world (with a real company). We are only students simulating a software company, we don't have the amount of rescources, infrastructure,... a real company has. In this way these models would lead to untrustworthy (time)estimations.
 
-
+<!-- TODO ITER 2 --------------------------------------------------------------->
+<!-- AAN TE PASSEN ITERATIE 2 -> werk op basis van het storyboard -->
 ###Planning per iteration
 * **Iteration 1 "Writing web applications in Clojure"**, *December 13th, 2013*
     * Interfaces: A single web interface using dynamically generated static web pages is used.
@@ -382,6 +384,18 @@ Configuration management|CM    	        |30 		|SCMP
 Team management    	    |PM		        |60  	    |SPMP
 Training                |n.a.           |30         |n.a.
 
+<!-- TODO ITER 2 --------------------------------------------------------------->
+##### Iteration 2
+Activity                |Responsible    |Est. Time  |Documents
+--------		        |---------------|----------:|---------
+Quality Checks		    |QAM	       	|	        |(SQAP)
+Tests    		        |QAM	    	|	        |STD
+Requirements management	|RM		        |	        |SRS
+Design			        |DeM	       	|	        |SDD
+Implementation		    |IL, programmers|		    |source code
+Configuration management|CM    	        | 	    	|SCMP
+Team management    	    |PM		        |  	        |SPMP
+Training                |n.a.           |           |n.a.
 
 
 #### Actual performed time
@@ -396,13 +410,26 @@ Teammember              |Function       |Perf. Time |Documents  |
 Youssef Boudiba		    |QAM	       	|27	        |STD, (SQAP)|
 Anders Deliens      	|RM		        |31	        |SRS        |
 Adriaan Leijnse	        |DeM	       	|52	        |SDD        |
-Kwinten Pardon		    |IL, programmers|44		    |source code|
+Kwinten Pardon		    |IL             |44		    |source code|
 Nils Van Geele          |CM    	        |44   		|SCMP       |
 Lars Van Holsbeeke 	    |PM		        |67 	    |SPMP       |
 
 *TOTAL: 265 hours* 
 
-<!---
+<!-- TODO ITER 2 --------------------------------------------------------------->
+##### Iteration 2
+Teammember              |Function   |Perf. Time Doc's   |Documents  |Perf time impl.|
+--------    	        |---------  |------------------:|---------  |--------------:|
+Youssef Boudiba		    |QAM	    |	                |STD/(SQAP) |               |
+Anders Deliens      	|RM		    |	                |SRS        |               |
+Adriaan Leijnse	        |DeM        |	                |SDD        |               |
+Kwinten Pardon		    |IL         |		            |src code   |               |   
+Nils Van Geele          |CM    	    |   		        |SCMP       |               |
+Lars Van Holsbeeke 	    |PM		    |    	            |SPMP       |               |
+
+*TOTAL: XXX hours* 
+
+<!--
 <table>
     <tr> 
         <th colspan = "0"> Management and Documentation </th>
@@ -844,8 +871,7 @@ Lars Van Holsbeeke 	    |PM		        |67 	    |SPMP       |
         <td>                </td>
     </tr>
 </table>
--->
-
+--> 
 ###Schedule allocation
 A GANTT chart is used for this.
 <img src="https://docs.google.com/drawings/d/1qP88AVxn3eb1UgbBwOU4hTJh8NGuodBViJ8dIefvQro/pub?w=1535&amp;h=918">
