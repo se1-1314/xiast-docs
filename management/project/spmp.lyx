@@ -68,7 +68,7 @@ Software Engineering 2013-2014, group 1
 \begin_inset Newline newline
 \end_inset
 
-Version 2.1
+Version 2.2
 \begin_inset Newline newline
 \end_inset
 
@@ -93,7 +93,7 @@ Revision History
 
 \begin_layout Date
 \begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="3">
+<lyxtabular version="3" rows="9" columns="3">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top" width="0">
 <column alignment="center" valignment="top" width="0">
@@ -302,11 +302,40 @@ Updating, iteration 2
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 2.1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+03/03/2014
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Converted to 'editable' LaTeX
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.2
 \end_layout
 
 \end_inset
@@ -324,7 +353,7 @@ Updating, iteration 2
 \begin_inset Text
 
 \begin_layout Plain Layout
-Converted to 'editable' LaTeX
+Updated for delivery, iteration 2
 \end_layout
 
 \end_inset
@@ -1537,12 +1566,9 @@ The chart below shows the internal organisation and flows of information
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-OrganisatieChart invoegen
-\end_layout
+\begin_inset Graphics
+	filename organisation.png
+	scale 55
 
 \end_inset
 
@@ -5041,7 +5067,7 @@ QAM
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+15
 \end_layout
 
 \end_inset
@@ -5115,7 +5141,7 @@ QAM
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+10
 \end_layout
 
 \end_inset
@@ -5189,7 +5215,7 @@ RM
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+30
 \end_layout
 
 \end_inset
@@ -5263,7 +5289,7 @@ DeM
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+40
 \end_layout
 
 \end_inset
@@ -5337,7 +5363,7 @@ IL, programmers
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+60
 \end_layout
 
 \end_inset
@@ -5411,7 +5437,7 @@ CM
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0
 \end_layout
 
 \end_inset
@@ -5485,7 +5511,7 @@ PM
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+50
 \end_layout
 
 \end_inset
@@ -5560,7 +5586,7 @@ n.a.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+40
 \end_layout
 
 \end_inset
@@ -6260,6 +6286,16 @@ TOTAL: 265 hours
 Iteration 2
 \series default
  
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+TODO
+\end_layout
+
+\end_inset
+
+
 \begin_inset Newline newline
 \end_inset
 
@@ -6374,8 +6410,8 @@ Documents
 \uwave off
 \noun off
 \color none
-Perf time impl.
- 
+Perf.
+ time development
 \end_layout
 
 \end_inset
@@ -6428,7 +6464,7 @@ QAM
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+2
 \end_layout
 
 \end_inset
@@ -6458,7 +6494,7 @@ STD/(SQAP)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+28
 \end_layout
 
 \end_inset
@@ -6594,7 +6630,7 @@ DeM
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+1
 \end_layout
 
 \end_inset
@@ -6843,7 +6879,7 @@ PM
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+5
 \end_layout
 
 \end_inset
@@ -6873,7 +6909,7 @@ SPMP
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+30
 \end_layout
 
 \end_inset
@@ -6887,9 +6923,53 @@ SPMP
 \begin_inset Newline newline
 \end_inset
 
+Time spent on meetings: 2h 
+\begin_inset Newline newline
+\end_inset
+
 
 \shape italic
 TOTAL: XXX hours 
+\end_layout
+
+\begin_layout Subsubsection
+Schedule allocation
+\end_layout
+
+\begin_layout Standard
+A GANTT chart is used for this.
+ The major part of the activities depends on the release of the SRS, because
+ the latter contains all requirements on which our project is build.
+ The majority of the dependencies between activities are logically derivable
+ from the GANTT-chart.
+\end_layout
+
+\begin_layout Paragraph
+\begin_inset Newpage newpage
+\end_inset
+
+Iteration 1
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename GANNT_Iter1.PNG
+	scale 40
+	scaleBeforeRotation
+	rotateAngle 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Iteration 2
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -7739,12 +7819,13 @@ Developing and testing: Using the changed/extended design of the previous
 Planning of the next iteration: Releasing the new version of the product
  is the first thing to be done in this iteration.
  After this, the next iteration will be planned by the project manager.
-\begin_inset Note Note
-status open
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Plain Layout
-TODO: voeg Boehm hieronder in
-\end_layout
+
+\begin_inset Graphics
+	filename Boehm Spiral.png
+	scale 45
 
 \end_inset
 
