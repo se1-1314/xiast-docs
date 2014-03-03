@@ -5,7 +5,7 @@ Variabele				  |Inhoud
 **Datum:**        |Donderdag 27 februari 2014
 **Locatie:**      |10F
 **Begin:**        |12u05
-**Einde:**        |
+**Einde:**        |12u50
 **Aanwezigen:**   |Lars, Anders, Youssef, Kwinten, Adriaan, Nils, Jens
 **Secretaris:**   |Nils Van Geele
 
