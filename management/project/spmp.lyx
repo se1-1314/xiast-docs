@@ -1,0 +1,8587 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Software Project Management Plan
+\end_layout
+
+\begin_layout Date
+Software Engineering 2013-2014, group 1
+\begin_inset Newline newline
+\end_inset
+
+Version 2.1
+\begin_inset Newline newline
+\end_inset
+
+March 3th, 2014
+\begin_inset Newline newline
+\end_inset
+
+Lars Van Holsbeeke
+\begin_inset Newline newline
+\end_inset
+
+Project Manager
+\begin_inset Newline newline
+\end_inset
+
+lavholsb@vub.ac.be
+\end_layout
+
+\begin_layout Part*
+Revision History
+\end_layout
+
+\begin_layout Date
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Version
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Date
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Description
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+29/10/2013
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Creation of document structure
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+03/11/2013
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Completion of initial version
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+14/11/2013
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Adapted to feedback of initial version
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+02/12/2013
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Adapted to feedback of version 0.3
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.0 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12/12/2013
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ Updated for delivery, iteration 1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+02/03/2014
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Updating, iteration 2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+03/03/2014
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Converted to 'editable' LaTeX
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part*
+Overview
+\end_layout
+
+\begin_layout Section
+Project Summary
+\end_layout
+
+\begin_layout Subsection
+Purpose, scope, and objectives
+\end_layout
+
+\begin_layout Standard
+The main purpose of this project is to create a working scheduling webapplicatio
+n with specific support for mobile devices like smartphones and tablets
+ that enables (authorized) users to query their personal course/final schedule
+ and notifies them about last-minute changes.
+ We will call this application: Xiast(Xiast is a scheduling tool) More specific
+ requirements can be found in the SRS (Software Requirements Specification)
+ document.
+\begin_inset Newline newline
+\end_inset
+
+The main system itself uses the Wilma server of the university as back-end
+ and a normal or mobile browser as front-end.
+\begin_inset Newline newline
+\end_inset
+
+All documents, source code and other artifacts are publicly available on
+ Github.
+ Documents can be found under xiast-docs, source code can be found under
+ xiast.
+\begin_inset Newline newline
+\end_inset
+
+This academic 3rth bachelor project is part of the course "Software Engineering"
+, taught by dr.
+ R.
+ Van Der Straeten taking place at the "Vrije Universiteit Brussel" 
+\end_layout
+
+\begin_layout Subsection
+Assumptions and constraints
+\end_layout
+
+\begin_layout Standard
+Some constraints involving documentation standards, infrastructure and use
+ of certain technologies have been defined by the client:
+\end_layout
+
+\begin_layout Subsubsection
+Documentation
+\end_layout
+
+\begin_layout Itemize
+This document (SPMP) must conform the IEEE 1058-1998 standard
+\end_layout
+
+\begin_layout Itemize
+The SRD, SDD, STD, SQAP and SCMP must also conform their IEEE xxx-1998 standard
+ or a more recent revision of that standard.
+\end_layout
+
+\begin_layout Itemize
+All documents must be written in English, but not a combination of the two.
+\end_layout
+
+\begin_layout Itemize
+All documents must be available in the PDF format
+\end_layout
+
+\begin_layout Itemize
+At least following documents must be maintained:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Software Project Management Plan (SPMP)
+\end_layout
+
+\begin_layout Itemize
+Software Test Plan (STD)
+\end_layout
+
+\begin_layout Itemize
+Software Requirements Specification (SRS)
+\end_layout
+
+\begin_layout Itemize
+Software Design Document (SDD)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Meeting minutes must be made for all meetings
+\end_layout
+
+\begin_layout Itemize
+Meeting minutes must be written in Dutch
+\end_layout
+
+\begin_layout Itemize
+An SCMP and an SQMP are not necessary, but all relevant information concerning
+ them must be found in the SPMP.
+\end_layout
+
+\begin_layout Subsubsection
+Language
+\end_layout
+
+\begin_layout Itemize
+Only Clojure, Java, JavaScript, HTML, CSS, SQL and corresponding libraries
+ and open-source frameworks
+\end_layout
+
+\begin_layout Itemize
+Only open-source software may be used for both the endproduct and tools
+\end_layout
+
+\begin_layout Itemize
+A particular choice of library, tool, etc.
+ must be motivated by means of reliability, openness and simplicity.
+ 
+\end_layout
+
+\begin_layout Itemize
+A library can only be used after agreement with the client and a comparative
+ study of other possible libraries.
+\end_layout
+
+\begin_layout Subsubsection
+Infrastucture
+\end_layout
+
+\begin_layout Itemize
+The VUB "Wilma" server must be used as backend for the system.
+ 
+\end_layout
+
+\begin_layout Itemize
+The system must work on a browser as frontend.
+ 
+\end_layout
+
+\begin_layout Itemize
+The system must work on a mobile browser.
+\end_layout
+
+\begin_layout Subsubsection
+Other Constraints
+\end_layout
+
+\begin_layout Itemize
+"Github" must be used as public repository for the code.
+ 
+\end_layout
+
+\begin_layout Itemize
+All documents, source code and other artefacts must be publicly available
+ in a structured way.
+\end_layout
+
+\begin_layout Itemize
+The system must have a standard, easy installation procedure.
+ 
+\end_layout
+
+\begin_layout Itemize
+The UI must be simple and attractive to use.
+ 
+\end_layout
+
+\begin_layout Itemize
+Requirements IDs may never be renumbered.
+ 
+\end_layout
+
+\begin_layout Itemize
+All of the code needs to be documentated.
+\end_layout
+
+\begin_layout Itemize
+Test must be written using the 
+\begin_inset Quotes eld
+\end_inset
+
+Clojure.Test
+\begin_inset Quotes erd
+\end_inset
+
+ framework.
+ The system must be modular in design to accomodate extension and replacement
+ of the containing modules.
+ The development proces must be iterative with incremental delivery.
+\end_layout
+
+\begin_layout Subsection
+Project deliverables
+\end_layout
+
+\begin_layout Standard
+The table table below shows code, document and other deliverables with their
+ corresponding deadline: 9 o'clock in the morning on the date shown.
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Tabular
+<lyxtabular version="3" rows="11" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Date
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Deliverable
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+04/11/2013
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+First version of the SPMP
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15/11/2013
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+First version of documents
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+18/11/2013
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Data dump: data available for use
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13/12/2013
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+End of first iteration: delivery of code and documents
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+18/12/2013
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+First presentation
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+04/03/2014
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+End of second iteration: delivery of code and documents
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12/03/2014
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Second presentation
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15/04/2014
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+End of thirth iteration: delivery of code and documents
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+16/05/2014
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+End of fourth iteration: final delivery of code and documents
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+21/05/2014
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Final presentation
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Schedule
+\end_layout
+
+\begin_layout Standard
+Section 5.2 describes the work plan of the project, which contains a detailed
+ description of the work activities with the corresponding teammembers that
+ work on it along with an estimation of time they will need to complete
+ it.
+\end_layout
+
+\begin_layout Section
+Evolution of the SPMP
+\end_layout
+
+\begin_layout Standard
+This SPMP will be reviewed at least one time a week by the projectmanager.
+ If needed, this document will be updated by the same person.
+ Each (major) update will be logged in the Revision History, to be found
+ at the beginning of this document.
+ 
+\end_layout
+
+\begin_layout Part*
+References
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+SRS: Software Requirements Specifiaction
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Anders Deliens
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset CommandInset href
+LatexCommand href
+target "https://github.com/se1-1314/xiast-docs/blob/master/management/requirements/SRS.pdf"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Software Engineering course, VUB
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Catalog number: 1004483BNR
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset CommandInset href
+LatexCommand href
+target "https://caliweb.cumulus.vub.ac.be/caliweb/?page=course-offer&id=001462&anchor=2&target=pr&year=1314&language=en&output=html"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Wilma backend server
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+
+\begin_inset CommandInset href
+LatexCommand href
+target "http://wilma.vub.ac.be"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Github
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset CommandInset href
+LatexCommand href
+target "https://github.com"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+clojure.test framework
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+
+\begin_inset CommandInset href
+LatexCommand href
+target "http://richhickey.github.io/clojure/clojure.test-api.html"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Markable.in
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Online document writing tool for the Markdown language.
+\begin_inset Newline newline
+\end_inset
+
+markable.in
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Iterative and Incremental development model
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Is any combination of both iterative design or iterative method and incremental
+ build model for development.
+\begin_inset Newline newline
+\end_inset
+
+More information on: 
+\begin_inset CommandInset href
+LatexCommand href
+target "http://en.wikipedia.org/wiki/Iterative_and_incremental_development"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Agile Software Development
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Topic in the Software Engineering course.
+ Is a group of software development methods based on iterative and incremental
+ development, where requirements and solutions evolve through collaboration
+ between self-organizing, cross-functional teams.
+\begin_inset Newline newline
+\end_inset
+
+More information on the course slides or 
+\begin_inset CommandInset href
+LatexCommand href
+target "http://en.wikipedia.org/wiki/Agile_software_development"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Boehm's spiral model
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Is a risk-driven process model generator for software projects.
+\begin_inset Newline newline
+\end_inset
+
+Further information: 
+\begin_inset CommandInset href
+LatexCommand href
+target "http://en.wikipedia.org/wiki/Spiral_model"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part*
+External Stakeholders
+\end_layout
+
+\begin_layout Enumerate
+Ragnhild Van Der Straeten
+\begin_inset Newline newline
+\end_inset
+
+Professor of the Software Engineering course.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+rvdstrae@vub.ac.be
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Jens Nicolay
+\begin_inset Newline newline
+\end_inset
+
+Assistant of the Software Engineering course.
+\begin_inset Newline newline
+\end_inset
+
+
+\shape italic
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+jens.nicolay@vub.ac.be
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Dirk Van Deun
+\begin_inset Newline newline
+\end_inset
+
+System administrator of the Wilma backend server.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+dirk@dinf.vub.ac.be
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part*
+Definitions
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="18" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Acronym
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Declaration
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DaM
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Database Manager
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DeM
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Design Manager
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+CM
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Configuration Manager
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+IEEE
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Institute of Electrical and Electronics Engineers
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+PM
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Project Manager
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+RM
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Requirements Manager
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+QAM
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Quality Assurance Manager
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SDD
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Software Design Document
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SPMP
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Software Project Magement Plan
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SRS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Software Requirements Specification
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+STD
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Software Test Plan
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SQAP
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Software Quality Assurance Plan
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SDP
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Software Documentation Plan
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+VUB
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Vrije Universiteit Brussel
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+PDF
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Portable Document Format
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+UI
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+User Interface
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+IDE
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Integrated Development Environment
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Other definitions can be found on page 2-3 of the IEEE 1058-1998 standard
+ for Software Project Management Plans.
+\end_layout
+
+\begin_layout Part*
+Project Organisation 
+\end_layout
+
+\begin_layout Section
+External interfaces
+\end_layout
+
+\begin_layout Subsection
+Client
+\end_layout
+
+\begin_layout Standard
+In this project the titular of this course, Software Engineering, mrs.
+ R.
+ Van Der Straeten, will together with her assistant, mr.
+ J Nicolay, act as client for the project.
+ This means that all communication involving requirements and design will
+ pass by at least one of them and respectively the Requirements Manager
+ and the Design Leader.
+ All other communication with the client will be handled by the Projectmanager,
+ this includes submitting deliverables: source-code and documents, communication
+ involving presentations, etc.
+\end_layout
+
+\begin_layout Subsection
+Infrastructure
+\end_layout
+
+\begin_layout Standard
+All communication concerning the available infrastructure: the Wilma backend
+ server will be handled with the head of infrastructure, mr.
+ D.
+ Van Deun by the web- and databasemanager.
+ 
+\end_layout
+
+\begin_layout Subsection
+External Scheduling Data
+\end_layout
+
+\begin_layout Standard
+Any problems, remarks,...
+ involving the dump of scheduling data on November 18th, 2013 will be communicat
+ed to the professor of the course, mrs.
+ R.
+ Van Der Straeten.
+ 
+\end_layout
+
+\begin_layout Section
+Internal Structure
+\end_layout
+
+\begin_layout Subsection
+Internal Communication
+\end_layout
+
+\begin_layout Standard
+All communication between the teammembers outside meetings must be logged
+ by or the issue tracker on Github or using the internal mailinglist: se1_1314@w
+ilma.vub.ac.be.
+ This is a rule of thumb that must be followed by every teammember.
+ Only if the information to communicate is not important, irrelevant to
+ the other teammembers, does not involve agreements, deadlines, etc.
+ and the urgency of the concerning activities is very low, teammembers can
+ use private mail.
+ In case of urgent problems, problems with another teammember, important
+ matters that need immediate attention, etc.
+ teammembers may use the private mobile phone number of the Projectmanager
+ that has been given to them in the second meeting.
+ 
+\end_layout
+
+\begin_layout Subsection
+Internal Organisation
+\end_layout
+
+\begin_layout Standard
+The chart below shows the internal organisation and flows of information
+ between the actors of the team:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+OrganisatieChart invoegen
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The Projectmanager acts as a central coordination point for the whole team.
+ This means that he is responsible to solve (personal) issues between teammember
+s, He also communicates with the client about general project issues concerning
+ planning, progress,...
+ (see Roles and Responsibilities) 
+\end_layout
+
+\begin_layout Itemize
+Every manager has the same grade compared to any other manager.
+ This arises from the fact that every teammember fulfills the role of a
+ manager, because of the restricted number of teammembers.
+ In this way every teammember can communicate problems of any kind to the
+ other teammembers without having to propagate them through a complex hierarchy
+ of chiefs, leaders, managers, etc.
+ "Internal Communication" give more information about how this communication
+ takes place.
+\end_layout
+
+\begin_layout Itemize
+Because of their (semi) overlap with the tasks of their super functions,
+ non-managerial positions (secretary, webmaster and Server & Database manager)
+ will have communicate their issues, reports, etc.
+ to their corresponding manager.
+ 
+\end_layout
+
+\begin_layout Itemize
+As already mentioned, only the project manager, design leader and requirements
+ manager can communicate directly to the client.
+\end_layout
+
+\begin_layout Section
+Roles and Responsibilities
+\end_layout
+
+\begin_layout Subsection
+Main responsibilities
+\end_layout
+
+\begin_layout Itemize
+Project Manager
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Creating & providing the SPMP with updates
+\end_layout
+
+\begin_layout Itemize
+Coordination of the team
+\end_layout
+
+\begin_layout Itemize
+Contact person for all teammembers
+\end_layout
+
+\begin_layout Itemize
+Chairman during meetings
+\end_layout
+
+\begin_layout Itemize
+Creating a weekly meeting agenda on Github
+\end_layout
+
+\begin_layout Itemize
+Approving decisions taken during meetings
+\end_layout
+
+\begin_layout Itemize
+Detecting team related problems and solving them
+\end_layout
+
+\begin_layout Itemize
+Ensuring deadlines are met by all teammembers
+\end_layout
+
+\begin_layout Itemize
+Ensuring quality of non-code artefacts, created by the teammembers
+\end_layout
+
+\begin_layout Itemize
+Verifying (together with the secretary) meeting minutes and correcting them
+ if needed
+\end_layout
+
+\begin_layout Itemize
+Creation of a time-scheme, together with the other teammembers
+\end_layout
+
+\begin_layout Itemize
+Creation of annotated tags on the Github repository (together with the configura
+tion manager): one for each iteration
+\end_layout
+
+\begin_layout Itemize
+Creating presentations
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Configuration Manager
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Creating & providing the SCMP with updates
+\end_layout
+
+\begin_layout Itemize
+Managing the Github repository for code and documents
+\end_layout
+
+\begin_layout Itemize
+Managing tools used within the team
+\end_layout
+
+\begin_layout Itemize
+Providing some documentation concerning the used tools and Git.
+\end_layout
+
+\begin_layout Itemize
+Ensuring safety and restorability of documents
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Quality Assurance Leader
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Creation of & providing the STD with updates
+\end_layout
+
+\begin_layout Itemize
+Creating (and maintaining) the SQAP
+\end_layout
+
+\begin_layout Itemize
+Quality-based Monitoring of the Software
+\end_layout
+
+\begin_layout Itemize
+Reviewing source-code: are all required features implemented?
+\end_layout
+
+\begin_layout Itemize
+Setting up Unit tests
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Requirements Management Leader
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Creation of & providing the SRS with updates
+\end_layout
+
+\begin_layout Itemize
+Communicating with client about requirements: p.e.
+ in case of ambiguity, special requests, etc.
+\end_layout
+
+\begin_layout Itemize
+Determines the priority for each working activity
+\end_layout
+
+\begin_layout Itemize
+Takes care that activities with higher priority are done first
+\end_layout
+
+\begin_layout Itemize
+Reporting possible changes to the requirements, made by the client
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Design Leader
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Creation of & providing the SDD with updates
+\end_layout
+
+\begin_layout Itemize
+Determining (and managing) the architecture of the system and Database
+\end_layout
+
+\begin_layout Itemize
+Communicating with the client about the design
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Implementation Leader
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Managing of the source code
+\end_layout
+
+\begin_layout Itemize
+Reporting issues concerning the source code on meetings
+\end_layout
+
+\begin_layout Itemize
+Distributing programming workload to all teammembers
+\end_layout
+
+\begin_layout Itemize
+Monitoring developers 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Server & Database responsible
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Regularly updates the website with new information
+\end_layout
+
+\begin_layout Itemize
+Takes care of communication with the infrastructure manager
+\end_layout
+
+\begin_layout Itemize
+Manages database, server applications and related services
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Webmaster
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Maintains the static website, generated by GitHub pages
+\end_layout
+
+\begin_layout Itemize
+Maintains the project website on which Xiast runs
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Secretary 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Creates meeting minutes during meetings
+\end_layout
+
+\begin_layout Itemize
+Maintains and corrects this minutes after eacht meeting
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Documentation responsibilities
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Responsible teammember
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Document(s)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Youssef Boudiba
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+STD, SQAP
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anders Deliens
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SRS
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Adriaan Leijnse
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SDD
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Kwinten Pardon
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SDP
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nils Van Geele
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SCMP
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Lars Van Holsbeeke
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SPMP
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Managerial Process Plans 
+\end_layout
+
+\begin_layout Subsection
+Start-up Plan
+\end_layout
+
+\begin_layout Subsubsection
+Staffing Plan
+\end_layout
+
+\begin_layout Standard
+H = Function Holder, B = Back-up
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="11" columns="7">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Function/Teammember
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Youssef
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anders
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Adriaan
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Kwinten
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nils
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Lars
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Project Manager 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+B 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+H
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Configuration Manager 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+H 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+B
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Quality Assurance Leader 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+H 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+B 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Requirements Manager 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+H 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+B 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Design Leader 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+H 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+B 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Implementation Leader 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+B 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+H 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Secretary 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+B 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+H 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Server & Database 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+B 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+H 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Test Manager 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+H 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+B 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Webmaster 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+H 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+B
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Project Staff Training Plan
+\end_layout
+
+\begin_layout Standard
+Each teammembers is responsible to become familiar with the technologies,
+ languages, etc.
+ used in the project.
+ It is therefore highly recommended to use information from books, (online)
+ tutorials, other teammembers, etc.
+ to resolve the lack of any foreknowledge.
+ At the beginning of the project, the situation is as follows:
+\end_layout
+
+\begin_layout Itemize
+Youssef: Has experience with Java and Git but hasn't any experience with
+ Clojure, Latex and webtechnologies 
+\end_layout
+
+\begin_layout Itemize
+Anders: Has programming skills and lots of experience with group projects
+ and LaTeX, but never used Git and Clojure before 
+\end_layout
+
+\begin_layout Itemize
+Adriaan: Has lots of experience with Git, Clojure and LaTex but less with
+ webtechnologies 
+\end_layout
+
+\begin_layout Itemize
+Kwinten: Is very experienced with webtechnologies, has lots of experience
+ with Git, less with LaTex and none with Clojure 
+\end_layout
+
+\begin_layout Itemize
+Nils: Has lots of experience with Git, LateX and webtechnologies, but less
+ with Clojure 
+\end_layout
+
+\begin_layout Itemize
+Lars: Has experience with Java and LateX, less with Git and webtechnologies
+ and none with Clojure.
+\end_layout
+
+\begin_layout Standard
+Based on this information it would be very useful for teammembers to follow
+ tutorials concerning the technologies/languages they are not familiar with.
+ This leads to the following situation: 
+\shape italic
+XX = highly recommended, X = recommended, V = not really necessary
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="7">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Training 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Youssef 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Anders 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Adriaan 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Kwinten 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Nils 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Lars
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Clojure 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+XX 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+XX 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+V 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+XX 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+X 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+XX
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+LaTeX 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+X 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+V 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+V 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+V 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+V 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+V
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Git 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+X 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+XX 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+V 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+V 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+V 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+XX
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Webtechnologies 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+XX 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+XX 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+X 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+V 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+X 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+X
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Work Plan
+\end_layout
+
+\begin_layout Subsubsection
+Work activities
+\end_layout
+
+\begin_layout Standard
+The table below shows an overview of the different activities in the development
+ process together with the responsible teammember and an estimation of time
+ needed to complete the activity.
+ Rough time estimations were made by the group and are based on the total
+ workload of each package of activities concerning this iteration (iteration
+ 1).
+ This way of estimation has been chosen because the models (Albrecht/IFPUG,
+ Symons/Mark,COSMIC,COCOMO8I, COCOMOII, ...) are made for business software
+ development in the real world (with a real company).
+ We are only students simulating a software company, we don't have the amount
+ of rescources, infrastructure,...
+ a real company has.
+ In this way these models would lead to untrustworthy (time)estimations.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Planning per iteration
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Aan te passen aan iteratie 2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Iteration 1 "Writing web applications in Clojure"
+\series default
+, 
+\shape italic
+December 13th, 2013
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Interfaces: A single web interface using dynamically generated static web
+ pages is used.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Internationalisation: The interface needs to be displayed in both English
+ and Dutch, depending on user preference.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Logging in: Using the VUB's authentication API.
+ 
+\end_layout
+
+\begin_layout Itemize
+Courses: Viewing a list of courses, optionally filtered through a keyword.
+ 
+\end_layout
+
+\begin_layout Itemize
+Schedules: Viewing the entire schedule of a course, logged in student or
+ room.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Iteration 2 "Making Clojure and JavaScript work together"
+\series default
+, 
+\shape italic
+March 4th, 2014
+\shape default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Interfaces: Both a mobile and a desktop interface need to be provided.
+ 
+\end_layout
+
+\begin_layout Itemize
+Schedules for whole programs 
+\end_layout
+
+\begin_layout Itemize
+Permission system: Program managers can only change the courses they own,
+ etc.
+ 
+\end_layout
+
+\begin_layout Itemize
+Configuration file driven scheduling algorithm: To make a simple start without
+ introducing too much complexity in the front-end.
+ 
+\end_layout
+
+\begin_layout Itemize
+Program managers can add programs through a web-interface 
+\end_layout
+
+\begin_layout Itemize
+Program managers can add rooms through a web-interface
+\end_layout
+
+\begin_layout Itemize
+Instructors can change course details of existing courses: E.g.
+ "this course requires an overhead projector", etc.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Iteration 3 "Full base functionality"
+\series default
+, 
+\shape italic
+April 15th, 2014
+\shape default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Web interface for program manager business: Scheduling courses, configuring
+ programs, etc.
+\end_layout
+
+\begin_layout Itemize
+Messaging system for schedule suggestions: Instructors and program managers
+ need to communicate/request schedule changes.
+ These should be easily appliable to the actual schedule by a program manager.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Iteration 4 "Extra features and polishing up"
+\series default
+, 
+\shape italic
+May 16th, 2014
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+E-mail notifications for students about schedule changes
+\end_layout
+
+\end_deeper
+\begin_layout Paragraph
+Time estimations
+\end_layout
+
+\begin_layout Standard
+Time estimations are made in hours (h).
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Iteration 1
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="9" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Activity 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Responsible 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Est.
+ Time 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Documents
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Quality Checks 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+QAM 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+5 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+(SQAP)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Tests 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+QAM 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+15 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+STD
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Requirements management 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+RM 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+35 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+SRS
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Design 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+DeM 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+20 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+SDD
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Implementation 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+IL, programmers 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+50 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+source code
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Configuration management 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+CM 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+30 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+SCMP
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Team management 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+PM 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+60 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+SPMP
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Training 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+n.a.
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+30 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+n.a.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Iteration 2
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+TODO
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="9" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Activity 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Responsible 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Est.
+ Time 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Documents
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Quality Checks 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+QAM 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+(SQAP)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Tests 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+QAM 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+STD
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Requirements management 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+RM 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+SRS
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Design 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+DeM 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+SDD
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Implementation 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+IL, programmers 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+source code
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Configuration management 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+CM 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+SCMP
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Team management 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+PM 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+SPMP
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Training 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+n.a.
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+n.a.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Actual performed time
+\end_layout
+
+\begin_layout Standard
+During the development proces, each teammember will log how much time he
+ spends on an activity of the project.
+ This includes time spend on programming, documentation, testing, versioning
+ control, etc.
+ but also time spend on meetings.
+\begin_inset Newline newline
+\end_inset
+
+Performed time has been logged in hours (h).
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Iteration 1
+\begin_inset Newline newline
+\end_inset
+
+ 
+\series default
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Teammember 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Function 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Perf.
+ Time 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Documents 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Youssef Boudiba 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+QAM 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+27 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+STD, (SQAP) 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Anders Deliens 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+RM 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+31 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+SRS 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Adriaan Leijnse 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+DeM 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+52 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+SDD 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Kwinten Pardon 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+IL 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+44 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+source code 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Nils Van Geele 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+CM 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+44 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+SCMP 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Lars Van Holsbeeke 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+PM 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+67 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+SPMP
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\shape italic
+TOTAL: 265 hours
+\shape default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\series bold
+Iteration 2
+\series default
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Teammember 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Function 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Perf.
+ Time Doc's 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Documents 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Perf time impl.
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Youssef Boudiba 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+QAM 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+STD/(SQAP) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Anders Deliens 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+RM 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+SRS 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Adriaan Leijnse 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+DeM 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+SDD 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Kwinten Pardon 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+IL 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+src code 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Nils Van Geele 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+CM 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+SCMP 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Lars Van Holsbeeke 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+PM 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+SPMP 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\shape italic
+TOTAL: XXX hours 
+\end_layout
+
+\begin_layout Subsubsection
+Resource allocation
+\end_layout
+
+\begin_layout Standard
+An overview of rescources that will be used can be found in the table below:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Rescource 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Activities
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Wilma backend server 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Application backend; Hosting of the static website
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Microsoft Project 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Project Management (tool)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Microsoft PowerPoint 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Presentations
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Markable 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Writing documents in the Markdown language
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Github 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Versioning Control System
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Smartphone (Android) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Testing mobile version of the tool
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Control Plan
+\end_layout
+
+\begin_layout Subsubsection
+Requirements control plan
+\end_layout
+
+\begin_layout Standard
+Possible changes of requirements will always be communicated between the
+ requirements manager and the client.
+ When a change occurs, the requirements manager puts an new topic on the
+ agenda of the next teammeeting and updates the SRS.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Schedule control plan
+\end_layout
+
+\begin_layout Standard
+Problems involving scheduling, deadlines, etc.
+ will be discussed during the weekly meeting.
+ Each teammember is responsible to keep track of his deadlines, and will
+ report (at the weekly meeting) what he has done on which activity during
+ the last week.
+ The projectmanager himself will keep track of the global planning by using
+ these reports and make adjustments to the planning and/or activity if needed.
+ If it seems that one of the teammembers won't make the deadline, one or
+ more other teammembers can jump in on the activity concerned.
+ This is highly appreciated.
+\end_layout
+
+\begin_layout Subsubsection
+Quality control plan
+\end_layout
+
+\begin_layout Standard
+All code and documentation will be periodically checked by the Quality Assurance
+ Manager and before the end of each iteration.
+ First he reports (if needed) to the concerning person.
+ If any severe (quality based) problems are detected, he will report also
+ them at the weekly meeting.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Reporting plan
+\end_layout
+
+\begin_layout Standard
+Using the SPMP, SCMP, STD and SDD, the status of the project will be reported
+ to external entities (p.e.
+ the client).
+ All this documents are free to be read by anybody on our Github repository.
+ It can be reached and downloaded by using our static website on http://wilma.vub.
+ac.be/~se1_1314
+\end_layout
+
+\begin_layout Subsection
+Risk management plan
+\end_layout
+
+\begin_layout Standard
+All estimations are on a scale from low to high
+\end_layout
+
+\begin_layout Enumerate
+One of the teammembers is sick or leaves 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Probability: medium 
+\end_layout
+
+\begin_layout Enumerate
+Impact: high 
+\end_layout
+
+\begin_layout Enumerate
+Priority: high 
+\end_layout
+
+\begin_layout Enumerate
+Cost of solution: high 
+\end_layout
+
+\begin_layout Enumerate
+Solution: Teammember with corresponding back-up function takes over.
+\end_layout
+
+\begin_layout Enumerate
+Target completion date: n.a.
+\end_layout
+
+\begin_layout Enumerate
+Responsible: Project Manager
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Bad communication between teammembers
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Probability: medium
+\end_layout
+
+\begin_layout Enumerate
+Impact: medium
+\end_layout
+
+\begin_layout Enumerate
+Priority: high
+\end_layout
+
+\begin_layout Enumerate
+Cost of solution: low
+\end_layout
+
+\begin_layout Enumerate
+Solution: Don't use too much private communication, use the mailinglist.
+ The issue tracker on Github must be up-to-date at all times.
+\end_layout
+
+\begin_layout Enumerate
+Target completion date: n.a.
+\end_layout
+
+\begin_layout Enumerate
+Responsible: Project Manager
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Not meeting deadlines
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Probability: medium
+\end_layout
+
+\begin_layout Enumerate
+Impact: high
+\end_layout
+
+\begin_layout Enumerate
+Priority: high
+\end_layout
+
+\begin_layout Enumerate
+Cost of solution: low 
+\end_layout
+
+\begin_layout Enumerate
+Solution: Keeping track of progress made using Github functionality, weekly
+ progress reports of teammembers.
+\end_layout
+
+\begin_layout Enumerate
+Target completion date: n.a.
+\end_layout
+
+\begin_layout Enumerate
+Responsible: Project Manager
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Lack of software quality
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Probability: low
+\end_layout
+
+\begin_layout Enumerate
+Impact: low
+\end_layout
+
+\begin_layout Enumerate
+Priority: low
+\end_layout
+
+\begin_layout Enumerate
+Cost of solution: medium
+\end_layout
+
+\begin_layout Enumerate
+Solution: Periodically quality checks, tests,...
+ Reporting them to the weekly meeting.
+ QAM gives recommendations to the teammembers on the weekly meeting and
+ by using the mailing list.
+ Making and resolving issues on the Github issue tracker.
+\end_layout
+
+\begin_layout Enumerate
+Target completion date: n.a.
+\end_layout
+
+\begin_layout Enumerate
+Responsible: Quality Assurance Manager
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Misunderstandings between client and team
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Probability: low
+\end_layout
+
+\begin_layout Enumerate
+Impact: high
+\end_layout
+
+\begin_layout Enumerate
+Priority: high
+\end_layout
+
+\begin_layout Enumerate
+Cost of solution: medium
+\end_layout
+
+\begin_layout Enumerate
+Solution: Regular meetings with the client to check if product meets expectation
+s
+\end_layout
+
+\begin_layout Enumerate
+Target completion date: n.a.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Responsible: Requirements Manager 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Conflicts between teammembers 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Probability: low 
+\end_layout
+
+\begin_layout Enumerate
+Impact: high 
+\end_layout
+
+\begin_layout Enumerate
+Priority: high 
+\end_layout
+
+\begin_layout Enumerate
+Cost of solution: high 
+\end_layout
+
+\begin_layout Enumerate
+Solution: Negotiations between the teammembers involved, together with the
+ projectmanager.
+\end_layout
+
+\begin_layout Enumerate
+Target completion date: n.a.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Responsible: Project Manager
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Abrupt changes in requirements
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Probability: low
+\end_layout
+
+\begin_layout Enumerate
+Impact: high
+\end_layout
+
+\begin_layout Enumerate
+Priority: high
+\end_layout
+
+\begin_layout Enumerate
+Cost of solution: medium (depends)
+\end_layout
+
+\begin_layout Enumerate
+Solution: Using the modularity of the software product to implement as easily
+ and efficiently as possible the changes.
+ Prevention by involving the client in the development process.
+\end_layout
+
+\begin_layout Enumerate
+Target completion date: n.a.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Responsible: Requirements manager, Implementation Leader
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Wrong interpretation of requirements by the team 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Probability: medium 
+\end_layout
+
+\begin_layout Enumerate
+Impact: high 
+\end_layout
+
+\begin_layout Enumerate
+Priority: high 
+\end_layout
+
+\begin_layout Enumerate
+Cost of Solution: medium (depends) 
+\end_layout
+
+\begin_layout Enumerate
+Solution: Using the modularity of the software product to correct as easily
+ and efficiently as possible the requirements that were misunderstood 
+\end_layout
+
+\begin_layout Enumerate
+Target completion date: n.a.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Responsible: Requirements Manager, Implementation Leader 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Apache server goes offline on Wilma
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Probability: low 
+\end_layout
+
+\begin_layout Enumerate
+Impact: medium 
+\end_layout
+
+\begin_layout Enumerate
+Priority: high 
+\end_layout
+
+\begin_layout Enumerate
+Cost of Solution: low 
+\end_layout
+
+\begin_layout Enumerate
+Solution: Changing the url in the configuration of the application 
+\end_layout
+
+\begin_layout Enumerate
+Target completion date: n.a.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Responsible: Server Manager 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Database server goes offline 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Probability: low
+\end_layout
+
+\begin_layout Enumerate
+Impact: high
+\end_layout
+
+\begin_layout Enumerate
+Priority: high 
+\end_layout
+
+\begin_layout Enumerate
+Cost of Solution: low 
+\end_layout
+
+\begin_layout Enumerate
+Solution: Changing the configuration of the application (dataloss of a part
+ of the database is possible).
+ The cost of this solution is low because back-ups of the database are taken
+ every hour, using a back-upserver of a teammember 
+\end_layout
+
+\begin_layout Enumerate
+Target completion date: n.a.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Responsible: Server Manager
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Back-end server goes (temporarly) down 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Probability: low 
+\end_layout
+
+\begin_layout Enumerate
+Impact: high 
+\end_layout
+
+\begin_layout Enumerate
+Priority: high 
+\end_layout
+
+\begin_layout Enumerate
+Cost of solution: low Solution: Using a mirror server: Aphrodite 
+\end_layout
+
+\begin_layout Enumerate
+Target completion date: n.a.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Responsible: Server Manager
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Closeout plan
+\end_layout
+
+\begin_layout Standard
+Not of any importance to this project.
+ 
+\end_layout
+
+\begin_layout Section
+Technical Process Plan
+\end_layout
+
+\begin_layout Subsection
+Process model
+\end_layout
+
+\begin_layout Standard
+We will be using the Iterative and Incremental development model with some
+ ideas of Agile Software Development, which is based on this model.
+ This method has been chosen firstly because of the agenda of the project
+ which consists of an incremental delivery based on four iterations.
+ Secondly, it has been chosen for its simplicity and added value: we focus
+ on a working application per iteration which can than be discussed with
+ the client.
+ In this way we open ourselves up to requirements changes which will be
+ given to us by the client at the end of each iteration.
+ This results in a continuous delivery of valuable software, one of the
+ key principles of agile development.
+ The figure below shows (Boehm's) spiral model, which will be used as developmen
+t process model.
+\begin_inset Newline newline
+\end_inset
+
+One iteration consists of four phases:
+\end_layout
+
+\begin_layout Enumerate
+Determination of objectives: In this phase changes in requirements will
+ be determined and introduced in the SRS 
+\end_layout
+
+\begin_layout Enumerate
+Identification (and resolving) risks: This phase involves the identification
+ of possible risks caused by changed requirements: these will be discussed
+ in the weekly meetings 
+\end_layout
+
+\begin_layout Enumerate
+Developing and testing: Using the changed/extended design of the previous
+ iteration, new and changed functionality will be implemented by the developers.
+ The coordination of this phase is being done by the implementation leader,
+ software quality assurance manager, design manager and test manager 
+\end_layout
+
+\begin_layout Enumerate
+Planning of the next iteration: Releasing the new version of the product
+ is the first thing to be done in this iteration.
+ After this, the next iteration will be planned by the project manager.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+TODO: voeg Boehm hieronder in
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Methods, tools and techniques
+\end_layout
+
+\begin_layout Itemize
+Github will be used as
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+communication tool for documents
+\end_layout
+
+\begin_layout Itemize
+versioning control system for source code
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Clojure will be used as programming language
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Back-end: to generate schedules and provide an API to login/logout and to
+ view and modify schedules 
+\end_layout
+
+\begin_layout Itemize
+Front-end: to query schedules using the back-end api.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+JavaScript, JQuery and CSS3 to create/view/update dynamic webpages.
+\end_layout
+
+\begin_layout Itemize
+Every teammember is free to use his preferred IDE during the implementation
+ process
+\end_layout
+
+\begin_layout Itemize
+A MySQL database will be used as backend database on Wilma.
+ It will be populated with course schedule data.
+ 
+\end_layout
+
+\begin_layout Itemize
+Markdown will be used to write documents because of its perfect integration
+ with Github.
+ When documents must be delivered, Pandoc will be used to convert the Markdown
+ documents to the 'paper-compatible' LaTeX language from which pdf files
+ are generated.
+ 
+\end_layout
+
+\begin_layout Itemize
+Compojure and Ring are used as the main webframeworks for Clojure.
+\end_layout
+
+\begin_layout Itemize
+Corma library for database integration
+\end_layout
+
+\begin_layout Part*
+Supporting Process Plans
+\end_layout
+
+\begin_layout Section*
+Software Configuration Management Plan (SCMP)
+\end_layout
+
+\begin_layout Subsection*
+Introduction
+\end_layout
+
+\begin_layout Standard
+In this document we will describe the workflow that needs to be followed
+ for the Xiast project.
+ We will also talk about the two 
+\series bold
+Git
+\series default
+ repositories that will be used.
+ This document will also be included in an adapted form in the SPMP.
+\end_layout
+
+\begin_layout Subsection*
+The repositories
+\end_layout
+
+\begin_layout Standard
+For this project we will be using two distinct Git repositories, each with
+ their own specific purpose.
+\end_layout
+
+\begin_layout Subsubsection*
+xiast-docs
+\end_layout
+
+\begin_layout Standard
+The xiast-docs repository will be used to hold all documents related to
+ the project.
+ This includes reports made during meetings and all plans made by the different
+ leaders and managers.
+\begin_inset Newline newline
+\end_inset
+
+Every manager has his own directory inside the management directory.
+ In this directory, the manager can put all files related to his work and
+ reports.
+ If a manager wants to make a change to the main directory structure, he
+ is free to do so but must contact the configuration manager about it.
+ By doing this the software configuration manager can keep the directory
+ structure in the SCMP up-to-date.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+The current directory structure, which may be subject to change, is:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+/ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+management
+\series default
+ directory containing all official documentation
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+configuration
+\series default
+ concerning project configuration
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+design
+\series default
+ concerning software design
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+implementation
+\series default
+ concerning implementation
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+project
+\series default
+ concerning project planning and management
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+quality
+\series default
+ concerning software quality and testing
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+requirements
+\series default
+ concerning all software requirements
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+meetings
+\series default
+ contains all agendas and reports of meetings
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+manuals
+\series default
+ contains all files related to the Xiast manuals
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+templates
+\series default
+ contains templates for deliverables
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+documents
+\series default
+ contains assorted information and documentation about the project and its
+ structure
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection*
+xiast
+\end_layout
+
+\begin_layout Standard
+The xiast repository is the main repository that contains all the code for
+ both the server and the Xiast website.
+ The directory structure is that of a basic Leiningen project:
+\end_layout
+
+\begin_layout Itemize
+/ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+resources
+\end_layout
+
+\begin_layout Itemize
+dictionaries directory containing translates strings for internationalisation
+\end_layout
+
+\begin_layout Itemize
+public directory containing public files such as images, CSS stylesheets,
+ ...
+\end_layout
+
+\begin_layout Itemize
+templates directory containing all website templates
+\end_layout
+
+\begin_layout Itemize
+src directory containing the source files
+\end_layout
+
+\begin_layout Itemize
+test directory containing all tests
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+The xiast repository is for code and related resources (graphics, sound,
+ SQL, ...) only.
+\end_layout
+
+\begin_layout Subsection*
+Tracking issues
+\end_layout
+
+\begin_layout Standard
+With GitHub's issue tracker, which can be found at https://github.com/se1-1314/xi
+ast/issues, we can create so-called issues.
+ An issue can be anything from a bug, request for implementation or suggestion,
+ goal, ...
+ By using this tool we can achieve a workflow that will make it easier for
+ both us and others to track the progress of the project.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+When all requirements of the project are known, we will start splitting
+ up the requirements in one or more smaller "tasks" that need to be finished
+ in order to implement the requirement.
+ These issues can then be bundled into a milestone which denotes the requirement
+ or part of the requirement that needs to be implemented.
+ Milestones feature progress trackers which again makes it really easy for
+ people to see how much still needs to be done for a requirement.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+For example: "Functioning user system" can be a milestone, with issues such
+ as "User registration" and "User login", or "Access control" with "Assigning
+ user rights" and "Rights checking" as some of the issues.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+As mentioned earlier, the issue tracker can and must be used for more than
+ just tracking progress of the requirements.
+ Issues will be made to report bugs and propose fixes, to propose enhancements
+ or request extra functionality, to report on critical errors and so on.
+ Every issue features a comment section which makes it easy for team members
+ to discuss requests, bugs, and so on.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+It is important that the issue tracker is kept clean at all times.
+ What this means is that all issues and milestones have proper descriptions
+ and descriptive titles, issues that are finished must be closed (see workflow),
+ when one team member takes over an issue from another team member this
+ must be updated on the tracker, ...
+ and so on.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+The usage of the issue tracker, when done properly, causes less overhead
+ on the project because we do not need to maintain our own tracker or website.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Git workflow
+\end_layout
+
+\begin_layout Standard
+When working with Git, there are multiple workflows possible.
+ Considiring the size of the team and project, we will be using the so called
+ feature branching workflow.
+ This workflow allows us to tightly integrate the issue tracker into our
+ project.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+Branches
+\end_layout
+
+\begin_layout Standard
+There will always be one central branch: the master branch.
+ This branch is the actual "master copy" of our project and should contain
+ preferably only working code.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Whenever a team member wants to implement changes, he must first branch
+ the master branch into a new one and commit all his changes to the newly
+ created branch.
+ This branch, which is created locally, needs to be published to GitHub.
+ This doesn't only make it easier to track changes on the branch, but also
+ makes it easier to transfer the work to someone else.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Because some issues have a really small workload and can be solved in a
+ single commit, it's possible to solve multiple issues on one single branch
+ instead of creating a branch for every issue.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+To keep things uniform, branch names must be in lower case only and use
+ dashes instead of spaces.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+Merging
+\end_layout
+
+\begin_layout Standard
+After the work has been done and the issue is implemented, the working branch
+ needs to be merged into the master branch.
+ It is mainly the team member's responsibility to avoid merge conflicts!
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Conflicts can be avoided more easily by periodically pulling and merging
+ the master branch into the working branch, and not vice versa.
+ By doing this regulary, conflicts that will occur will be smaller than
+ they would be if we didn't merge at all.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+If and only if all work is done and the working branch is conflict free
+ and the head of the branch is pushed to GitHub, steps can be taken to merge
+ the working branch into the master branch.
+ This is done by making a 
+\series bold
+pull request
+\series default
+.
+\end_layout
+
+\begin_layout Subsubsection*
+Pull request
+\end_layout
+
+\begin_layout Standard
+When making a pull request, select the master branch as the base branch
+ and the working branch as the compare branch.
+ If the branch that is being merged closes one or more issues, they should
+ be referenced in the description.
+ If done correctly, like described in this guide (
+\begin_inset CommandInset href
+LatexCommand href
+target "https://help.github.com/articles/closing-issues-via-commit-messages"
+
+\end_inset
+
+), the issues can be automatically closed when the pull request gets accepted.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+After making the pull request, it is the (backup) implementation manager's
+ responsibility to accept or deny the request.
+ The first step is to review the code by testing it locally to see if it
+ actually works.
+ If he so chooses, he can also simulate the merging locally to see if it
+ works with previous accepted pull requests.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+If the code works and there are no conflicts, the pull request can be accepted
+ and close.
+ After this, the appropriate issue should be closed too and a comment with
+ a link to the pull request should be made.
+ To avoid "branch pollution" the working branch can safely be removed from
+ the repository by GitHub after accepting the pull request.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+If conflicts arise during merging because of for instance earlier accepted
+ pull requests, the implementation manager can choose to fix the conflicts
+ himself manually or just denying and closing the pull request.
+ The second option is advised.
+ In this case, the team member must fix his code and make a new pull request.
+ The same is valid for when there are problems with the code itself.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+Assigning and reassigning issues
+\end_layout
+
+\begin_layout Standard
+To keep track of who is working on what and to avoid double work, members
+ should assign themselves or others to issues.
+ This can be done on the issue tracker itself.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+If a team member is stuck, the member is free to transfer the work to someone
+ else.
+ But he must not forget to reassign the issue to the other person
+\end_layout
+
+\begin_layout Subsubsection*
+docs
+\end_layout
+
+\begin_layout Standard
+For the xiast-docs repository, we don't need to use the feature branch workflow,
+ we can just use a 
+\series bold
+centralized workflow
+\series default
+.
+ This means we won't use branching and we will just commit to the master
+ branch.
+\end_layout
+
+\begin_layout Subsection*
+Project website
+\end_layout
+
+\begin_layout Standard
+One of the requirements of the project is a website that can be used to
+ track the progress of the project.
+ Instead of focussing on implementing our own system, we will make full
+ use of the tools GitHub is providing us.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+The website can be reached at 
+\begin_inset CommandInset href
+LatexCommand href
+target "http://se1-1314.github.io/xiast"
+
+\end_inset
+
+.
+ This page, which is generated using GitHub Pages, contains information
+ about the project, including download links for the source code and links
+ to various documents.
+\begin_inset Newline newline
+\end_inset
+
+GitHub Pages is in essence a static website generator.
+ This means that, given the contents of the site, it only needs to generate
+ all the HTML and related files once.
+ This not only makes it faster, but also a lot easier.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+The automatic page generator can be found on the settings page of the project.
+ The files it generates are located in the gh-pages branch of the xiast
+ repository.
+ Commiting to this branch thus allows us to edit the page manually, although
+ it is highly advised to keep using the automatic page generator and edit
+ the content of the site using markdown.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+To keep track of the project's status however, we will use the built-in
+ issue tracker of GitHub.
+ 
+\end_layout
+
+\begin_layout Section*
+Software Quality Assurance Plan (SQAP)
+\end_layout
+
+\begin_layout Standard
+The Software Quality Assurance Plan (SQAP) is based on the IEEE standard
+ for software quality assurance plans (730-2002).
+ Since almost all information can be found in the SPMP, we will not cover
+ every topics proposed by the standard.
+ 
+\end_layout
+
+\begin_layout Subsection*
+1.
+ Purpose
+\end_layout
+
+\begin_layout Standard
+This SQAP's objective is to ensure that the project does not deviate from
+ its requirements and that a certain level of quality is maintained.
+ By defining several methods and guidelines we ensure that the development
+ of the project proceeds smoothly while keeping the quality high.
+ 
+\end_layout
+
+\begin_layout Subsection*
+2.
+ Tasks
+\end_layout
+
+\begin_layout Standard
+The main tasks of the QAM consist of:
+\end_layout
+
+\begin_layout Itemize
+Writing and updating of the SQAP.
+\end_layout
+
+\begin_layout Itemize
+Writing and updating of the STD.
+\end_layout
+
+\begin_layout Itemize
+Checking whether or not the delivered documents confirm to their purpose.
+\end_layout
+
+\begin_layout Itemize
+Checking if all documents are consistent and follows established guidelines
+ (coding style, use of template for all documents, etc.).
+\end_layout
+
+\begin_layout Subsection*
+3.
+ Standards, practices, conventions and metrics 
+\end_layout
+
+\begin_layout Subsubsection*
+Documentation Standards
+\end_layout
+
+\begin_layout Standard
+All documents must be based on IEEE standards and follow a certain template.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+All documentation and source code must be written in English (except meetings
+ reports that will be written in Dutch).
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+Coding (and comment) Standards
+\end_layout
+
+\begin_layout Standard
+The code documentation must follow the SDP.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+Testing standards
+\end_layout
+
+\begin_layout Standard
+Testing of code must follow steps of to the STD.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+Metrics
+\end_layout
+
+\begin_layout Standard
+During random checks, the quality of the project will be measured by using
+ following metrics:
+\end_layout
+
+\begin_layout Itemize
+Test Pass Rate.
+ 
+\end_layout
+
+\begin_layout Itemize
+Numbers of bugs found per tests.
+\end_layout
+
+\begin_layout Itemize
+Time to fix bug/close issue.
+\end_layout
+
+\begin_layout Standard
+Exact numbers will be communicated later.
+\end_layout
+
+\begin_layout Subsubsection*
+Conventions
+\end_layout
+
+\begin_layout Standard
+We'll organize weekly meetings to resume the current state of the project
+ and to discuss the evolution of it.
+ 
+\end_layout
+
+\begin_layout Subsection*
+4.
+ Test
+\end_layout
+
+\begin_layout Standard
+All the information about testing methodology, procedures and execution
+ can be found in the STD.
+\end_layout
+
+\begin_layout Subsection*
+5.
+ Problem reporting and corrective actions
+\end_layout
+
+\begin_layout Subsubsection*
+Documents:
+\end_layout
+
+\begin_layout Standard
+Problems concerning structure and content of documents are communicated
+ to the author.
+ Small mistakes (such as spelling mistakes, etc.), are also informed to the
+ author.
+\end_layout
+
+\begin_layout Subsubsection*
+Source Code:
+\end_layout
+
+\begin_layout Standard
+Whenever a member does not agree with the implementation of a feature or
+ a small function, an issue will be opened and the code will be reviewed
+ by the group.
+ 
+\end_layout
+
+\begin_layout Subsection*
+6.
+ Tools
+\end_layout
+
+\begin_layout Standard
+See reference.
+ 
+\end_layout
+
+\begin_layout Subsection*
+7.
+ Media Control
+\end_layout
+
+\begin_layout Standard
+Standards described in the SCMP must be followed by the whole team and controlle
+d by the QAM.
+\end_layout
+
+\begin_layout Subsection*
+8.
+ Supplier Control
+\end_layout
+
+\begin_layout Standard
+Software provide by an external provider must undergo a series of tests
+ and must conform to the requirements before integrating the project.
+ 
+\end_layout
+
+\begin_layout Subsection*
+9.
+ Records collection, maintenance and retenetion
+\end_layout
+
+\begin_layout Standard
+All documents are stored remotely at the gitHub repository (https://github.com/se
+1-1314) and locally.
+ 
+\end_layout
+
+\begin_layout Subsection*
+10.
+ Training
+\end_layout
+
+\begin_layout Standard
+The project will require certain knowledge of tools and languages.
+ To prevent team members from getting lost during the project, following
+ tools and languages must be mastered by the whole team:
+\end_layout
+
+\begin_layout Itemize
+HTML, CSS(3)
+\end_layout
+
+\begin_layout Itemize
+Clojure
+\end_layout
+
+\begin_layout Itemize
+Git
+\end_layout
+
+\begin_layout Itemize
+JavaScript
+\end_layout
+
+\begin_layout Part*
+Additional Plans
+\end_layout
+
+\begin_layout Standard
+Not of any importance for this project.
+\end_layout
+
+\end_body
+\end_document
