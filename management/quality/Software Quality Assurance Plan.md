@@ -80,6 +80,6 @@ All documents are stored remotely at the gitHub repository ([https://github.com/
 The project will require certain knowledge of tools and languages. To prevent team members from getting lost during the project, following tools and languages must be mastered by the whole team:
 
 * HTML
+* Javascript
 * Clojure
 * Git
-* Java (and JUNIT)
