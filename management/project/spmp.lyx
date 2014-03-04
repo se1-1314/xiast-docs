@@ -63,35 +63,37 @@
 Software Project Management Plan
 \end_layout
 
-\begin_layout Date
-Software Engineering 2013-2014, group 1
-\begin_inset Newline newline
-\end_inset
-
-Version 2.2
-\begin_inset Newline newline
-\end_inset
-
-March 3th, 2014
-\begin_inset Newline newline
-\end_inset
-
+\begin_layout Author
 Lars Van Holsbeeke
 \begin_inset Newline newline
 \end_inset
 
-Project Manager
-\begin_inset Newline newline
+Version 2.2
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Logo.png
+	scale 70
+	rotateOrigin center
+
 \end_inset
 
-lavholsb@vub.ac.be
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part*
 Revision History
 \end_layout
 
-\begin_layout Date
+\begin_layout Standard
 \begin_inset Tabular
 <lyxtabular version="3" rows="9" columns="3">
 <features tabularvalignment="middle">
@@ -3949,16 +3951,6 @@ The table below shows an overview of the different activities in the development
 
 \begin_layout Subsubsection
 Planning per iteration
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Aan te passen aan iteratie 2
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Itemize
@@ -4910,18 +4902,6 @@ n.a.
 \end_inset
 
 Iteration 2
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\series bold
-TODO
-\end_layout
-
-\end_inset
-
-
 \begin_inset Newline newline
 \end_inset
 
@@ -6286,16 +6266,6 @@ TOTAL: 265 hours
 Iteration 2
 \series default
  
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-TODO
-\end_layout
-
-\end_inset
-
-
 \begin_inset Newline newline
 \end_inset
 
@@ -6494,7 +6464,7 @@ STD/(SQAP)
 \begin_inset Text
 
 \begin_layout Plain Layout
-28
+30
 \end_layout
 
 \end_inset
@@ -6547,7 +6517,7 @@ RM
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+10
 \end_layout
 
 \end_inset
@@ -6577,7 +6547,7 @@ SRS
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+25
 \end_layout
 
 \end_inset
@@ -6660,7 +6630,7 @@ SDD
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+32
 \end_layout
 
 \end_inset
@@ -6713,7 +6683,7 @@ IL
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0
 \end_layout
 
 \end_inset
@@ -6743,7 +6713,7 @@ src code
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+50
 \end_layout
 
 \end_inset
@@ -6796,7 +6766,7 @@ CM
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0
 \end_layout
 
 \end_inset
@@ -6826,7 +6796,7 @@ SCMP
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+43
 \end_layout
 
 \end_inset
@@ -6879,7 +6849,7 @@ PM
 \begin_inset Text
 
 \begin_layout Plain Layout
-5
+7
 \end_layout
 
 \end_inset
@@ -6923,13 +6893,18 @@ SPMP
 \begin_inset Newline newline
 \end_inset
 
-Time spent on meetings: 2h 
+Time spent on requirements-analysis meetings: 5h (included in table: development
+)
+\begin_inset Newline newline
+\end_inset
+
+Time spent on 'official' meetings: 2h (included in table: development) 
 \begin_inset Newline newline
 \end_inset
 
 
 \shape italic
-TOTAL: XXX hours 
+TOTAL: 230 hours 
 \end_layout
 
 \begin_layout Subsubsection
@@ -6966,12 +6941,88 @@ Iteration 1
 
 \begin_layout Paragraph
 Iteration 2
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
+\begin_inset Graphics
+	filename GANTT_iter2.png
+	scale 40
+	scaleBeforeRotation
+	rotateAngle 90
+
+\end_inset
+
 
 \end_layout
 
+\begin_layout Itemize
+Documents should be updated during the whole iteration.
+\end_layout
+
+\begin_layout Itemize
+In the 2nd and 3rth week after the free week, requirements should be further
+ analyzed with a strong focus on the rights of each user-type: Student,
+ Titular, ProgramManager.
+ After this, front-end oriented use-cases should be made to get a clear
+ view in which way a user will be interacting with the UI.
+\end_layout
+
+\begin_layout Itemize
+Back-end team
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Must constantly improve its knowledge concerning the Clojure Language
+\end_layout
+
+\begin_layout Itemize
+A database should be designed, containing the data of the datadump, user-prefere
+nces and schedules
+\end_layout
+
+\begin_layout Itemize
+Datadump data should be imported in this database
+\end_layout
+
+\begin_layout Itemize
+An API should be developed in order to provide the front-end with specific
+ information
+\end_layout
+
+\begin_layout Itemize
+This API should be implemented using the previously designed database
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Front-end team
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Should design HTML-templates for all existing types of users
+\end_layout
+
+\begin_layout Itemize
+A concept mobile interface should be developed (alpha stage)
+\end_layout
+
+\begin_layout Itemize
+A (modifieable) calendar view should be developed/looked for to be used
+ by all types of users (p.e.
+ a titular can change a semi-scheduling using this view)
+\end_layout
+
+\begin_layout Itemize
+Constant research should be done on front-end subjects during development
+\end_layout
+
+\end_deeper
 \begin_layout Subsubsection
 Resource allocation
 \end_layout
@@ -8661,7 +8712,7 @@ Additional Plans
 \end_layout
 
 \begin_layout Standard
-Not of any importance for this project.
+Not of any importance towards this project.
 \end_layout
 
 \end_body
