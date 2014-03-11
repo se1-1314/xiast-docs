@@ -1,4 +1,4 @@
-# Agenda vergadering 9
+# Verslag vergadering 9
 
 Variabele				  |Inhoud
 ---			    		  |---
