@@ -27,7 +27,7 @@ Variabele				  |Inhoud
   - Testplan!
   - Dashboard! (meer high-level gaan dan de issue tracker)
   - SDD!
-  -**!**TRAINING**!**
+  - **!**TRAINING **!**
 - Evaluatie iteratie 2: wat liep er verkeerd?
   - Chronologisch overzicht op stellen (voor iter2), probleempunten erop vinden: wat was de oorzaak van de vertraging, waar werden de verkeerde beslissingen genomen,...
 
