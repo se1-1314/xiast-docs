@@ -1,4 +1,4 @@
-# Agendavergadering 12
+# Agenda Vergadering 12
 
 Variabele				  |Inhoud
 ---			    		  |---
