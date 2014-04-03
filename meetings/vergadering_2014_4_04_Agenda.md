@@ -15,7 +15,7 @@ Variabele				  |Inhoud
 - Lars stuurt time tracking mail
 - Lars contacteert Jens voor vergadering
 
-# 1. Opvolging voortgang/ Algemene TODO list
+# 1. Opvolging voortgang/ Algemene TODO list (Lars, 30 min)
 
 - EER model van database maken voor documentatie (liefst automatisch) **Nils**
 - Security (wrappers voor API) **Nils**
