@@ -15,7 +15,7 @@ Variabele				  |Inhoud
 - Lars stuurt time tracking mail
 - Lars contacteert Jens voor vergadering
 
-# 1. Opvolging voortgang/ Algemene TODO list (Lars, 30 min)
+# 1. Opvolging voortgang/ Algemene TODO list (Lars, 30-40 min)
 
 - EER model van database maken voor documentatie (liefst automatisch) **Nils**
 - Security (wrappers voor API) **Nils**
@@ -35,17 +35,20 @@ Variabele				  |Inhoud
 - Translations in navbar **Adriaan**
 - URL probleem **Adriaan**
 - Koppeling front-end <> back-end
-  - Student Page
+  - Student Page **Kwinten**
   - Opvolging front-end members: kennis i.v.m. de architectuur van de applicatie bijschaven (Lars)
 
+# 2. Overlopen documenten met Jens (Lars, 15 min)
+- STD
+- SDD
 
 
 # Mededelingen
-- Codesessies, telkens vanaf 11u:
+- Codesessies, telkens vanaf 11u: (Lars)
   - Donderdag 10 april
   - Vrijdag 11 april (nachtsessie)
   - Maandag 14 april
-
+--> Straks met een beperkt aantal mensen storyboard met tussenliggende deadlines opstellen: wanneer moet wat 
 
 
 # DEADLINES:
