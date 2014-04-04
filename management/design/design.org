@@ -46,18 +46,7 @@ The Xiast program is an HTTP server running a web application
 accessible via the user's browser. It's goal is to facilitate schedule
 management for universities.
 
-** Iteration 1
-Use cases for the application are restricted to viewing
-student, course and room schedules. This means that the application
-has to be no more than a query interface for data in the
-application.
-
-Viewing a student's schedule is restricted to authenticated users.
-
-Only sample data is presented to the user, actual data will be
-integrated later via a database backend.
-
-* Composition of Xiast
+* Components
 Xiast's code is roughly subdivided in two parts: a back end and a
 front end. The back end includes the scheduler, persistent data
 management and features for managing communication between users. The
@@ -67,36 +56,33 @@ caches schedules to allow off-line use of the application.
 
 Xiast's back end is written in the Clojure programming language
 [fn::http://clojure.org], which runs on the JVM. Front end code
-running in the browser will be written in JavaScript.
+running in the browser will be written in JavaScript. The HTML for the
+Xiast website is partly statically generated server-side, and partly
+dynamically generated using JavaScript. Communication between the two
+occurs via Xiast's JSON API.
 
-** Iteration 1
-In the first iteration the back-end and front-end are a single
-codebase: HTML for the interface is generated dynamically on the
-server and no code except Twitter Bootstrap
-[fn::http://getbootstrap.com] front-end UI framework's will run in the
-browser.
+** Front-end
+The HTML pages for the front-end are generated server-side in Clojure
+using the Enlive library, and internationalised using the Tower
+library. Client-side, the pages -- if not complete -- are filled in
+using JavaScript and AJAX calls to the back-end JSON API.
 
-** Future iterations
-Future iterations will have increasing amounts of code moved into the
-front end, reducing parts of Xiast into an online-accessible API,
-transmitting data via the edn data notation format
-[fn::http://edn-format.org].
+The front-end JavaScript code uses the Twitter Bootstrap
+[fn::http://getbootstrap.com] and jQuery libraries.
+
+** Back-end
+The back-end is written in Clojure and uses a MySQL database for
+persistent storage. The Compojure and Ring libraries are used for
+routing and session management. User authentication is done through
+the VUB's authentication API; sessions are stored in encrypted
+cookies.
 
 * Common abstractions in the Xiast code base
 Xiast contains a number of abstractions and data types which allow
 code reuse throughout the program. Some of these data types will be
 used to transmit information from the back end to the front end and
-back.
-
-** Iteration 1
-The interfaces and data types here are all designed to be extensible,
-ensuring that they can be used in further iterations.
-
-*** The XiastQuery protocol
-The =XiastQuery= protocol defines read-only access to Xiast's cachable
-data. This currently includes the course list, course schedules,
-student's personal schedules and room schedules. The full definition
-of the protocol is defined in the =query.clj= source file's docstrings.
+back. The data types are described in the =xiast.schema= namespace
+(schema.clj).
 
 The full definitions of the following data types can be found in the
 aforementioned source file:
@@ -108,6 +94,57 @@ aforementioned source file:
      is taught in week 3, on day 1, from 9am till 11am in room E1.03.
 - Timespans :: Describe a span of time over multiple days or weeks.
 
+* Functionality
+** HTTP requests and handlers
+HTTP requests are processed by the Ring and Compojure libraries. Ring
+handles requests by sending them through a number of handlers
+(e.g. =wrap-with-session=, see below), while Compojure routes
+requests to specific parts of the code based on request URLs.
+
+From the =xiast.core= namespace (core.clj):
+
+#+BEGIN_SRC clojure
+  (def app
+    (-> main-routes
+        wrap-with-session
+        wrap-keyword-params
+        wrap-nested-params
+        wrap-params
+        wrap-multipart-params
+        wrap-flash
+        (tower.ring/wrap-tower-middleware :fallback-locale :en
+                                          :tconfig t/tower-config)
+        (wrap-session {:store (cookie-store {:key "Kn4pHR5jxnuo3Bmc"})})
+        (wrap-resource "public")
+        (wrap-file-info)))
+#+END_SRC
+
+This code is read from top to bottom, as each wrapper is wrapped by
+the subsequent wrapper.
+** Session storage
+Session data for logged in users will be stored in the database,
+indexed by a unique session identifier stored in a cookie, however the
+entire session is currently stored in an encrypted
+cookie. =wrap-with-session= from session.clj makes the session
+dictionary =*session*= available for the rest of the program.
+** Internationalisation
+Internationalisation is accomplished using the Tower library. The
+=xiast.translate= namespace provides the =translate= and
+=translate-nodes= functions, which lookup translations in the
+"/resources/dictionaries/all.clj" dictionary. =translate-nodes= can
+translate Enlive-nodes (i.e. HTML markup in Clojure form) which have
+been tagged with a =msg= attribute. E.g.
+#+BEGIN_SRC html
+  <h1 msg="about/about/title">About Xiast</h1>
+#+END_SRC
+is transformed into
+#+BEGIN_SRC html
+  <h1>Over Xiast</h1>
+#+END_SRC
+when the locale is nl-BE.
+** User authentication
+** Managing facts about courses
+** The scheduling process
 
 * Persistent information
 Xiast will need store various forms of information in order to
@@ -118,18 +155,28 @@ need to be stored, as well as dynamically generated user sessions,
 schedules and change requests between instructors and program
 managers.
 
-** Iteration 1
-To allow rapid prototyping, the application only contains some mock
-data defined in the source code, loaded into memory at runtime,
-queryable via the Query protocol.
+* Database
+* Namespaces
+** =xiast.schema= (schema.clj)
+This namespace uses Prismatic's Schema library to describe the various
+data types used in Xiast.
+** =xiast.query= (query.clj)
+This namespace provides public access to the database.
+** =xiast.authentication= (authentication.clj)
+This namespace authenticates users and checks their user roles.
+** =xiast.api= (api.clj)
+Routes for the JSON api.
+** =xiast.core= (core.clj)
+** =xiast.config= (config.clj)
+** =xiast.translate= (translate.clj)
+** =xiast.database= (database.clj)
+This namespace implements database access.
+** =xiast.scheduling= (scheduling.clj)
+Schedules are lists of ScheduleBlocks. When querying schedules from
+the database, ScheduleBlocks will contain an id. This allows Xiast to
+detect moved items when comparing two schedules, e.g. in the
+=remove-moves= function.
 
-Student authentication is done through the VUB's authentication
-API; sessions are stored in encrypted cookies.
-
-** Future iterations
-Future iterations will see the implementation of an SQL database
-schema to store updatable persistent information, as well as
-APIs to manipulate the stored data.
-
-Users will also get their own persistent session data, as their
-settings are currently only retained when using the same browser.
+The =xiast.scheduling= namespace contains a number of schedule
+proposal checks, which compare a schedule to the one in the database
+and return a list of (potential) errors in the combined schedule.
