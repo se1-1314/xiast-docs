@@ -50,26 +50,34 @@ The directory structure is that of a basic Leiningen project:
 
 The `xiast` repository is for code and related resources (graphics, sound, SQL, ...) only.
 
+## Project website and requirements dashboard
+
+One of the requirements of the project is a website that allows team members to track the project's progress, and allows people to find out more about the project.
+Such a website can be developed and maintained by making use of GitHub Pages.
+
+GitHub Pages is essentially an automated system that generates static websites by making use of [Jekyll](http://jekyllrb.com/).
+Jekyll is a tool that can transform plain text files and/or markdown in a Jekyll project to ordinary HTML files, thus providing a static website which can be hosted on any webserver.
+With GitHub Pages a site can be created for a project by placing a Jekyll project in the `gh-pages` branch of a repository (in this case the `xiast` repository).
+Every time changes are committed to this branch GitHub Pages will regenerate the website and host it on its own servers.
+For Xiast, the website can be reached at `http://se1-1314.github.io/xiast`.
+
+Usage of GitHub Pages makes maintaining the website significantly easier and less worrisome.
+Many clean and professional looking templates are freely available for Jekyll, eliminating the need of designing a new website from scratch.
+
+The requirements dashboard, which can be viewed on the website, can simply be updated by editing the `requirements.md` file of the Jekyll project.
+This can be done both in a local copy of the repository, or on the GitHub website itself by a team member.
+
 ## Tracking issues
 
 With GitHub's issue tracker, which can be found at `https://github.com/se1-1314/xiast/issues`, we can create so-called *issues*.
 An issue can be anything from a bug, request for implementation or suggestion, goal, ...
 By using this tool we can achieve a workflow that will make it easier for both us and others to track the progress of the project.
 
-When all requirements of the project are known, we will start splitting up the requirements in one or more smaller "tasks" that need to be finished in order to implement the requirement.
-These issues can then be bundled into a *milestone* which denotes the requirement or part of the requirement that needs to be implemented.
-Milestones feature progress trackers which again makes it really easy for people to see how much still needs to be done for a requirement.
-
-For example: "Functioning user system" can be a milestone, with issues such as "User registration" and "User login", or "Access control" with "Assigning user rights" and "Rights checking" as some of the issues.
-
-As mentioned earlier, the issue tracker can and must be used for more than just tracking progress of the requirements.
 Issues will be made to report bugs and propose fixes, to propose enhancements or request extra functionality, to report on critical errors and so on.
 Every issue features a comment section which makes it easy for team members to discuss requests, bugs, and so on.
 
-It is important that the issue tracker is kept clean at all times.
+To achieve a better workflow, the issue tracker must be kept as clean as possible at all times.
 What this means is that all issues and milestones have proper descriptions and descriptive titles, issues that are finished must be closed (see workflow), when one team member takes over an issue from another team member this must be updated on the tracker, ... and so on.
-
-The usage of the issue tracker, when done properly, causes less overhead on the project because we do not need to maintain our own tracker or website.
 
 ## Git workflow
 
@@ -80,29 +88,25 @@ This workflow allows us to tightly integrate the issue tracker into our project.
 ### Branches
 There will always be one central branch: the **master** branch.
 This branch is the actual "master copy" of our project and should contain preferably only working code.
+No commits will be pushed directly to the `master` branch.
 
-Whenever a team member wants to implement changes, he must first branch the master branch into a new one and commit all his changes to the newly created branch.
-This branch, which is created locally, needs to be published to GitHub.
-This doesn't only make it easier to track changes on the branch, but also makes it easier to transfer the work to someone else.
-
-Because some issues have a really small workload and can be solved in a single commit, it's possible to solve multiple issues on one single branch instead of creating a branch for every issue.
-
-To keep things uniform, branch names must be in lower case only and use dashes instead of spaces.
+Whenever a team member wants to implement changes, he must first create a new branch from the current HEAD of the `master` branch.
+The member can then push new commits to the newly created local branch.
+Branch names must be kept descriptive, but not too long, and when possible only one problem, bug, requirement, or other must be dealt with in a branch.
 
 ### Merging
-After the work has been done and the issue is implemented, the working branch needs to be merged into the `master` branch.
-It is mainly the team member's responsibility to avoid merge conflicts!
+When a feature is completed, a bug is fixed or something else, and after testing, a branch is ready to be merged into the `master` branch.
+The standard procedure for this is to first fetch or pull changes from the remote (GitHub) repository, merge the `master` branch into the local branch, publish the branch to GitHub and create a pull request (see below).
 
-Conflicts can be avoided more easily by periodically pulling and merging the `master` branch into the working branch, and not vice versa.
-By doing this regulary, conflicts that will occur will be smaller than they would be if we didn't merge at all.
-
-If and only if all work is done and the working branch is conflict free and the head of the branch is pushed to GitHub, steps can be taken to merge the working branch into the `master` branch.
-This is done by making a **pull request**.
+Merging other branches into one's own branch can be done without making a pull request first, but merging into the `master` branch without a pull request is not done.
+To avoid merge conflicts or broken code however, it is advised to regularly fetch and merge the master into one's own branch.
+It is also possible to publish a branch to GitHub, allowing other people to access your branch or merge changes from your branch into their own branch.
 
 ### Pull request
+After code is tested and deemed working, a developer can create a **pull request** for hisworking branch.
 When making a pull request, select the `master` branch as the base branch and the working branch as the compare branch.
 If the branch that is being merged closes one or more issues, they should be referenced in the description.
-If done correctly, like described in [this guide](https://help.github.com/articles/closing-issues-via-commit-messages), the issues can be automatically closed when the pull request gets accepted.
+If done correctly, as described in the following [guide](https://help.github.com/articles/closing-issues-via-commit-messages), the issues can be automatically closed when the pull request gets accepted.
 
 After making the pull request, it is the (backup) implementation manager's responsibility to accept or deny the request.
 The first step is to review the code by testing it locally to see if it actually works.
@@ -117,31 +121,6 @@ The second option is advised.
 In this case, the team member must fix his code and make a new pull request.
 The same is valid for when there are problems with the code itself.
 
-### Assigning and reassigning issues
-To keep track of who is working on what and to avoid double work, members should assign themselves or others to issues.
-This can be done on the issue tracker itself.
-
-If a team member is stuck, the member is free to transfer the work to someone else.
-But he must not forget to reassign the issue to the other person
-
 ### docs
 For the `xiast-docs` repository, we don't need to use the feature branch workflow, we can just use a **centralized workflow**.
 This means we won't use branching and we will just commit to the master branch.
-
-## Project website
-
-One of the requirements of the project is a website that can be used to track the progress of the project.
-Instead of focussing on implementing our own system, we will make full use of the tools GitHub is providing us.
-
-The website can be reached at `http://se1-1314.github.io/xiast`.
-This page, which is generated using GitHub Pages, contains information about the project, including download links for the source code and links to various documents.
-
-GitHub Pages is in essence a static website generator.
-This means that, given the contents of the site, it only needs to generate all the HTML and related files once.
-This not only makes it faster, but also a lot easier.
-
-The automatic page generator can be found on the settings page of the project.
-The files it generates are located in the `gh-pages` branch of the `xiast` repository.
-Commiting to this branch thus allows us to edit the page manually, although it is highly advised to keep using the automatic page generator and edit the content of the site using markdown.
-
-To keep track of the project's status however, we will use the built-in issue tracker of GitHub.
