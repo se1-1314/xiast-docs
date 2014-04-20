@@ -5,6 +5,7 @@
 | Version | Comment                    |
 |---------+----------------------------|
 |       1 | Iteration 1's basic design |
+|       2 | Iteration 3's design       |
 
 
 * Introduction
@@ -25,28 +26,22 @@ Specifications. Please see the appropriate section in the "Software
 Project Management Plan" document for a description of each planned
 iteration.
 
-This document will describe the design decisions for the current
-iteration, as well as directional pointers on how to proceed to the
-next iteration(s). It is a work in progress and needs further work to
-fully support the development team, testers and configuration manager
-in their work.
-
-* Definitions
-- JVM :: Java Virtual Machine [fn::http://www.java.com]
-# - Server-side ::
-# - Client-side ::
-- Protocol :: A way to define interfaces in Clojure
-              [fn::http://clojure.org/protocols].
-- Docstring :: An in-code description of a function, interface or any
-               other language feature supporting docstrings
-               [fn::http://en.wikipedia.org/wiki/Docstring].
+# * Definitions
+# - JVM :: Java Virtual Machine [fn::http://www.java.com]
+# # - Server-side ::
+# # - Client-side ::
+# - Protocol :: A way to define interfaces in Clojure
+#               [fn::http://clojure.org/protocols].
+# - Docstring :: An in-code description of a function, interface or any
+#                other language feature supporting docstrings
+#                [fn::http://en.wikipedia.org/wiki/Docstring].
 
 * Context
 The Xiast program is an HTTP server running a web application
-accessible via the user's browser. It's goal is to facilitate schedule
+accessible via the user's browser. Its goal is to facilitate schedule
 management for universities.
 
-* Components
+* Project structure
 Xiast's code is roughly subdivided in two parts: a back end and a
 front end. The back end includes the scheduler, persistent data
 management and features for managing communication between users. The
@@ -60,6 +55,19 @@ running in the browser will be written in JavaScript. The HTML for the
 Xiast website is partly statically generated server-side, and partly
 dynamically generated using JavaScript. Communication between the two
 occurs via Xiast's JSON API.
+
+All production Clojure code can be found in the "/src/xiast"
+directory, and each Clojure namespace has a corresponding file,
+e.g. =xiast.core= can be found in =core.clj=. Tests for Clojure code
+are in the "test/xiast" directory. If a namespace has tests
+written for its functionality the corresponding test namespace has a
+=-test= suffix. E.g. =xiast.scheduling= has a corresponding
+=xiast.scheduling-test=, which can be found in
+"/test/xiast/scheduling\_test.clj".
+
+JavaScript, CSS and image files which are directly linked to by the
+front-end are in "/resources/public". HTML templates can be found in
+"/templates".
 
 ** Front-end
 The HTML pages for the front-end are generated server-side in Clojure
@@ -93,15 +101,27 @@ aforementioned source file:
      the VUB's academic hours and calendar conventions. E.g.: Scheme
      is taught in week 3, on day 1, from 9am till 11am in room E1.03.
 - Timespans :: Describe a span of time over multiple days or weeks.
+* Design components
+* Data description, validation and transformation
+The =xiast.schema= namespace uses Prismatic's Schema library to
+describe the various data types used in Xiast. Schema is data
+description language which also validates data in a contracts-like
+manner. This validation is turned on during testing, as a first layer
+of defence against bugs.
 
-* Functionality
-** HTTP requests and handlers
-HTTP requests are processed by the Ring and Compojure libraries. Ring
-handles requests by sending them through a number of handlers
-(e.g. =wrap-with-session=, see below), while Compojure routes
+Another Schema feature used by Xiast is /data coercion/ between
+formats. This is used in =xiast.api= to convert Clojure
+(edn[fn::https://github.com/edn-format/edn]) data to and from JSON.
+
+* The Xiast web server and JSON API
+HTTP requests are processed by the
+Ring[fn::https://github.com/ring-clojure/ring] and
+Compojure[fn::https://github.com/weavejester/compojure]
+libraries. Ring handles requests by sending them through a number of
+handlers (e.g. =wrap-with-session=, see below), while Compojure routes
 requests to specific parts of the code based on request URLs.
 
-From the =xiast.core= namespace (core.clj):
+From the =xiast.core= namespace:
 
 #+BEGIN_SRC clojure
   (def app
@@ -121,13 +141,16 @@ From the =xiast.core= namespace (core.clj):
 
 This code is read from top to bottom, as each wrapper is wrapped by
 the subsequent wrapper.
-** Session storage
+
+=xiast.core= contains the routes for the regular HTML pages accessible
+to users, while =xiast.api= has those which serve the JSON API.
+* Session storage
 Session data for logged in users will be stored in the database,
-indexed by a unique session identifier stored in a cookie, however the
-entire session is currently stored in an encrypted
+indexed by a unique session identifier stored in a cookie. However,
+the entire session is currently stored in an encrypted
 cookie. =wrap-with-session= from session.clj makes the session
 dictionary =*session*= available for the rest of the program.
-** Internationalisation
+* Internationalisation
 Internationalisation is accomplished using the Tower library. The
 =xiast.translate= namespace provides the =translate= and
 =translate-nodes= functions, which lookup translations in the
@@ -142,41 +165,74 @@ is transformed into
   <h1>Over Xiast</h1>
 #+END_SRC
 when the locale is nl-BE.
-** User authentication
-** Managing facts about courses
-** The scheduling process
+* User authentication
+Authentication of users is done via the VUB's authentication
+API. =xiast.authentication= has two functions: =login= verifies the
+NetID/password combination, and adds the relevant user rights to the
+users session. =logout= clears the session.
+* Querying and updating curricular and personal facts
+The (internal) public interface for querying and updating data can be
+found in =xiast.query=. These functions query and update curriculum
+and personal data, as well as schedules for rooms, courses, students,
+programs and instructors.
+* The scheduling process
+Back-end scheduling code resides in the =xiast.scheduling= namespace,
+while the front-end JavaScript code dealing with displaying and modifying
+schedules can be found in "generic\_calendar.js".
 
-* Persistent information
-Xiast will need store various forms of information in order to
-function.
+A schedule is a list of schedule blocks:
 
-Fairly static facts about courses, their instructors, rooms, etc. will
-need to be stored, as well as dynamically generated user sessions,
-schedules and change requests between instructors and program
-managers.
+#+BEGIN_SRC clojure
+  (def ScheduleBlock
+    {(s/optional-key :id) ScheduleBlockID
+     :week AcademicWeek
+     :day DayNumber
+     :first-slot ScheduleSlot
+     :last-slot ScheduleSlot
+     :item ScheduledCourseActivity
+     :room RoomID})
 
-* Database
-* Namespaces
-** =xiast.schema= (schema.clj)
-This namespace uses Prismatic's Schema library to describe the various
-data types used in Xiast.
-** =xiast.query= (query.clj)
-This namespace provides public access to the database.
-** =xiast.authentication= (authentication.clj)
-This namespace authenticates users and checks their user roles.
-** =xiast.api= (api.clj)
-Routes for the JSON api.
-** =xiast.core= (core.clj)
-** =xiast.config= (config.clj)
-** =xiast.translate= (translate.clj)
-** =xiast.database= (database.clj)
-This namespace implements database access.
-** =xiast.scheduling= (scheduling.clj)
-Schedules are lists of ScheduleBlocks. When querying schedules from
-the database, ScheduleBlocks will contain an id. This allows Xiast to
-detect moved items when comparing two schedules, e.g. in the
-=remove-moves= function.
+  (def ScheduledCourseActivity
+    {:type CourseActivityType
+     (s/optional-key :title) (s/named s/Str "Course title")
+     :course-activity s/Int
+     :course-id CourseCode})
+#+END_SRC
 
-The =xiast.scheduling= namespace contains a number of schedule
-proposal checks, which compare a schedule to the one in the database
-and return a list of (potential) errors in the combined schedule.
+Xiast is implemented to make working with the existing schedule as
+easy as possible. To achieve this it has the concept of "schedule
+proposals", which denote changes against the current schedule.
+
+From =xiast.schema=:
+#+BEGIN_SRC clojure
+  (def ScheduleProposal
+    {(s/optional-key :new) #{ScheduleBlock}
+     (s/optional-key :moved) #{ScheduleBlock}
+     (s/optional-key :deleted) #{ScheduleBlockID}})
+#+END_SRC
+
+New schedule blocks are those which have been newly created by the
+front-end. Moved schedule blocks are existing schedule blocks of which
+the time or room has been changed. Communicating the deletion of
+schedule blocks is done by listing their schedule block ids. These ids
+are assigned to all schedule blocks in the currently accepted
+schedule.
+
+When the back-end receives a schedule proposal, it runs a number of
+schedule checks against the current schedule in the database (see
+=check-proposal=):
+
+#+BEGIN_SRC clojure
+  (def ScheduleCheckResult {:type (s/enum :mandatory-course-overlap
+                                          :elective-course-overlap
+                                          :room-overlap
+                                          :instructor-unavailable
+                                          :activity-more-than-once-weekly
+                                          :room-capacity-unsatisfied
+                                          :room-facility-unsatisfied)
+                            :concerning #{ScheduleBlock}
+                            s/Any s/Any})
+#+END_SRC
+
+These check results describe errors and warnings which the user must
+solve before the schedule proposal can be applied.
