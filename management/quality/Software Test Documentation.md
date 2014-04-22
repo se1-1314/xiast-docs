@@ -198,7 +198,7 @@ e.g.
 ```
 
 ### 6.4. Start
-Start testing the clojure code with Midje by running **lein midje** in the repl.
+Start testing the clojure code with Midje by running **lein midje**.
 
 ### 6.6. Measure
 
