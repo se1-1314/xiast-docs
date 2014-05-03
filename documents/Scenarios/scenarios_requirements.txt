@@ -1,0 +1,53 @@
+Scenario's iter4
+================
+
+Algemeen
+--------
+- Lay-out verbeteren:
+	- Geen donkerblauw
+	- Organisatie van de knoppen: momenteel alles volledig door elkaar (vb. program edit)
+
+Niet-
+
+Program manager
+--------------
+- login
+- Program Edit: alles tot in DB niveau (bewijs door bvb. te refreshen)
+	- Programma's toevoegen/verwijderen 
+	- Cursussen toevoegen, met onderscheid tussen mandatory en optional (nog niet in formulier verwerkt)
+		- Dropdown menu departementen
+	- Cursussen verwijderen, niet via form maar: cursus selecteren en dan met deleteknop verwijderen
+	- Cursusdetails bewerken:
+		- Inschrijvingen voor een cursus
+		- Beschrijving van een cursus
+- Classroom Edit
+	- Knoppen die er nu zijn laten werken
+- Timetables: geen knoppen "Apply" en "Create Event": algemen timetables weergeven (zoals my.vub)
+- Schedule:
+	- Event kunnen creëren
+		- Drop-down met namen van de cursussen, op de achtergrond wordt dan automatisch de juiste course-code doorgestuurd
+		- Wanneer cursus geselecteerd, drop-down menu van course-activities die bij die cursus horen (else gedisabled)
+		- Building, Floor, Room -> vervangen door één dropdown menu met alle rooms in. Makkelijk zoeken door vb. "E" -> alle rooms E verschijnen
+		- "Create event" -> geeft event weer in calendar / knop op dezelfde hoogte als de closeknop
+		- Repeatknop: #weken, startweek = ingegeven week + !! vakantiedagen overslaan (eventueel)
+	- Aanpassen
+	- Event deleten
+	- "Apply" -> checken of er geen scheduleconflicten zijn en doorsturen naar back-end, else conflicten in het oranje highlighten
+	
+- Profile (eventueel)
+	- Assigned programs weergeven
+
+- Schedule: Programmanager ontvangt een schedule voor een assigned course en kan deze inladen in 'Schedule' -> conflicten worden direct weergegeven.
+	- Box met schedule requests (van titulars), links van de calendarview
+	- (Replace een cursus over meerdere weken (eventueel))
+
+Titular
+-------
+- Homepage -> verander naam in 'myschedule': geef planning voor die specifieke (ingelogde) titular weer
+- Timetables: geen knoppen "Apply" en "Create Event": algemen timetables weergeven (zoals my.vub)
+- 
+
+Student
+-------
+- Homepage -> verander naam in 'myschedule': geef planning voor die specifieke (ingelogde) student weer
+- Timetables: geen knoppen "Apply" en "Create Event": algemen timetables weergeven (zoals my.vub)
