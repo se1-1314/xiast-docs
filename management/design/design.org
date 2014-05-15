@@ -236,3 +236,21 @@ schedule checks against the current schedule in the database (see
 
 These check results describe errors and warnings which the user must
 solve before the schedule proposal can be applied.
+
+** Schedule proposals
+When a titular opens his schedule, he has the option to reschedule one
+or more activities, remove activities from the schedule, or add new
+activities. As conflicts can emerge during these operations, the
+titular can not make any final changes to a schedule. He can however
+propose his changes to one or more program manager.
+
+Proposals are sent to program managers in the form of proposal
+messages. A titular does not have to care about which program
+managers have to receive the message. It is up to the application to
+perform this action automatically. As it is easily determined which
+courses' schedules are changed by a proposal, the application can
+determine which programs are affected and send the message to the
+appropriate program managers.
+
+However, a proposal message can only be accepted or rejected once by
+a single project manager.
