@@ -1,8 +1,8 @@
 # Software Test Documentation
 
-**Version: 3.0**
+**Version: 3.1**
 
-**Date: 19/04/2014**  
+**Date: 15/05/2014**  
 
 **Author: Youssef Boudiba (QAM)**
 
@@ -23,7 +23,7 @@ The software test documentation of the xiast project, a scheduling application f
 | V1.0          | 12/12/2013    | Ready for delivery: iteration 1                  |
 | V2.0          | 02/03/2014    | Specified testing framework                      |
 | V3.0          | 19/04/2014    | Revision of the whole document                   |
-
+| V3.1          | 15/05/2014    | Small revision                                   |
 - - -
 
 ## 1. Scope
@@ -96,19 +96,12 @@ Our test strategy will consist of a series of different tests. These tests are s
 Every small amount of source code (or low level software module) that cannot be divided in smaller part is called a unit. Whenever a developer has finished working on such a unit, it will be tested to check whether or not it is conform to its design and requirements.
 #### 4.7.2. Integration testing
 Integration testing combine and test low level software modules that have been unit tested. This test ensures that the combined higher level module still works as specified.
-#### 4.7.3. System testing
-System testing tests and combines all integrated (higher level) software component. The test will be performed on the whole system in order to find deviations from the specified requirments.
-#### 4.7.4. Security testing
-Detect and eliminates security errors such as invalid inputs, etc.
-#### 4.7.5. Regression testing
-Whenever changes has been made to a module, tests are needed to ensure that those changes didn't introduced new faults.
-
 
 ### 4.8. Item pass/fail criteria
 A test pass if no error occurs and if it's conform to its design and requirements.
 
 ### 4.9. Suspension criteria and resumption requirements
-Test are suspended whenever a bug occures. Once the bug has been resolved, the testing activities can resume.
+A specific test (component or unit) is suspended whenever a bug occures in it. Once the bug has been solved, the testing activities for this test can be resumed.
 
 ### 4.10. Test deliverables
 The following documents should be delivered:
@@ -121,7 +114,7 @@ The following documents should be delivered:
 6. Test summary report
 
 ### 4.12. Responsibilities
-Each member of the team is responsible for his own sets of tests. The quality manager must perform weekly checks to ensure that the test are following the test plan.
+Each member of the team is responsible for making his own sets of tests. The quality manager must perform weekly checks to ensure that the test are following the test plan.
 
 ### 4.13. Schedule
 A set of milestones can be found at: https://github.com/se1-1314/xiast/issues/milestones. At the end of each iteration a due date is decided and depending on the activity a corresponding sets of tests must be delivered.
@@ -144,11 +137,13 @@ Features are listed in section 4.5 of the STD.
 
 ### 5.4. Approach refinements
 
-#### Testing tools
-Two testing framework are used:
+#### Testing tool
+One testing framework is used:
 
 ##### 1. Midje
-Midje is a TDD testing framework for clojure that works by means of facts. A fact is the smallest checkable unit in midje. A fact contains one or more checkables. A checkable consist of three part: a left side, an arrow and a right side. The left side is the function to be tested (with its input if needed), the right side is the expected output. The arrow is midje's own extended equality and makes the code more readable to the user.
+Midje is a TDD testing framework for clojure that works by means of facts. A fact is the smallest checkable unit in midje. A fact contains one or more checkables and is used to perform unit tests. A checkable consist of three part: a left side, an arrow and a right side. The left side is the function to be tested (with its input if needed), the right side is the expected output. The arrow is midje's own extended equality and makes the code more readable to the user.
+
+Facts are also used to write integration tests. Since mocking data and functions is possible with Midje (see below), it provides us an easy way to locate precisely errors and bugs while integration testing.
 
 ##### General structure
 ```clojure
@@ -161,21 +156,6 @@ Midje is a TDD testing framework for clojure that works by means of facts. A fac
     (a-function input) => expected-output))  ;; This is a checkable.
     (provided (a-function-to-be-mocked) => mocked-data)) ;; The provided statement enables us from mocking functions in facts.
 ```
-
-##### 2. jasmine
-Jasmine is a behavior-driven development/automated framework for testing JavaScript code. It does not rely on browsers, DOM, or any JavaScript framework. With Jasmine-JQuery plugin it's also possible to test jQuery code easily.
-
-##### General structure
-```javascript
-// Every tests begin with the global jasmine function describe (also known as a suite).
-describe("Test description", function() {
-// A suite contains it function (called spec) that describes what a part of a program should do.
-  it("contains spec with an expectation", function() { 
-    expect(true).toBe(true); // (straightforward) This is the matcher of the spec.
-  });
-});
-```
-
 - - -
 
 ## 6. Test Procedure Specification
