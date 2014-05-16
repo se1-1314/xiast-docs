@@ -1,12 +1,12 @@
 #+TITLE: Software Design Document
-#+AUTHOR: Adriaan Leijnse
+#+AUTHOR: Adriaan Leijnse, Nils Van Geele
 
 * Change history
 | Version | Comment                    |
 |---------+----------------------------|
 |       1 | Iteration 1's basic design |
 |       2 | Iteration 3's design       |
-
+|       3 | Iteration 4's design       |
 
 * Introduction
 
@@ -101,7 +101,11 @@ aforementioned source file:
      the VUB's academic hours and calendar conventions. E.g.: Scheme
      is taught in week 3, on day 1, from 9am till 11am in room E1.03.
 - Timespans :: Describe a span of time over multiple days or weeks.
-* Design components
+* Database design
+The following figure is an overview of the tables in the database.
+#+CAPTION: Database design overview
+#+NAME: fig:EER-simple
+[[./EER-simple.png]]
 * Data description, validation and transformation
 The =xiast.schema= namespace uses Prismatic's Schema library to
 describe the various data types used in Xiast. Schema is data
@@ -238,11 +242,11 @@ These check results describe errors and warnings which the user must
 solve before the schedule proposal can be applied.
 
 ** Schedule proposals
-When a titular opens his schedule, he has the option to reschedule one
+When a titular opens their schedule, they have the option to reschedule one
 or more activities, remove activities from the schedule, or add new
 activities. As conflicts can emerge during these operations, the
-titular can not make any final changes to a schedule. He can however
-propose his changes to one or more program manager.
+titular can not make any final changes to a schedule. They can however
+propose their changes to one or more program managers.
 
 Proposals are sent to program managers in the form of proposal
 messages. A titular does not have to care about which program
