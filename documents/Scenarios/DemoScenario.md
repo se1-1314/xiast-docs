@@ -38,7 +38,7 @@ Stel dat ik voor mezelf als student mijn persoonlijk rooster zou willen raadpleg
 Vervolgens kom ik terug op de homepage terecht met de melding dat ik ben ingelogd. Vervolgens kan ik naar mijn persoonlijk rooster gaan door te klikken op 'My Schedule' <br/>
 > `My Schedule -> Personal Schedule` <br/>
 
-Dit rooster laat enkel de planning zien voor vakken waar ik momenteel ben op ingeschreven. Om de lijst van vakken te kunnen zien waarvoor ik ben ingeschreven, volstaat een klik op 'curriculum-info'.
+Stel ik ben een 1e bachelorstudent en ik vind mijn richting die ik gekozen heb maar niets. Ik zou graag wat extra info willen vergaren over andere programma's hier op de vub. Dat kan ik doen via 'curriculum info', deze pagina biedt een overzicht van alle programma's die hier op de VUB worden gegeven.
 > `Curriculum info -> Subscribed courses` <br/>
 
 
