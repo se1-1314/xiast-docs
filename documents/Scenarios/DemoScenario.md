@@ -74,6 +74,6 @@ Ik heb net vernomen dat de vakgroepraad heeft beslist om het **vak 'Software Eng
 Stel er is op SOFT beslist om de **keuken als leslokaal** in te richten en er werd een *beamer* geïnstalleerd. Dit lokaal kan aan Xiast worden toegevoegd via de **Classroom Edit functionaliteit**. <br/>
 > `Classroom Edit -> Rooms overview`
 
-Allereerst kies ik het F gebouw uit het autocomplete lijstje, waarna ik op de add-room knop klik. Vervolgens voer ik het lokaalnr, aantal zitplaatsen (20 in dit geval) in en meldt ik dat er een beamer aanwezig is. Een druk op add voegt dit lokaal toe aan de db.
+Allereerst kies ik het F gebouw uit het autocomplete lijstje, waarna ik op de add-room knop klik. Vervolgens voer ik het **lokaalnr: 12**, aantal **zitplaatsen (20** in dit geval) in en meldt ik dat er een **beamer** aanwezig is. Een druk op add voegt dit lokaal toe aan de db.
 
 
