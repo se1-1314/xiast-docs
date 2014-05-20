@@ -22,8 +22,8 @@ De basisfunctionaliteit voor dit type gebruiker bestaat vnl. uit het bekijken va
 De interface van deze pagina is zeer intuïtief te begrijpen. Als guest kan ik door op het autocompleteveldje te klikken, bekijken welke programma's er momenteel beschikbaar zijn op de universiteit. <br/>
 > `autcomplete -> programma's`<br/>
 
-Vervolgens kan ik of direct op een programma in de lijst klikken, of een aantal kenmerkende letters intypen die de lijst verder zullen filteren en dan op een programma klikken. Het rooster van het betreffende programma zal vervolgens in de calendar worden ingeladen. <br/>
-> `programma -> schedule programma`
+Vervolgens kan ik of direct op een programma in de lijst klikken, of een aantal kenmerkende letters intypen die de lijst verder zullen filteren en dan op een programma klikken. Veronderstel dat ik met onze ingenieur Anders wil afspreken om samen de vooruitgang voor het vak software engineering te bespreken, dan kan ik via 3e bach ir-cw heel eenvoudig zijn programmarooster inladen. <br/>
+> `programma: IR -> schedule programma`
 
 Wanneer ik het rooster van dit programma wil zien voor andere weken, dan kan ik heel eenvoudig via de voorzien pijltjes door de weken scrollen. Een 'day-view' is beschikbaar beschikbaar via de keuzeknoppen rechtsboven.
 >  `week <> -> other week`
