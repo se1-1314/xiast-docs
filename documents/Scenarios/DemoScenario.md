@@ -32,8 +32,8 @@ Wanneer ik het rooster van dit programma wil zien voor andere weken, dan kan ik 
 
 Student
 -------
-Stel dat ik als student mijn persoonlijk rooster zou willen raadplegen. Ik kan dit heel eenvoudig doen door mij in te loggen met mijn VUB-netid en wachtwoord, deze worden via een VUB-server gechecked.
-> `login, netid, password -> logged in` <br/>
+Stel dat ik voor mezelf als student mijn persoonlijk rooster zou willen raadplegen. Ik kan dit heel eenvoudig doen door mij in te loggen met mijn VUB-netid en wachtwoord, deze worden via een VUB-server gechecked.
+> `login, netid: lavholsb, password -> logged in` <br/>
 
 Vervolgens kom ik terug op de homepage terecht met de melding dat ik ben ingelogd. Vervolgens kan ik naar mijn persoonlijk rooster gaan door te klikken op 'My Schedule' <br/>
 > `My Schedule -> Personal Schedule` <br/>
